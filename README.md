@@ -1,78 +1,75 @@
 # Hi, I'm Erfan Tahmasebi 👋
 
-### MLOps Engineer Student | Building reliable machine learning systems
+**MLOps Engineering student at Nackademin · Sweden**  
+Building reliable machine-learning systems through Python, model serving, automation, containers, and CI/CD.
 
-I'm studying **MLOps Engineering at Nackademin (2025–2028)** and enjoy working on the engineering that makes machine learning useful beyond experimentation: reliable data pipelines, model serving, automation, containers, and deployment workflows.
+I'm studying MLOps Engineering at Nackademin (2025–2028) and looking for an **LIA internship from 8 February to 21 May 2027**. I'm interested in the engineering around ML models: reproducible workflows, data quality, deployment, monitoring, and dependable services.
 
-I'm currently looking for a **LIA internship from 8 February to 21 May 2027**, where I can learn from an engineering team and contribute to practical ML and platform work.
-
-- 🔭 **Current focus:** MLOps, ML serving, CI/CD, data quality, and cloud-native workflows
-- 🧰 **Project tools:** Python, FastAPI, Docker, MLflow, GitHub Actions, scikit-learn, Pandera, and SQL
-- 🌱 **Growing my knowledge:** Kubernetes, cloud infrastructure, monitoring, and production ML practices
-- 📍 **Based in:** Sweden
+- **Current focus:** MLOps, ML platform engineering, model serving, CI/CD, and data quality
+- **Hands-on tools:** Python, FastAPI, Docker, GitHub Actions, MLflow, scikit-learn, Pandera, and SQL
+- **Project areas:** ML applications, CI/CD pipelines, and edge/IoT data systems
+- **Learning next:** Kubernetes, cloud infrastructure, and production monitoring
 
 ---
 
 ## Featured projects
 
-A selection of projects and coursework from my MLOps and software engineering studies.
+### 1. End-to-end MLOps & CI/CD — churn prediction
+[**CI/CD pipeline**](https://github.com/LeoLindqvist123/ci-cd-pipeline)
 
-### 1. FastAPI, Docker & ML serving
+Team project focused on quality and delivery for a customer-churn ML workflow. My portfolio documents five approved and merged pull requests covering statistical data-drift checks, delivery verification, multi-stage Docker builds, layer caching, smoke tests, GHCR publishing, model metadata/lineage, and Ruff in CI.
+
+The portfolio reports approximately 39% smaller Docker images and 30% faster measured builds as **team-level results**, not individual results.
+
+### 2. ML serving with FastAPI and Docker
 [**fastapi-docker-ml-serving**](https://github.com/erfantk25-lab/fastapi-docker-ml-serving)
 
-A customer-churn ML workflow documented around data validation, model tracking, API-based serving, containerisation, and automated delivery. The repository covers tools and practices such as **FastAPI, MLflow, Pandera, Docker, GitHub Actions**, testing, and model/data quality checks.
+A customer-churn prediction project documenting an ML-serving workflow with FastAPI, Docker, MLflow, Pandera, automated tests, and GitHub Actions.
 
-### 2. Taxi prediction — full-stack ML application
+### 3. Taxi prediction — full-stack ML application
 [**taxi-prediction-fullstack-ERFAN**](https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN)
 
-A full-stack prediction application combining a **FastAPI backend** and **Streamlit frontend**, with route-related functionality and map visualisation.
+A machine-learning application combining a FastAPI backend and Streamlit interface, with route-related functionality and map visualisation.
 
-### 3. Edge computing & environmental monitoring
+### 4. Smart Grow — edge environmental monitoring
 [**Edge-computing-project-**](https://github.com/erfantk25-lab/Edge-computing-project-)
 
-An IoT/edge project exploring sensor data collection and messaging. The project documentation describes **Raspberry Pi Pico W, MicroPython, MQTT, Python, TimescaleDB, Grafana**, and containerised supporting services.
+An edge/IoT project using Raspberry Pi Pico W, MicroPython, sensor data, MQTT messaging, Python, TimescaleDB, Docker Compose, and Grafana.
 
-### 4. Machine learning workflow
-[**machine_learning_erfan_tahmasbikondroodi_mlops25**](https://github.com/erfantk25-lab/machine_learning_erfan_tahmasbikondroodi_mlops25)
-
-Coursework focused on building and understanding a machine learning workflow, from data and modelling through to repeatable project practices.
-
-### More learning projects
-
-- [Nackademin LangChain demo](https://github.com/erfantk25-lab/nackademin-langchain-demo)
-- [CI/CD pipeline](https://github.com/erfantk25-lab/CI-CD-pipeline)
+### More projects
+- [Machine learning coursework](https://github.com/erfantk25-lab/machine_learning_erfan_tahmasbikondroodi_mlops25)
+- [LangChain demo](https://github.com/erfantk25-lab/nackademin-langchain-demo)
+- [MCP demo](https://github.com/erfantk25-lab/nackademin-mcp-demo)
 
 ---
 
 ## Technologies
 
-These reflect tools I've used in coursework and projects, alongside technologies I'm continuing to learn.
-
 | Area | Tools and technologies |
 |---|---|
 | Programming & data | Python, SQL, Pandera |
-| Machine learning | scikit-learn, MLflow, TensorFlow, PyTorch |
+| Machine learning | scikit-learn, MLflow |
 | Backend & serving | FastAPI |
 | Containers & automation | Docker, GitHub Actions, CI/CD |
 | Data & messaging | MQTT, TimescaleDB |
 | Visualisation | Streamlit, Grafana, Folium |
-| Currently exploring | Kubernetes, Azure, AWS |
+| Currently learning | Kubernetes, cloud infrastructure, ML monitoring |
+
+My experience is primarily academic and project-based. I aim to describe what I have built and contributed to accurately, and I am continuously deepening my practical skills.
 
 ---
 
 ## LIA internship
 
-I'm interested in an internship where I can contribute to and learn more about:
+I'm looking for an internship where I can learn from an engineering team and contribute to:
 
 - Building and maintaining data and ML pipelines
-- Deploying and serving machine learning models
+- Deploying and serving machine-learning models
 - CI/CD and automation for ML applications
 - Data validation, testing, and monitoring
 - Containers, infrastructure, and cloud-based workflows
 
-**LIA period:** 8 February – 21 May 2027
-
----
+**Period:** 8 February – 21 May 2027
 
 ## Contact
 
@@ -82,4 +79,4 @@ I'm interested in an internship where I can contribute to and learn more about:
 
 ---
 
-_Thanks for visiting my profile!_
+*Thanks for visiting my profile!*
