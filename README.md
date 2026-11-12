@@ -18,9 +18,15 @@ I'm studying MLOps Engineering at Nackademin (2025–2028) and looking for an **
 
 [**Team project: CI/CD pipeline**](https://github.com/LeoLindqvist123/ci-cd-pipeline)
 
-A team-built ML workflow focused on quality, reproducibility, and delivery. My portfolio documents five approved and merged pull requests covering statistical data-drift checks, delivery verification, multi-stage Docker builds, layer caching, smoke tests, GHCR publishing, model metadata/lineage, and Ruff in CI.
+A team-built customer-churn ML workflow focused on quality, reproducibility, and delivery. I authored five pull requests that were merged:
 
-The project reports approximately **39% smaller Docker images** and **30% faster measured builds** as team-level results, not individual results.
+- [#1 — Ruff in CI](https://github.com/LeoLindqvist123/ci-cd-pipeline/pull/1): added Ruff linting to the CI test job and fixed a missing trailing newline.
+- [#20 — Model versioning and lineage](https://github.com/LeoLindqvist123/ci-cd-pipeline/pull/20): gated publication of the official model artifact on evaluation success and added a test for commit, dataset, SHA-256, and metric metadata.
+- [#36 — Docker packaging and delivery](https://github.com/LeoLindqvist123/ci-cd-pipeline/pull/36): added container packaging, /health and /predict smoke tests, and CI publishing to GHCR.
+- [#38 — Docker optimisation](https://github.com/LeoLindqvist123/ci-cd-pipeline/pull/38): implemented a multi-stage image, Buildx layer caching, a non-root runtime user, a container healthcheck, and build/image reporting.
+- [#39 — Statistical data-drift checks](https://github.com/LeoLindqvist123/ci-cd-pipeline/pull/39): added baseline comparisons for numeric shifts, unseen categories, target-rate changes, and major data-volume drops, with automated tests.
+
+The project reports approximately **39% smaller Docker images** and **30% faster measured builds** as team-level results; these are not individual performance claims. [Read my detailed contribution summary](https://github.com/erfantk25-lab/erfantk25-lab.github.io/blob/main/projects/ci-cd-pipeline-contributions.md).
 
 ### 2. ML serving with FastAPI and Docker
 
