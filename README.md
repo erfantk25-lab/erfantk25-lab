@@ -34,11 +34,11 @@ The project reports approximately **39% smaller Docker images** and **30% faster
 
 A customer-churn prediction project documenting an ML-serving workflow with FastAPI, Docker, MLflow, Pandera, automated tests, and GitHub Actions.
 
-### 3. Taxi prediction — full-stack ML application
+### 3. Taxi prediction — individual full-stack ML project
 
 [**taxi-prediction-fullstack-ERFAN**](https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN)
 
-A machine-learning application combining a FastAPI backend and Streamlit interface, with route-related functionality and map visualisation.
+An individually developed machine-learning application with a separate FastAPI backend and Streamlit frontend. Integrates OpenRouteService for route data and Folium for interactive map visualisation, with API endpoints for price prediction and trip data.
 
 ### 4. Smart Grow — edge environmental monitoring
 
