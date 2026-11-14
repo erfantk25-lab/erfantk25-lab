@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+<title id="title">Erfan Tahmasebi — ET monogram</title>
+<desc id="desc">Square profile avatar using the exact ET monogram paths, navy gradient, cyan accent and Inter typography style from the GitHub banner.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#020916"/><stop offset=".56" stop-color="#061d36"/><stop offset="1" stop-color="#082b49"/>
+  </linearGradient>
+  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#00dfff"/><stop offset="1" stop-color="#1389ff"/>
+  </linearGradient>
+  <radialGradient id="halo"><stop stop-color="#0acbff" stop-opacity=".28"/><stop offset="1" stop-color="#0acbff" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#8bcdf0" stroke-opacity=".09"/></pattern>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="circle"><circle cx="400" cy="400" r="388"/></clipPath>
+</defs>
+<g clip-path="url(#circle)">
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <rect width="800" height="800" fill="url(#grid)"/>
+  <ellipse cx="400" cy="380" rx="390" ry="390" fill="url(#halo)"/>
+  <circle cx="400" cy="400" r="366" fill="none" stroke="#20c8f2" stroke-opacity=".25" stroke-width="3"/>
+  <circle cx="400" cy="400" r="344" fill="none" stroke="#00bfff" stroke-opacity=".13" stroke-width="1.5"/>
+  <g transform="translate(119,-110) scale(2.6)" filter="url(#glow)">
+    <g font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="800">
+      <path d="M65 120H220L206 146H83L70 180H179L165 205H57L42 245H162L149 272H25L65 120Z" fill="#f5f9ff"/>
+      <path d="M174 120H240L229 146H211L167 272H133L177 146H157Z" fill="#09c8f4"/>
+    </g>
+  </g>
+  <path d="M145 665H655" stroke="url(#cyan)" stroke-width="3" opacity=".55"/>
+  <g fill="#48dcff" opacity=".7"><circle cx="126" cy="400" r="4"/><circle cx="674" cy="400" r="4"/><circle cx="400" cy="126" r="4"/><circle cx="400" cy="674" r="4"/></g>
+</g>
+<circle cx="400" cy="400" r="388" fill="none" stroke="#20c8f2" stroke-opacity=".55" stroke-width="4"/>
+</svg>
