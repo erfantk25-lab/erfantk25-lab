@@ -1,4 +1,4 @@
-![Erfan Tahmasbi — MLOps Engineering](assets/mlops-profile-banner.svg)
+![Erfan Tahmasebi — MLOps Engineering](assets/mlops-profile-banner.svg)
 
 <p align="center">
   <a href="https://erfantk25-lab.github.io/"><strong>Portfolio</strong></a> ·
@@ -6,7 +6,7 @@
   <a href="mailto:erfan.tahmasbikondroodi@yh.nackademin.se"><strong>Contact</strong></a>
 </p>
 
-# Hi, I'm Erfan Tahmasbi 👋
+# Hi, I'm Erfan Tahmasebi 👋
 
 **Junior MLOps Engineer | MLOps Engineering student at Nackademin · Sweden**
 
