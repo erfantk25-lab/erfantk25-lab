@@ -26,6 +26,26 @@ Model serving · Data quality · CI/CD · Containers · Automation
 
 </div>
 
+
+---
+
+## Visual identity
+
+<div align="center">
+
+<img src="assets/erfan-profile-avatar.svg" alt="ET monogram avatar matching the GitHub banner" width="132" />
+
+**One identity · One visual system**
+
+<sub>ET monogram · Inter typography · deep navy · cyan-to-blue gradient · subtle grid and glow</sub>
+
+</div>
+
+The profile and project graphics follow the same visual language as the main banner. The ET monogram uses the same custom letterform paths, while the project banners reuse the banner's navy gradient, cyan accent, typography and technical grid.
+
+**Brand palette:** `#020916` · `#061D36` · `#082B49` · `#00DFFF` · `#1389FF` · `#F5F9FF`
+
+
 ---
 
 <div align="center">
