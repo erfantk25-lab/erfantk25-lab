@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+<title id="title">Full-stack taxi prediction project illustration</title><desc id="desc">A dark navy map-inspired visual showing a route, pickup and dropoff points, and a prediction panel.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071426"/><stop offset="1" stop-color="#122c4a"/></linearGradient><linearGradient id="route" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#39d7e8"/><stop offset="1" stop-color="#4b8fff"/></linearGradient></defs>
+<rect width="1200" height="430" rx="28" fill="url(#bg)"/>
+<text x="62" y="78" fill="#61dff0" font-family="Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="4">PROJECT 02 / FULL-STACK ML</text>
+<text x="62" y="132" fill="#f2f8ff" font-family="Arial,sans-serif" font-size="39" font-weight="700">Taxi fare prediction</text>
+<text x="62" y="169" fill="#9bb5cc" font-family="Arial,sans-serif" font-size="20">A machine-learning model connected to a usable web app</text>
+<g opacity=".35" stroke="#315271" stroke-width="2" fill="none">
+ <path d="M610 15l-80 85 55 68-95 87 75 90-60 85M720 0l-30 85 65 70-40 80 60 90-40 105M850 0l-70 85 50 75-20 80 90 70-40 120M980 0l-55 90 65 75-50 90 80 80-35 95"/>
+ <path d="M560 70h570M530 130h620M520 205h620M550 280h610M570 355h580"/>
+</g>
+<path d="M650 306C700 280 685 205 755 196S850 255 895 206s65-95 138-99" fill="none" stroke="#2d82b9" stroke-width="17" opacity=".18" stroke-linecap="round"/>
+<path d="M650 306C700 280 685 205 755 196S850 255 895 206s65-95 138-99" fill="none" stroke="url(#route)" stroke-width="6" stroke-linecap="round" stroke-dasharray="1 0"/>
+<circle cx="650" cy="306" r="13" fill="#081629" stroke="#58e3ed" stroke-width="5"/><circle cx="1033" cy="107" r="13" fill="#081629" stroke="#5e9dff" stroke-width="5"/>
+<g transform="translate(760 220)"><rect width="330" height="145" rx="18" fill="#102b48" stroke="#2b5a7c"/><text x="24" y="35" fill="#8baec8" font-family="Arial,sans-serif" font-size="16" letter-spacing="2">PREDICTION FLOW</text><text x="24" y="75" fill="#eaf6ff" font-family="Arial,sans-serif" font-size="24" font-weight="700">Route data → Model</text><text x="24" y="111" fill="#65dce9" font-family="Arial,sans-serif" font-size="18">FastAPI  ·  Streamlit</text></g>
+<g transform="translate(62 238)"><rect width="430" height="104" rx="16" fill="#102b48" stroke="#285477"/><text x="25" y="39" fill="#e8f5ff" font-family="Arial,sans-serif" font-size="20" font-weight="700">Application components</text><text x="25" y="73" fill="#9bb5cc" font-family="Arial,sans-serif" font-size="18">scikit-learn  ·  OpenRouteService  ·  Folium</text></g>
+<text x="62" y="392" fill="#6c8ca8" font-family="Arial,sans-serif" font-size="15" letter-spacing="2">ILLUSTRATIVE PROJECT OVERVIEW · INDIVIDUAL PROJECT</text>
+</svg>
