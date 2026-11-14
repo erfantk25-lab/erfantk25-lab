@@ -8,7 +8,7 @@
 
 # ERFAN TAHMASEBI
 
-### MLOps Engineering Student  ·  Python  ·  Machine Learning Systems
+### MLOps Engineering Student · Python · Machine Learning Systems
 
 **I build ML applications and the engineering workflows that make them reliable.**
 
@@ -30,98 +30,82 @@ Model serving · Data quality · CI/CD · Containers · Automation
 
 <div align="center">
 
-**ABOUT** &nbsp; · &nbsp; **SELECTED WORK** &nbsp; · &nbsp; **TECH STACK** &nbsp; · &nbsp; **LIA 2027**
+[ABOUT](#about) &nbsp; · &nbsp; [FEATURED WORK](#featured-work) &nbsp; · &nbsp; [WORKFLOW](#engineering-workflow) &nbsp; · &nbsp; [TOOLKIT](#technical-toolkit) &nbsp; · &nbsp; [LIA](#lia--spring-2027) &nbsp; · &nbsp; [CONTACT](#connect)
 
 </div>
 
-## 01 / About me
+## About
 
 I'm an **MLOps Engineering student at Nackademin, Sweden (2025–2028)**. My interest is where machine learning meets software engineering: turning models into services that can be tested, packaged, monitored and delivered with confidence.
 
 I enjoy building with Python and exploring the complete path from data validation and model development to APIs, containers and automated workflows.
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**CURRENT FOCUS**
-
-- ML model serving and REST APIs
-- Data validation and automated testing
-- CI/CD for ML applications
-- Docker and Kubernetes fundamentals
-
-</td>
-<td width="50%" valign="top">
-
-**WHAT I'M LOOKING FOR**
-
-- LIA internship in Sweden
-- 8 February – 21 May 2027
-- A team working with data, ML or platform engineering
-- Opportunities to contribute and learn
-
-</td>
-</tr>
-</table>
+| Current focus | What I'm looking for |
+|---|---|
+| ML model serving and REST APIs | LIA internship in Sweden |
+| Data validation and automated testing | **8 February – 21 May 2027** |
+| CI/CD for ML applications | A team working with data, ML or platform engineering |
+| Docker and Kubernetes fundamentals | Opportunities to contribute and learn |
 
 <sub>Experience note: My experience is primarily academic and project-based. I distinguish individual projects from team contributions. My Kubernetes work is an individual educational deployment mini-project using kind and a course cluster—not professional production operations.</sub>
 
 ---
 
-## 02 / Selected projects
+## Featured work
 
-Three featured projects. Each banner is displayed at full profile width so the EF artwork remains readable at a glance.
+Three projects that best represent the areas I am currently developing. Each project README contains its own setup instructions, architecture and technical details.
 
-### 01 — ML serving & deployment
+### 01 · ML serving & deployment
 
 <a href="https://github.com/erfantk25-lab/fastapi-docker-ml-serving"><img src="assets/project-ml-serving-v3.svg" alt="EF branded ML serving and deployment project banner" width="100%"/></a>
 
-**[fastapi-docker-ml-serving](https://github.com/erfantk25-lab/fastapi-docker-ml-serving)**
+**[fastapi-docker-ml-serving](https://github.com/erfantk25-lab/fastapi-docker-ml-serving)** · *Educational project with individual Kubernetes mini-project*
 
-An educational MLOps project combining a customer-churn workflow, data checks, model evaluation, artifact lineage and a FastAPI inference service. The individual Kubernetes deployment mini-project is documented separately from collaborative pipeline work.
+A customer-churn ML workflow combining data checks, model evaluation, artifact lineage, a FastAPI inference service and container packaging. The individual Kubernetes deployment exercise is documented separately from collaborative pipeline work.
 
-**Stack:** Python · FastAPI · scikit-learn · Pandera · MLflow · pytest · Docker · GitHub Actions · GHCR · Kubernetes / kind
+**Technologies:** Python · FastAPI · scikit-learn · Pandera · MLflow · pytest · Docker · GitHub Actions · GHCR · Kubernetes / kind
 
-[Explore repository →](https://github.com/erfantk25-lab/fastapi-docker-ml-serving)
+[Repository, architecture and setup →](https://github.com/erfantk25-lab/fastapi-docker-ml-serving)
 
 ---
 
-### 02 — Full-stack machine learning
+### 02 · Full-stack machine learning
 
 <a href="https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN"><img src="assets/project-taxi-ml-v3.svg" alt="EF branded taxi fare prediction project banner" width="100%"/></a>
 
-**[taxi-prediction-fullstack-ERFAN](https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN)**
+**[taxi-prediction-fullstack-ERFAN](https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN)** · *Individual project*
 
-An individually developed taxi fare prediction application connecting a scikit-learn regression pipeline to a FastAPI service and Streamlit interface, with route data from OpenRouteService and a Folium map.
+A taxi fare prediction application connecting a scikit-learn regression pipeline to a FastAPI service and Streamlit interface. OpenRouteService supplies route information and Folium displays the route.
 
-**Stack:** Python · FastAPI · Streamlit · scikit-learn · OpenRouteService · Folium · Joblib
+**Technologies:** Python · FastAPI · Streamlit · scikit-learn · OpenRouteService · Folium · Joblib
 
-[Explore repository →](https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN)
+[Repository, architecture and setup →](https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN)
 
 ---
 
-### 03 — Team CI/CD & MLOps
+### 03 · Team CI/CD & MLOps
 
 <a href="https://github.com/LeoLindqvist123/ci-cd-pipeline"><img src="assets/project-team-cicd-v3.svg" alt="EF branded shared team CI/CD and MLOps project banner" width="100%"/></a>
 
-**[ci-cd-pipeline](https://github.com/LeoLindqvist123/ci-cd-pipeline)**
+**[ci-cd-pipeline](https://github.com/LeoLindqvist123/ci-cd-pipeline)** · *Shared team project*
 
-Shared team project improving a customer-churn ML delivery pipeline. My contribution includes five merged pull requests covering Ruff in CI, model lineage, Docker packaging, Buildx optimisation and statistical data-drift checks.
+A customer-churn ML delivery pipeline. My contribution includes **five merged pull requests** covering Ruff in CI, model lineage, Docker packaging, Buildx optimisation and statistical data-drift checks.
 
-**Stack:** Python · GitHub Actions · Docker · pytest · MLflow · Pandera · GHCR
+**Technologies:** Python · GitHub Actions · Docker · pytest · MLflow · Pandera · GHCR
 
-[Explore team repository →](https://github.com/LeoLindqvist123/ci-cd-pipeline) · [My contribution summary](https://github.com/erfantk25-lab/erfantk25-lab.github.io/blob/main/projects/ci-cd-pipeline-contributions.md)
+[Team repository →](https://github.com/LeoLindqvist123/ci-cd-pipeline) · [My contribution summary →](https://github.com/erfantk25-lab/erfantk25-lab.github.io/blob/main/projects/ci-cd-pipeline-contributions.md)
 
 <div align="center">
 
-[**VIEW ALL MY REPOSITORIES →**](https://github.com/erfantk25-lab?tab=repositories)
+[**EXPLORE ALL REPOSITORIES →**](https://github.com/erfantk25-lab?tab=repositories)
 
 </div>
 
-## 03 / Engineering workflow
+---
 
-The diagram below is a **conceptual map of practices explored across separate portfolio projects**. It is not a claim that every stage runs in one production system.
+## Engineering workflow
+
+The diagram is a **conceptual map of practices explored across separate portfolio projects**. It does not imply that every stage runs in one production system.
 
 <div align="center">
 <img src="assets/mlops-workflow-overview.svg" width="100%" alt="Conceptual EF MLOps workflow from data quality and model training to serving, automation and packaging"/>
@@ -129,74 +113,34 @@ The diagram below is a **conceptual map of practices explored across separate po
 
 ---
 
-## 04 / Technical toolkit
-
-
+## Technical toolkit
 
 Grouped by the role each technology plays in an ML application lifecycle.
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**01 — PROGRAMMING & DATA**
-
-![Python](https://img.shields.io/badge/Python-153B59?style=flat-square&logo=python&logoColor=58DCEB)
-![SQL](https://img.shields.io/badge/SQL-153B59?style=flat-square&logo=postgresql&logoColor=58DCEB)
-![Pandera](https://img.shields.io/badge/Pandera-153B59?style=flat-square)
-
-**02 — MACHINE LEARNING**
-
-![scikit-learn](https://img.shields.io/badge/scikit--learn-153B59?style=flat-square&logo=scikitlearn&logoColor=58DCEB)
-![MLflow](https://img.shields.io/badge/MLflow-153B59?style=flat-square&logo=mlflow&logoColor=58DCEB)
-
-**03 — BACKEND & SERVING**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-153B59?style=flat-square&logo=fastapi&logoColor=58DCEB)
-![REST](https://img.shields.io/badge/REST_APIs-153B59?style=flat-square)
-
-</td>
-<td width="50%" valign="top">
-
-**04 — TESTING & CI/CD**
-
-![pytest](https://img.shields.io/badge/pytest-153B59?style=flat-square&logo=pytest&logoColor=58DCEB)
-![Ruff](https://img.shields.io/badge/Ruff-153B59?style=flat-square)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-153B59?style=flat-square&logo=githubactions&logoColor=58DCEB)
-![GHCR](https://img.shields.io/badge/GHCR-153B59?style=flat-square&logo=github&logoColor=58DCEB)
-
-**05 — CONTAINERS & ORCHESTRATION**
-
-![Docker](https://img.shields.io/badge/Docker-153B59?style=flat-square&logo=docker&logoColor=58DCEB)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-153B59?style=flat-square&logo=kubernetes&logoColor=58DCEB)
-![kind](https://img.shields.io/badge/kind-153B59?style=flat-square)
-
-**06 — DATA & VISUALISATION**
-
-![MQTT](https://img.shields.io/badge/MQTT-153B59?style=flat-square)
-![TimescaleDB](https://img.shields.io/badge/TimescaleDB-153B59?style=flat-square)
-![Grafana](https://img.shields.io/badge/Grafana-153B59?style=flat-square&logo=grafana&logoColor=58DCEB)
-![Streamlit](https://img.shields.io/badge/Streamlit-153B59?style=flat-square&logo=streamlit&logoColor=58DCEB)
-
-</td>
-</tr>
-</table>
+| Area | Tools and technologies |
+|---|---|
+| **Programming & data** | Python · SQL · Pandas · NumPy · Pandera |
+| **Machine learning** | scikit-learn · MLflow |
+| **Backend & serving** | FastAPI · REST APIs · Streamlit |
+| **Testing & quality** | pytest · Ruff · API tests · smoke tests |
+| **MLOps & CI/CD** | GitHub Actions · model evaluation · artifact lineage · GHCR |
+| **Containers & orchestration** | Docker · Kubernetes fundamentals · kind |
+| **Data & visualisation** | MQTT · TimescaleDB · Grafana · Folium |
 
 **Currently developing:** cloud infrastructure, production monitoring and ML platform practices.
 
 ---
 
-## 05 / More explorations
+## More explorations
 
 - [**Smart Grow — edge/IoT monitoring**](https://github.com/erfantk25-lab/Edge-computing-project-) — team project using Raspberry Pi Pico W, MicroPython, sensors, MQTT, TimescaleDB, Docker Compose and Grafana.
 - [**MCP integration demo**](https://github.com/erfantk25-lab/nackademin-mcp-demo) — course demo exploring Model Context Protocol integration.
 - [**LangChain demo**](https://github.com/erfantk25-lab/nackademin-langchain-demo) — course project exploring LangChain-based LLM application patterns.
-
-[More context on my portfolio](https://erfantk25-lab.github.io/)
+- [**More portfolio context**](https://erfantk25-lab.github.io/)
 
 ---
 
-## 06 / LIA · Spring 2027
+## LIA · Spring 2027
 
 <div align="center">
 
@@ -207,13 +151,13 @@ Grouped by the role each technology plays in an ML application lifecycle.
 
 I'd be excited to contribute to a team working with:
 
-**ML pipelines** &nbsp; · &nbsp; **Model serving** &nbsp; · &nbsp; **CI/CD** &nbsp; · &nbsp; **Data quality** &nbsp; · &nbsp; **Cloud & containers**
+**ML pipelines** · **Model serving** · **CI/CD** · **Data quality** · **Cloud & containers**
 
 </div>
 
 ---
 
-## 07 / Connect
+## Connect
 
 <div align="center">
 
