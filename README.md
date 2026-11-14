@@ -34,7 +34,7 @@ Three projects that best represent the areas I am developing: ML serving and dep
 
 ### 01 · ML serving & deployment
 
-<a href="https://github.com/erfantk25-lab/fastapi-docker-ml-serving"><img src="assets/project-ml-serving-v3.svg" alt="ML serving and deployment project banner" width="100%"/></a>
+<a href="https://github.com/erfantk25-lab/fastapi-docker-ml-serving"><img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/main/assets/project-ml-serving-v3.svg" alt="ML serving and deployment project banner" width="100%"/></a>
 
 **[fastapi-docker-ml-serving](https://github.com/erfantk25-lab/fastapi-docker-ml-serving)** · *Educational project with an individual Kubernetes mini-project*
 
@@ -48,7 +48,7 @@ A customer-churn ML workflow combining data validation, model evaluation, artifa
 
 ### 02 · Full-stack machine learning
 
-<a href="https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN"><img src="assets/project-taxi-ml-v3.svg" alt="Taxi fare prediction project banner" width="100%"/></a>
+<a href="https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN"><img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/main/assets/project-taxi-ml-v3.svg" alt="Taxi fare prediction project banner" width="100%"/></a>
 
 **[taxi-prediction-fullstack-ERFAN](https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN)** · *Individual project*
 
@@ -62,7 +62,7 @@ A taxi fare prediction application connecting a scikit-learn regression pipeline
 
 ### 03 · Team CI/CD & MLOps
 
-<a href="https://github.com/LeoLindqvist123/ci-cd-pipeline"><img src="assets/project-team-cicd-v3.svg" alt="Team CI/CD and MLOps project banner" width="100%"/></a>
+<a href="https://github.com/LeoLindqvist123/ci-cd-pipeline"><img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/main/assets/project-team-cicd-v3.svg" alt="Team CI/CD and MLOps project banner" width="100%"/></a>
 
 **[ci-cd-pipeline](https://github.com/LeoLindqvist123/ci-cd-pipeline)** · *Shared team project*
 
@@ -108,7 +108,7 @@ I enjoy building with Python and exploring the complete path from data validatio
 The diagram is a **conceptual map of practices explored across separate portfolio projects**. It does not imply that every stage runs in one production system.
 
 <div align="center">
-<img src="assets/mlops-workflow-overview.svg" width="100%" alt="Conceptual MLOps workflow from data quality and model training to serving, automation and packaging"/>
+<img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/main/assets/mlops-workflow-overview.svg" width="100%" alt="Conceptual MLOps workflow from data quality and model training to serving, automation and packaging"/>
 </div>
 
 ---
