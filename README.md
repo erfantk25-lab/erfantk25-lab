@@ -1,4 +1,4 @@
-![Erfan Tahmasebi — MLOps Engineering](assets/mlops-profile-banner.svg)
+![Erfan Tahmasebi — MLOps Engineer Student](assets/erfan-tahmasebi-mlops-banner-v2.svg)
 
 <p align="center">
   <a href="https://erfantk25-lab.github.io/"><strong>Portfolio</strong></a> ·
