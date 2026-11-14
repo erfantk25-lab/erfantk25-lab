@@ -71,16 +71,11 @@ I enjoy building with Python and exploring the complete path from data validatio
 
 ## 02 / Selected projects
 
-Three projects showing individual application development, MLOps engineering and collaborative delivery.
-
-<table>
-<tr>
-<td width="43%" valign="top">
-<a href="https://github.com/erfantk25-lab/fastapi-docker-ml-serving"><img src="assets/project-ml-serving.svg" alt="EF branded ML serving and deployment project banner" width="100%"/></a>
-</td>
-<td valign="top">
+Three featured projects. Each banner is displayed at full profile width so the EF artwork remains readable at a glance.
 
 ### 01 — ML serving & deployment
+
+<a href="https://github.com/erfantk25-lab/fastapi-docker-ml-serving"><img src="assets/project-ml-serving.svg" alt="EF branded ML serving and deployment project banner" width="100%"/></a>
 
 **[fastapi-docker-ml-serving](https://github.com/erfantk25-lab/fastapi-docker-ml-serving)**
 
@@ -90,18 +85,11 @@ An educational MLOps project combining a customer-churn workflow, data checks, m
 
 [Explore repository →](https://github.com/erfantk25-lab/fastapi-docker-ml-serving)
 
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td width="43%" valign="top">
-<a href="https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN"><img src="assets/project-taxi-ml.svg" alt="EF branded taxi fare prediction project banner" width="100%"/></a>
-</td>
-<td valign="top">
+---
 
 ### 02 — Full-stack machine learning
+
+<a href="https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN"><img src="assets/project-taxi-ml.svg" alt="EF branded taxi fare prediction project banner" width="100%"/></a>
 
 **[taxi-prediction-fullstack-ERFAN](https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN)**
 
@@ -111,18 +99,11 @@ An individually developed taxi fare prediction application connecting a scikit-l
 
 [Explore repository →](https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN)
 
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td width="43%" valign="top">
-<a href="https://github.com/LeoLindqvist123/ci-cd-pipeline"><img src="assets/project-team-cicd.svg" alt="EF branded shared team CI/CD and MLOps project banner" width="100%"/></a>
-</td>
-<td valign="top">
+---
 
 ### 03 — Team CI/CD & MLOps
+
+<a href="https://github.com/LeoLindqvist123/ci-cd-pipeline"><img src="assets/project-team-cicd.svg" alt="EF branded shared team CI/CD and MLOps project banner" width="100%"/></a>
 
 **[ci-cd-pipeline](https://github.com/LeoLindqvist123/ci-cd-pipeline)**
 
@@ -131,10 +112,6 @@ Shared team project improving a customer-churn ML delivery pipeline. My contribu
 **Stack:** Python · GitHub Actions · Docker · pytest · MLflow · Pandera · GHCR
 
 [Explore team repository →](https://github.com/LeoLindqvist123/ci-cd-pipeline) · [My contribution summary](https://github.com/erfantk25-lab/erfantk25-lab.github.io/blob/main/projects/ci-cd-pipeline-contributions.md)
-
-</td>
-</tr>
-</table>
 
 <div align="center">
 
