@@ -119,7 +119,7 @@ An individually developed taxi fare prediction application connecting a machine-
 ### 03 — Team CI/CD & MLOps
 
 <div align="center">
-<img src="assets/project-cicd-mlops.svg" width="100%" alt="Team CI/CD pipeline showing source, quality gates, Docker build and model traceability"/>
+<img src="assets/project-team-cicd.svg" width="100%" alt="Team CI/CD pipeline showing source, quality gates, Docker build and model traceability"/>
 </div>
 
 **[ci-cd-pipeline](https://github.com/LeoLindqvist123/ci-cd-pipeline)**
