@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="assets/erfan-tahmasebi-github-banner.webp" alt="Erfan Tahmasebi — MLOps Engineer" width="100%" />
+<img src="assets/erfan-tahmasebi-mlops-banner-v2.svg" alt="Erfan Tahmasebi — MLOps Engineer" width="100%" />
 
 <br/>
 
