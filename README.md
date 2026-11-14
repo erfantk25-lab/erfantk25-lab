@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="assets/erfan-tahmasebi-github-banner.webp" alt="Erfan Tahmasebi — MLOps Engineer Student" width="100%" />
+<img src="assets/erfan-tahmasebi-brand-banner-v3.svg" alt="Erfan Tahmasebi — MLOps Engineer Student" width="100%" />
 
 <br/>
 
