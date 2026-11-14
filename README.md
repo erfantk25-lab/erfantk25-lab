@@ -8,19 +8,23 @@
 
 # ERFAN TAHMASEBI
 
-### MLOps Engineering Student · Python · Machine Learning Systems
+### MLOps Engineer Student · Python · Machine Learning Systems
 
-**I build reliable ML applications and the engineering workflows behind them — from data validation and model serving to automated delivery.**
+**Building reliable ML systems, from experimentation to production.**
+
+I connect machine learning, data quality and software engineering through practical projects in model serving, automation and deployment.
+
+*Build. Automate. Deploy. Improve.*
 
 <br/>
 
-<a href="https://erfantk25-lab.github.io/"><img src="https://img.shields.io/badge/PORTFOLIO-0B1B2B?style=for-the-badge&logo=googlechrome&logoColor=58DCEB" alt="Portfolio"/></a>
-<a href="https://github.com/erfantk25-lab?tab=repositories"><img src="https://img.shields.io/badge/PROJECTS-0B1B2B?style=for-the-badge&logo=github&logoColor=58DCEB" alt="Projects"/></a>
-<a href="mailto:erfan.tahmasbikondroodi@yh.nackademin.se"><img src="https://img.shields.io/badge/CONTACT-0B1B2B?style=for-the-badge&logo=gmail&logoColor=58DCEB" alt="Contact"/></a>
+<a href="https://erfantk25-lab.github.io/"><img src="https://img.shields.io/badge/PORTFOLIO-071426?style=for-the-badge&logo=googlechrome&logoColor=42D9F5" alt="Portfolio"/></a>
+<a href="https://github.com/erfantk25-lab?tab=repositories"><img src="https://img.shields.io/badge/PROJECTS-071426?style=for-the-badge&logo=github&logoColor=42D9F5" alt="Projects"/></a>
+<a href="mailto:erfan.tahmasbikondroodi@yh.nackademin.se"><img src="https://img.shields.io/badge/CONTACT-071426?style=for-the-badge&logo=gmail&logoColor=42D9F5" alt="Contact"/></a>
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/LIA-08_FEB_—_21_MAY_2027-123C59?style=for-the-badge&labelColor=071426" alt="LIA 8 February to 21 May 2027"/>
+<img src="https://img.shields.io/badge/LIA-08_FEB_—_21_MAY_2027-1769AA?style=for-the-badge&labelColor=071426" alt="LIA 8 February to 21 May 2027"/>
 
 **Available for LIA · 8 February – 21 May 2027 · Sweden**
 
@@ -146,9 +150,9 @@ Grouped by the role each technology plays in an ML application lifecycle.
 
 **Interested in ML engineering, MLOps or internship opportunities? Let's connect.**
 
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-0B1B2B?style=for-the-badge&logo=googlechrome&logoColor=58DCEB)](https://erfantk25-lab.github.io/)
-[![GitHub](https://img.shields.io/badge/GITHUB-0B1B2B?style=for-the-badge&logo=github&logoColor=58DCEB)](https://github.com/erfantk25-lab)
-[![Email](https://img.shields.io/badge/EMAIL-0B1B2B?style=for-the-badge&logo=gmail&logoColor=58DCEB)](mailto:erfan.tahmasbikondroodi@yh.nackademin.se)
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-071426?style=for-the-badge&logo=googlechrome&logoColor=42D9F5)](https://erfantk25-lab.github.io/)
+[![GitHub](https://img.shields.io/badge/GITHUB-071426?style=for-the-badge&logo=github&logoColor=42D9F5)](https://github.com/erfantk25-lab)
+[![Email](https://img.shields.io/badge/EMAIL-071426?style=for-the-badge&logo=gmail&logoColor=42D9F5)](mailto:erfan.tahmasbikondroodi@yh.nackademin.se)
 
 <sub>Erfan Tahmasebi · MLOps Engineering Student · Sweden</sub>
 
