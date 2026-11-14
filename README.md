@@ -2,22 +2,23 @@
 
 <div align="center">
 
-<img src="assets/erfan-tahmasebi-github-banner.webp" alt="Erfan Tahmasebi — MLOps Engineer Student" width="100%" />
+<img src="assets/erfan-tahmasebi-github-banner.webp" alt="Erfan Tahmasebi — MLOps Engineer" width="100%" />
 
 # Erfan Tahmasebi
 
-### Junior MLOps Engineer · Python · ML Systems · Automation
+### MLOps Engineering Student · Python · Machine Learning Systems
 
-Building practical machine-learning services and learning how to make them reliable, testable, and deployable.
+I build practical ML applications and explore how to make them **reliable, testable and deployable** — from model APIs and data validation to containers and CI/CD.
 
-[Portfolio](https://erfantk25-lab.github.io/) · [Projects](https://github.com/erfantk25-lab?tab=repositories) · [Contact](mailto:erfan.tahmasbikondroodi@yh.nackademin.se)
+**LIA internship: 8 February – 21 May 2027 · Sweden**
+
+[Portfolio](https://erfantk25-lab.github.io/) · [Projects](https://github.com/erfantk25-lab?tab=repositories) · [Email](mailto:erfan.tahmasbikondroodi@yh.nackademin.se)
 
 <br/>
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
@@ -27,47 +28,65 @@ Building practical machine-learning services and learning how to make them relia
 
 <div align="center">
 
-[About](#about) &nbsp;·&nbsp; [Featured projects](#featured-projects) &nbsp;·&nbsp; [Toolkit](#technical-toolkit) &nbsp;·&nbsp; [LIA 2027](#lia--spring-2027) &nbsp;·&nbsp; [Contact](#lets-connect)
+[About](#about) &nbsp;·&nbsp; [Featured work](#featured-projects) &nbsp;·&nbsp; [Tech stack](#technical-toolkit) &nbsp;·&nbsp; [LIA](#lia--spring-2027) &nbsp;·&nbsp; [Contact](#lets-connect)
 
 </div>
 
 ## About
 
-I'm **Erfan Tahmasebi**, an MLOps Engineering student at **Nackademin, Sweden (2025–2028)**. I enjoy connecting machine learning with software engineering: model serving, CI/CD, containers, automated testing, and data quality.
+I'm an **MLOps Engineering student at Nackademin in Sweden (2025–2028)**, interested in the engineering practices that help machine-learning applications move from experiments to dependable services.
 
-I'm looking for an **LIA internship from 8 February to 21 May 2027**. I'd like to contribute to a team building dependable data and ML workflows while continuing to grow as an engineer.
+My current focus is **ML model serving, data quality, automated testing, CI/CD and containerised deployment**. I enjoy working across the Python and ML stack, building projects that connect APIs, models and delivery workflows.
 
-| Current focus | Hands-on tools |
-|---|---|
-| ML serving, CI/CD, Docker, Kubernetes, testing and data validation | Python, SQL, FastAPI, scikit-learn, MLflow, Pandera, pytest, GitHub Actions, GHCR and Streamlit |
+I'm looking for an **LIA internship from 8 February to 21 May 2027**, where I can contribute to a team and develop my skills in real-world data and ML engineering.
 
-> **Experience context:** My experience is primarily academic and project-based. I distinguish individual projects from team contributions. My Kubernetes work is an individual educational deployment mini-project using kind and a course cluster—not professional production operations.
+> **Experience context:** My experience is primarily academic and project-based. I clearly distinguish individual work from team contributions. My Kubernetes work is an individual educational deployment mini-project using kind and a course cluster—not professional production operations.
 
 ## Featured projects
 
-A focused selection of work that best represents my current direction.
+A selection of projects that demonstrates my current interests and hands-on work.
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3>01 · ML serving & deployment</h3>
       <p><a href="https://github.com/erfantk25-lab/fastapi-docker-ml-serving"><strong>fastapi-docker-ml-serving</strong></a></p>
-      <p>A FastAPI inference service and customer-churn MLOps workflow using Docker, MLflow, Pandera, pytest, GitHub Actions and GHCR.</p>
-      <p><strong>Includes:</strong> an individually completed Kubernetes deployment mini-project. The customer-churn pipeline was collaborative.</p>
+      <p>FastAPI inference service and customer-churn MLOps workflow.</p>
+      <p><strong>What I worked with</strong></p>
+      <ul>
+        <li>Model serving with FastAPI</li>
+        <li>Docker-based packaging</li>
+        <li>MLflow experiment and model tracking</li>
+        <li>Pandera data validation and pytest</li>
+        <li>GitHub Actions CI and GHCR</li>
+      </ul>
+      <p><strong>Stack:</strong> Python · FastAPI · Docker · MLflow · Pandera · pytest · GitHub Actions</p>
+      <p><em>The Kubernetes deployment mini-project was completed individually. The customer-churn pipeline was collaborative.</em></p>
       <p><a href="https://github.com/erfantk25-lab/fastapi-docker-ml-serving/actions/workflows/ci.yml">View CI workflow →</a></p>
     </td>
     <td width="50%" valign="top">
       <h3>02 · Full-stack machine learning</h3>
       <p><a href="https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN"><strong>taxi-prediction-fullstack-ERFAN</strong></a></p>
-      <p>An individually developed taxi fare prediction application with a FastAPI backend, Streamlit frontend, scikit-learn regression pipeline, OpenRouteService route data and Folium map visualisation.</p>
+      <p>An individually developed taxi fare prediction application, connecting a machine-learning model to a usable web interface.</p>
+      <p><strong>What I built</strong></p>
+      <ul>
+        <li>Prediction API with FastAPI</li>
+        <li>Streamlit frontend</li>
+        <li>scikit-learn regression pipeline</li>
+        <li>Route data using OpenRouteService</li>
+        <li>Map visualisation with Folium</li>
+      </ul>
+      <p><strong>Stack:</strong> Python · FastAPI · Streamlit · scikit-learn · OpenRouteService · Folium</p>
     </td>
   </tr>
   <tr>
     <td colspan="2" valign="top">
       <h3>03 · Team CI/CD & MLOps</h3>
       <p><a href="https://github.com/LeoLindqvist123/ci-cd-pipeline"><strong>ci-cd-pipeline</strong></a></p>
-      <p>Five merged pull requests covering Ruff in CI, model versioning and lineage, Docker packaging and smoke tests, multi-stage Docker/Buildx optimisation, and statistical data-drift checks.</p>
-      <p>This is shared team work; <a href="https://github.com/erfantk25-lab/erfantk25-lab.github.io/blob/main/projects/ci-cd-pipeline-contributions.md">my contribution summary</a> describes my individual changes.</p>
+      <p>Team project focused on improving an ML delivery pipeline. I contributed through five merged pull requests.</p>
+      <p><strong>My contributions:</strong> Ruff in CI · model versioning and lineage · Docker packaging and smoke tests · multi-stage Docker/Buildx optimisation · statistical data-drift checks.</p>
+      <p><strong>Stack:</strong> Python · Docker · GitHub Actions · Ruff · MLflow concepts</p>
+      <p><a href="https://github.com/erfantk25-lab/erfantk25-lab.github.io/blob/main/projects/ci-cd-pipeline-contributions.md">Read my contribution summary →</a></p>
     </td>
   </tr>
 </table>
@@ -90,17 +109,22 @@ The diagram below is a **conceptual overview** of practices and tools explored a
 
 ## Technical toolkit
 
-| Area | Tools and technologies |
-|---|---|
-| Programming & data | Python, SQL, Pandera |
-| Machine learning | scikit-learn, MLflow |
-| APIs & serving | FastAPI, REST APIs |
-| CI/CD & quality | GitHub Actions, pytest, Ruff, GHCR |
-| Containers & orchestration | Docker, Kubernetes, kind |
-| Data & messaging | MQTT, TimescaleDB |
-| Applications & visualisation | Streamlit, Grafana, Folium |
+I group the tools I use by the role they play in an ML application lifecycle.
 
-<div align="center">
+| Area | Technologies |
+|---|---|
+| **Programming & data** | Python · SQL · Pandera |
+| **Machine learning** | scikit-learn · MLflow |
+| **Backend & model serving** | FastAPI · REST APIs |
+| **Testing & code quality** | pytest · Ruff |
+| **MLOps & CI/CD** | GitHub Actions · GHCR |
+| **Containers & orchestration** | Docker · Kubernetes · kind |
+| **Data, messaging & monitoring** | MQTT · TimescaleDB · Grafana |
+| **Apps & visualisation** | Streamlit · Folium |
+
+<details>
+<summary><strong>Technology badges</strong></summary>
+<br/>
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
@@ -113,9 +137,9 @@ The diagram below is a **conceptual overview** of practices and tools explored a
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
-</div>
+</details>
 
-**Developing further:** cloud infrastructure, production monitoring, and ML platform practices.
+**Currently developing:** cloud infrastructure, production monitoring and ML platform practices.
 
 ## GitHub activity
 
@@ -134,20 +158,20 @@ The diagram below is a **conceptual overview** of practices and tools explored a
 - [**MCP integration demo**](https://github.com/erfantk25-lab/nackademin-mcp-demo) — course demo exploring Model Context Protocol integration.
 - [**LangChain demo**](https://github.com/erfantk25-lab/nackademin-langchain-demo) — course project exploring LangChain-based LLM application patterns.
 
-More details and context are available on my [portfolio](https://erfantk25-lab.github.io/).
+See my [portfolio](https://erfantk25-lab.github.io/) for more context.
 
 ## LIA · Spring 2027
 
 <div align="center">
 
-### Available 8 February – 21 May 2027
+### 8 February – 21 May 2027
 
-I'm especially interested in an internship where I can learn and contribute to:
+I'm interested in contributing and learning in a team working with:
 
 </div>
 
-- Building and maintaining data and ML pipelines
-- Deploying and serving machine-learning models
+- Data and machine-learning pipelines
+- Model deployment and serving
 - CI/CD and automation for ML applications
 - Data validation, testing and monitoring
 - Containers, Kubernetes and cloud workflows
