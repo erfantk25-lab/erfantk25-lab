@@ -38,7 +38,7 @@ Three projects that best represent the areas I am developing: ML serving and dep
 
 ### 01 · ML serving & deployment
 
-[![ML serving and deployment project banner](./assets/project-ml-serving-banner-2026.svg)](https://github.com/erfantk25-lab/fastapi-docker-ml-serving)
+[![ML serving and deployment project banner](./assets/featured-ml-serving-v1.svg)](https://github.com/erfantk25-lab/fastapi-docker-ml-serving)
 
 **[fastapi-docker-ml-serving](https://github.com/erfantk25-lab/fastapi-docker-ml-serving)** · *Educational project with an individual Kubernetes mini-project*
 
@@ -52,7 +52,7 @@ A customer-churn ML workflow combining data validation, model evaluation, artifa
 
 ### 02 · Full-stack machine learning
 
-[![Taxi fare prediction project banner](./assets/project-taxi-prediction-banner-2026.svg)](https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN)
+[![Taxi fare prediction project banner](./assets/featured-taxi-prediction-v1.svg)](https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN)
 
 **[taxi-prediction-fullstack-ERFAN](https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN)** · *Individual project*
 
@@ -66,7 +66,7 @@ A taxi fare prediction application connecting a scikit-learn regression pipeline
 
 ### 03 · Team CI/CD & MLOps
 
-[![Team CI/CD and MLOps project banner](./assets/project-team-cicd-banner-2026.svg)](https://github.com/LeoLindqvist123/ci-cd-pipeline)
+[![Team CI/CD and MLOps project banner](./assets/featured-team-cicd-v1.svg)](https://github.com/LeoLindqvist123/ci-cd-pipeline)
 
 **[ci-cd-pipeline](https://github.com/LeoLindqvist123/ci-cd-pipeline)** · *Shared team project*
 
