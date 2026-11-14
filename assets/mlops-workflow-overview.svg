@@ -1,55 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
-  <title id="title">MLOps workflow overview</title>
-  <desc id="desc">Conceptual workflow connecting data validation, model training and tracking, model serving, CI/CD, container registry and Kubernetes deployment, with testing and monitoring.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1224"/><stop offset="1" stop-color="#111f38"/></linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#60a5fa"/></linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#020617" flood-opacity=".35"/></filter>
-    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#67e8f9" stroke-width="1.5"/></marker>
-  </defs>
-  <rect width="1200" height="390" rx="24" fill="url(#bg)"/>
-  <text x="56" y="58" fill="#f8fafc" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="700">A practical MLOps workflow</text>
-  <text x="56" y="85" fill="#94a3b8" font-family="Inter,Arial,sans-serif" font-size="14">Conceptual overview of tools and practices explored across my projects</text>
-  <g filter="url(#shadow)" font-family="Inter,Arial,sans-serif">
-    <g>
-      <rect x="52" y="139" width="164" height="104" rx="14" fill="#172943" stroke="#256b83"/>
-      <circle cx="78" cy="166" r="11" fill="#164e63"/><path d="M73 166h10M78 161v10" stroke="#67e8f9" stroke-width="2" stroke-linecap="round"/>
-      <text x="70" y="199" fill="#f8fafc" font-size="16" font-weight="700">Data quality</text><text x="70" y="222" fill="#9fb4ca" font-size="12">Pandera · SQL</text>
-    </g>
-    <g>
-      <rect x="264" y="139" width="164" height="104" rx="14" fill="#172943" stroke="#256b83"/>
-      <circle cx="290" cy="166" r="11" fill="#164e63"/><path d="M284 169l4-6 4 4 4-7" fill="none" stroke="#67e8f9" stroke-width="2"/>
-      <text x="282" y="199" fill="#f8fafc" font-size="16" font-weight="700">Train & track</text><text x="282" y="222" fill="#9fb4ca" font-size="12">scikit-learn · MLflow</text>
-    </g>
-    <g>
-      <rect x="476" y="139" width="164" height="104" rx="14" fill="#172943" stroke="#256b83"/>
-      <circle cx="502" cy="166" r="11" fill="#164e63"/><path d="M496 162h12v8h-12zM499 159h6" fill="none" stroke="#67e8f9" stroke-width="1.7"/>
-      <text x="494" y="199" fill="#f8fafc" font-size="16" font-weight="700">Serve model</text><text x="494" y="222" fill="#9fb4ca" font-size="12">FastAPI · REST</text>
-    </g>
-    <g>
-      <rect x="688" y="139" width="164" height="104" rx="14" fill="#172943" stroke="#256b83"/>
-      <circle cx="714" cy="166" r="11" fill="#164e63"/><path d="M708 166l4 4 8-9" fill="none" stroke="#67e8f9" stroke-width="2"/>
-      <text x="706" y="199" fill="#f8fafc" font-size="16" font-weight="700">Automate</text><text x="706" y="222" fill="#9fb4ca" font-size="12">GitHub Actions · pytest</text>
-    </g>
-    <g>
-      <rect x="900" y="139" width="248" height="104" rx="14" fill="#172943" stroke="#256b83"/>
-      <circle cx="926" cy="166" r="11" fill="#164e63"/><path d="M920 163h12v7h-12zM923 160h6" fill="none" stroke="#67e8f9" stroke-width="1.7"/>
-      <text x="944" y="172" fill="#f8fafc" font-size="16" font-weight="700">Package & deploy</text><text x="920" y="222" fill="#9fb4ca" font-size="12">Docker · GHCR · Kubernetes / kind</text>
-    </g>
-  </g>
-  <g stroke="#67e8f9" stroke-width="2" fill="none" marker-end="url(#arrow)" opacity=".9">
-    <path d="M218 191H254"/><path d="M430 191H466"/><path d="M642 191H678"/><path d="M854 191H890"/>
-  </g>
-  <rect x="52" y="282" width="1096" height="58" rx="12" fill="#102238" stroke="#24445e"/>
-  <text x="76" y="306" fill="#67e8f9" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1">CROSS-CUTTING PRACTICES</text>
-  <text x="76" y="326" fill="#cbd5e1" font-family="Inter,Arial,sans-serif" font-size="14">Automated tests</text>
-  <circle cx="215" cy="321" r="3" fill="#38bdf8"/>
-  <text x="234" y="326" fill="#cbd5e1" font-family="Inter,Arial,sans-serif" font-size="14">Health checks</text>
-  <circle cx="355" cy="321" r="3" fill="#38bdf8"/>
-  <text x="374" y="326" fill="#cbd5e1" font-family="Inter,Arial,sans-serif" font-size="14">Reproducibility</text>
-  <circle cx="514" cy="321" r="3" fill="#38bdf8"/>
-  <text x="533" y="326" fill="#cbd5e1" font-family="Inter,Arial,sans-serif" font-size="14">Versioning & lineage</text>
-  <circle cx="726" cy="321" r="3" fill="#38bdf8"/>
-  <text x="745" y="326" fill="#cbd5e1" font-family="Inter,Arial,sans-serif" font-size="14">Drift checks</text>
-  <text x="1148" y="370" text-anchor="end" fill="#64748b" font-family="Inter,Arial,sans-serif" font-size="11">ERFAN TAHMASEBI · MLOPS</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+<title id="title">EF MLOps engineering workflow</title><desc id="desc">Conceptual architecture map of the practices explored across Erfan Tahmasebi's data validation, model training, serving, CI/CD, container and deployment projects.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020916"/><stop offset=".56" stop-color="#061d36"/><stop offset="1" stop-color="#082b49"/></linearGradient>
+ <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00dfff"/><stop offset="1" stop-color="#1389ff"/></linearGradient>
+ <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#8bcdf0" stroke-opacity=".08"/></pattern>
+ <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#00dfff" stroke-width="1.5"/></marker>
+</defs>
+<rect width="1200" height="430" rx="24" fill="url(#bg)"/><rect width="1200" height="430" rx="24" fill="url(#grid)"/>
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+ <text x="52" y="58" fill="#00dfff" font-size="15" font-weight="750" letter-spacing="4">EF  /  MLOPS ENGINEERING</text>
+ <text x="52" y="103" fill="#f5f8ff" font-size="29" font-weight="750">From data to dependable delivery</text>
+ <text x="52" y="132" fill="#c5dced" font-size="15">A conceptual overview of tools and practices explored across my portfolio projects</text>
+</g>
+<rect x="40" y="186" width="206" height="116" rx="16" fill="#071b31" stroke="#087eae" stroke-width="1.5"/><rect x="58" y="204" width="30" height="4" rx="2" fill="url(#cyan)"/><text x="58" y="246" fill="#f5f8ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="750">DATA QUALITY</text><text x="58" y="274" fill="#9fb4ca" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">Pandera · schema checks</text><rect x="272" y="186" width="206" height="116" rx="16" fill="#071b31" stroke="#087eae" stroke-width="1.5"/><rect x="290" y="204" width="30" height="4" rx="2" fill="url(#cyan)"/><text x="290" y="246" fill="#f5f8ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="750">TRAIN & TRACK</text><text x="290" y="274" fill="#9fb4ca" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">scikit-learn · MLflow</text><rect x="504" y="186" width="206" height="116" rx="16" fill="#071b31" stroke="#087eae" stroke-width="1.5"/><rect x="522" y="204" width="30" height="4" rx="2" fill="url(#cyan)"/><text x="522" y="246" fill="#f5f8ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="750">MODEL SERVING</text><text x="522" y="274" fill="#9fb4ca" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">FastAPI · REST API</text><rect x="736" y="186" width="206" height="116" rx="16" fill="#071b31" stroke="#087eae" stroke-width="1.5"/><rect x="754" y="204" width="30" height="4" rx="2" fill="url(#cyan)"/><text x="754" y="246" fill="#f5f8ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="750">AUTOMATE</text><text x="754" y="274" fill="#9fb4ca" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">GitHub Actions · pytest</text><rect x="968" y="186" width="206" height="116" rx="16" fill="#071b31" stroke="#087eae" stroke-width="1.5"/><rect x="986" y="204" width="30" height="4" rx="2" fill="url(#cyan)"/><text x="986" y="246" fill="#f5f8ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="750">PACKAGE</text><text x="986" y="274" fill="#9fb4ca" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">Docker · GHCR</text>
+<g stroke="#00dfff" stroke-width="2.4" fill="none" marker-end="url(#arrow)"><path d="M246 244h18"/><path d="M478 244h18"/><path d="M710 244h18"/><path d="M942 244h18"/></g>
+<rect x="40" y="334" width="1120" height="52" rx="12" fill="#041a2e" stroke="#087eae"/>
+<g font-family="Inter,Segoe UI,Arial,sans-serif"><text x="62" y="356" fill="#00dfff" font-size="12" font-weight="750" letter-spacing="1.5">CROSS-CUTTING</text><text x="62" y="374" fill="#c5dced" font-size="13">Tests</text><circle cx="147" cy="370" r="3" fill="#00dfff"/><text x="164" y="374" fill="#c5dced" font-size="13">Health checks</text><circle cx="283" cy="370" r="3" fill="#00dfff"/><text x="300" y="374" fill="#c5dced" font-size="13">Versioning &amp; lineage</text><circle cx="470" cy="370" r="3" fill="#00dfff"/><text x="487" y="374" fill="#c5dced" font-size="13">Reproducibility</text><circle cx="632" cy="370" r="3" fill="#00dfff"/><text x="649" y="374" fill="#c5dced" font-size="13">Data / model quality gates</text><text x="1138" y="412" text-anchor="end" fill="#729cbd" font-size="11" letter-spacing="2.5">ERFAN TAHMASEBI · MLOPS</text></g>
+<circle cx="1090" cy="66" r="31" fill="#061b31" stroke="url(#cyan)" stroke-width="2"/>
+<g transform="translate(1074 46) scale(.13) translate(-25 -120)"><path d="M65 120H220L206 146H83L70 180H179L165 205H57L42 245H162L149 272H25L65 120Z" fill="#f5f9ff"/><path d="M174 120H240L229 146H211L167 272H133L177 146H157Z" fill="#09c8f4"/></g>
 </svg>
