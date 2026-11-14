@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="550" viewBox="0 0 1600 550" role="img" aria-labelledby="title desc">
-<title id="title">Team CI/CD & MLOps — Erfan Tahmasebi</title>
+<title id="title">Team CI/CD &amp; MLOps — Erfan Tahmasebi</title>
 <desc id="desc">Project banner designed directly from the original EF profile banner system: identical navy gradient, cyan accent, ET monogram, Inter typography, neural mesh, digital waves, pipeline cards and technology strip.</desc>
 
 <defs>
@@ -29,8 +29,8 @@
 
 <g font-family="Inter,Segoe UI,Arial,sans-serif">
  <text x="320" y="103" fill="#42D9F5" font-size="17" font-weight="700" letter-spacing="4">PROJECT 03  /  TEAM CONTRIBUTION</text>
- <text x="320" y="160" fill="#F2F7FC" font-size="55" font-weight="750">CI/CD Pipeline <tspan fill="#42D9F5">& MLOps</tspan></text>
- <text x="322" y="216" fill="#8CA3B8" font-size="34">Automated Quality Gates & Model Traceability</text>
+ <text x="320" y="160" fill="#F2F7FC" font-size="55" font-weight="750">CI/CD Pipeline <tspan fill="#42D9F5">&amp; MLOps</tspan></text>
+ <text x="322" y="216" fill="#8CA3B8" font-size="34">Automated Quality Gates &amp; Model Traceability</text>
  <path d="M322 250H900" stroke="url(#cyan)" stroke-width="3" filter="url(#glow)"/>
  <text x="322" y="300" fill="#F2F7FC" font-size="24" letter-spacing="1.2">Five merged pull requests across the shared team project.</text>
 </g>
