@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Erfan Tahmasbi — MLOps Engineering</title>
+  <desc id="desc">A dark technical banner showing a machine learning workflow from data to training, serving and monitoring.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081426"/>
+      <stop offset="0.55" stop-color="#102b46"/>
+      <stop offset="1" stop-color="#123d55"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#55d6be"/>
+      <stop offset="1" stop-color="#65a9ff"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#b5d7ef" stroke-opacity=".075" stroke-width="1"/>
+    </pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="24" fill="url(#grid)"/>
+  <circle cx="1060" cy="60" r="170" fill="#4ec9c0" opacity=".07"/>
+  <circle cx="820" cy="300" r="180" fill="#568cff" opacity=".08"/>
+  <path d="M0 260 C220 195 340 330 560 250 S900 180 1200 240" fill="none" stroke="#67c9d5" stroke-opacity=".16" stroke-width="2"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="68" y="78" fill="#82e4d2" font-size="16" font-weight="700" letter-spacing="3">MLOPS ENGINEERING</text>
+    <text x="68" y="143" fill="#f4f8ff" font-size="46" font-weight="750">ERFAN TAHMASBI</text>
+    <text x="70" y="184" fill="#c1d4e8" font-size="20">Reliable machine-learning systems, from experiments to services</text>
+    <g transform="translate(70 226)">
+      <rect width="154" height="34" rx="17" fill="#183b52" stroke="#3a7f8c"/>
+      <text x="77" y="22" text-anchor="middle" fill="#a9f0df" font-size="13" font-weight="650">PYTHON · ML</text>
+      <rect x="166" width="160" height="34" rx="17" fill="#183b52" stroke="#3a7f8c"/>
+      <text x="246" y="22" text-anchor="middle" fill="#a9f0df" font-size="13" font-weight="650">CI/CD · DOCKER</text>
+      <rect x="338" width="148" height="34" rx="17" fill="#183b52" stroke="#3a7f8c"/>
+      <text x="412" y="22" text-anchor="middle" fill="#a9f0df" font-size="13" font-weight="650">KUBERNETES</text>
+    </g>
+  </g>
+  <g transform="translate(690 66)" font-family="Inter,Segoe UI,Arial,sans-serif">
+    <path d="M60 95H385" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" filter="url(#glow)"/>
+    <path d="M60 95H385" stroke="#b9f5ec" stroke-opacity=".7" stroke-width="1.5" stroke-dasharray="5 9"/>
+    <g>
+      <rect x="0" y="50" width="112" height="90" rx="15" fill="#102c43" stroke="#4e9ea4" stroke-width="1.5"/>
+      <circle cx="56" cy="80" r="13" fill="#56d6c1" opacity=".2" stroke="#72e5d2"/>
+      <path d="M49 80h14M56 73v14" stroke="#9af2e1" stroke-width="2" stroke-linecap="round"/>
+      <text x="56" y="119" text-anchor="middle" fill="#e8f4ff" font-size="13" font-weight="700">DATA</text>
+    </g>
+    <g transform="translate(136 0)">
+      <rect x="0" y="50" width="112" height="90" rx="15" fill="#102c43" stroke="#4e9ea4" stroke-width="1.5"/>
+      <circle cx="56" cy="80" r="13" fill="#56d6c1" opacity=".2" stroke="#72e5d2"/>
+      <path d="M47 86l9-12 9 12" fill="none" stroke="#9af2e1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="56" y="119" text-anchor="middle" fill="#e8f4ff" font-size="13" font-weight="700">TRAIN</text>
+    </g>
+    <g transform="translate(272 0)">
+      <rect x="0" y="50" width="112" height="90" rx="15" fill="#102c43" stroke="#4e9ea4" stroke-width="1.5"/>
+      <circle cx="56" cy="80" r="13" fill="#56d6c1" opacity=".2" stroke="#72e5d2"/>
+      <path d="M47 80h18M60 75l5 5-5 5" fill="none" stroke="#9af2e1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="56" y="119" text-anchor="middle" fill="#e8f4ff" font-size="13" font-weight="700">SERVE</text>
+    </g>
+    <g transform="translate(408 0)">
+      <rect x="0" y="50" width="112" height="90" rx="15" fill="#102c43" stroke="#4e9ea4" stroke-width="1.5"/>
+      <circle cx="56" cy="80" r="13" fill="#56d6c1" opacity=".2" stroke="#72e5d2"/>
+      <path d="M48 84l6-7 5 4 7-9" fill="none" stroke="#9af2e1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="56" y="119" text-anchor="middle" fill="#e8f4ff" font-size="13" font-weight="700">MONITOR</text>
+    </g>
+    <text x="260" y="184" text-anchor="middle" fill="#8fb5cd" font-size="13" letter-spacing="2">AUTOMATE  ·  DEPLOY  ·  IMPROVE</text>
+  </g>
+  <rect x="1" y="1" width="1198" height="318" rx="23" fill="none" stroke="#8dc9d8" stroke-opacity=".22"/>
+</svg>
