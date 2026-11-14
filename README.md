@@ -71,68 +71,70 @@ I enjoy building with Python and exploring the complete path from data validatio
 
 ## 02 / Selected projects
 
-A few projects that best represent what I have been learning and building.
+Three projects showing individual application development, MLOps engineering and collaborative delivery.
+
+<table>
+<tr>
+<td width="43%" valign="top">
+<a href="https://github.com/erfantk25-lab/fastapi-docker-ml-serving"><img src="assets/project-ml-serving.svg" alt="EF branded ML serving and deployment project banner" width="100%"/></a>
+</td>
+<td valign="top">
 
 ### 01 — ML serving & deployment
 
-<div align="center">
-<img src="assets/project-ml-serving.svg" width="100%" alt="FastAPI, data quality, Docker packaging and CI pipeline project illustration"/>
-</div>
-
 **[fastapi-docker-ml-serving](https://github.com/erfantk25-lab/fastapi-docker-ml-serving)**
 
-A FastAPI inference service and customer-churn MLOps workflow, bringing together model serving, data checks and automated delivery.
+An educational MLOps project combining a customer-churn workflow, data checks, model evaluation, artifact lineage and a FastAPI inference service. The individual Kubernetes deployment mini-project is documented separately from collaborative pipeline work.
 
-| What it covers | Technologies |
-|---|---|
-| Inference API and model workflow | Python · FastAPI · MLflow |
-| Input validation and tests | Pandera · pytest |
-| Packaging and automation | Docker · GitHub Actions · GHCR |
+**Stack:** Python · FastAPI · scikit-learn · Pandera · MLflow · pytest · Docker · GitHub Actions · GHCR · Kubernetes / kind
 
-The Kubernetes deployment mini-project was completed individually. The customer-churn pipeline was collaborative.
+[Explore repository →](https://github.com/erfantk25-lab/fastapi-docker-ml-serving)
 
-[Explore repository](https://github.com/erfantk25-lab/fastapi-docker-ml-serving) · [View CI workflow](https://github.com/erfantk25-lab/fastapi-docker-ml-serving/actions/workflows/ci.yml)
+</td>
+</tr>
+</table>
 
----
+<table>
+<tr>
+<td width="43%" valign="top">
+<a href="https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN"><img src="assets/project-taxi-ml.svg" alt="EF branded taxi fare prediction project banner" width="100%"/></a>
+</td>
+<td valign="top">
 
 ### 02 — Full-stack machine learning
 
-<div align="center">
-<img src="assets/project-taxi-ml.svg" width="100%" alt="Taxi fare prediction application with route map and prediction flow"/>
-</div>
-
 **[taxi-prediction-fullstack-ERFAN](https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN)**
 
-An individually developed taxi fare prediction application connecting a machine-learning model to an interactive interface.
+An individually developed taxi fare prediction application connecting a scikit-learn regression pipeline to a FastAPI service and Streamlit interface, with route data from OpenRouteService and a Folium map.
 
-- **Backend:** prediction API built with FastAPI
-- **Frontend:** Streamlit application
-- **Model:** scikit-learn regression pipeline
-- **Geospatial features:** OpenRouteService and Folium
+**Stack:** Python · FastAPI · Streamlit · scikit-learn · OpenRouteService · Folium · Joblib
 
-**Technologies:** Python · FastAPI · Streamlit · scikit-learn · OpenRouteService · Folium
+[Explore repository →](https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN)
 
-[Explore repository](https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN)
+</td>
+</tr>
+</table>
 
----
+<table>
+<tr>
+<td width="43%" valign="top">
+<a href="https://github.com/LeoLindqvist123/ci-cd-pipeline"><img src="assets/project-team-cicd.svg" alt="EF branded shared team CI/CD and MLOps project banner" width="100%"/></a>
+</td>
+<td valign="top">
 
 ### 03 — Team CI/CD & MLOps
 
-<div align="center">
-<img src="assets/project-team-cicd.svg" width="100%" alt="Team CI/CD pipeline showing source, quality gates, Docker build and model traceability"/>
-</div>
-
 **[ci-cd-pipeline](https://github.com/LeoLindqvist123/ci-cd-pipeline)**
 
-Team project focused on improving an ML delivery pipeline. I contributed through **five merged pull requests**.
+Shared team project improving a customer-churn ML delivery pipeline. My contribution includes five merged pull requests covering Ruff in CI, model lineage, Docker packaging, Buildx optimisation and statistical data-drift checks.
 
-- Ruff integration in CI
-- Model versioning and lineage
-- Docker packaging and smoke tests
-- Multi-stage Docker and Buildx optimisation
-- Statistical data-drift checks
+**Stack:** Python · GitHub Actions · Docker · pytest · MLflow · Pandera · GHCR
 
-[Explore team repository](https://github.com/LeoLindqvist123/ci-cd-pipeline) · [Read my contribution summary](https://github.com/erfantk25-lab/erfantk25-lab.github.io/blob/main/projects/ci-cd-pipeline-contributions.md)
+[Explore team repository →](https://github.com/LeoLindqvist123/ci-cd-pipeline) · [My contribution summary](https://github.com/erfantk25-lab/erfantk25-lab.github.io/blob/main/projects/ci-cd-pipeline-contributions.md)
+
+</td>
+</tr>
+</table>
 
 <div align="center">
 
@@ -140,9 +142,19 @@ Team project focused on improving an ML delivery pipeline. I contributed through
 
 </div>
 
+## 03 / Engineering workflow
+
+The diagram below is a **conceptual map of practices explored across separate portfolio projects**. It is not a claim that every stage runs in one production system.
+
+<div align="center">
+<img src="assets/mlops-workflow-overview.svg" width="100%" alt="Conceptual EF MLOps workflow from data quality and model training to serving, automation and packaging"/>
+</div>
+
 ---
 
-## 03 / Technical toolkit
+## 04 / Technical toolkit
+
+
 
 Grouped by the role each technology plays in an ML application lifecycle.
 
@@ -197,7 +209,7 @@ Grouped by the role each technology plays in an ML application lifecycle.
 
 ---
 
-## 04 / More explorations
+## 05 / More explorations
 
 - [**Smart Grow — edge/IoT monitoring**](https://github.com/erfantk25-lab/Edge-computing-project-) — team project using Raspberry Pi Pico W, MicroPython, sensors, MQTT, TimescaleDB, Docker Compose and Grafana.
 - [**MCP integration demo**](https://github.com/erfantk25-lab/nackademin-mcp-demo) — course demo exploring Model Context Protocol integration.
@@ -207,7 +219,7 @@ Grouped by the role each technology plays in an ML application lifecycle.
 
 ---
 
-## 05 / LIA · Spring 2027
+## 06 / LIA · Spring 2027
 
 <div align="center">
 
@@ -224,7 +236,7 @@ I'd be excited to contribute to a team working with:
 
 ---
 
-## 06 / Connect
+## 07 / Connect
 
 <div align="center">
 
