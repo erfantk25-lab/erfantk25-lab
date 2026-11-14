@@ -1,42 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
-<title id="title">ML serving and deployment project illustration</title><desc id="desc">A dark navy technical illustration showing a model API, data validation, container packaging and CI workflow.</desc>
+<title id="title">EF branded ML serving and deployment project banner</title><desc id="desc">Navy and cyan MLOps banner with a model serving pipeline and EF monogram.</desc>
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071426"/><stop offset="1" stop-color="#102c4b"/></linearGradient>
- <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#35d4e8"/><stop offset="1" stop-color="#3979ff"/></linearGradient>
- <filter id="shadow"><feGaussianBlur stdDeviation="22"/></filter>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020914"/><stop offset=".55" stop-color="#061a32"/><stop offset="1" stop-color="#092e50"/></linearGradient>
+ <linearGradient id="cyan"><stop stop-color="#087deb"/><stop offset="1" stop-color="#16e8f2"/></linearGradient>
+ <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#12609a" stroke-opacity=".2"/></pattern>
+ <filter id="glow"><feGaussianBlur stdDeviation="18"/></filter>
 </defs>
-<rect width="1200" height="430" rx="28" fill="url(#bg)"/>
-<circle cx="1040" cy="70" r="160" fill="#1689d8" opacity=".16" filter="url(#shadow)"/>
-<path d="M0 360 Q300 270 580 360 T1200 330 V430 H0Z" fill="#0b2038" opacity=".8"/>
-<text x="62" y="78" fill="#61dff0" font-family="Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="4">PROJECT 01 / MODEL DELIVERY</text>
-<text x="62" y="132" fill="#f2f8ff" font-family="Arial,sans-serif" font-size="39" font-weight="700">FastAPI · Docker · MLflow</text>
-<text x="62" y="169" fill="#9bb5cc" font-family="Arial,sans-serif" font-size="20">A practical path from validated input to model inference</text>
-<g transform="translate(62 222)">
- <rect width="230" height="122" rx="16" fill="#102b48" stroke="#285477"/>
- <rect x="20" y="19" width="42" height="42" rx="11" fill="#123d5a"/><path d="M31 40h20M41 30v20" stroke="#5ee4ee" stroke-width="3" stroke-linecap="round"/>
- <text x="78" y="43" fill="#e8f5ff" font-family="Arial,sans-serif" font-size="21" font-weight="700">API</text>
- <text x="20" y="91" fill="#9bb5cc" font-family="Arial,sans-serif" font-size="17">FastAPI inference</text>
-</g>
-<path d="M300 283h48m-12-9 12 9-12 9" stroke="#55dbe8" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-<g transform="translate(360 222)">
- <rect width="230" height="122" rx="16" fill="#102b48" stroke="#285477"/>
- <rect x="20" y="19" width="42" height="42" rx="11" fill="#123d5a"/><path d="M31 41l7 7 14-17" stroke="#5ee4ee" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
- <text x="78" y="43" fill="#e8f5ff" font-family="Arial,sans-serif" font-size="21" font-weight="700">Quality</text>
- <text x="20" y="91" fill="#9bb5cc" font-family="Arial,sans-serif" font-size="17">Pandera · pytest</text>
-</g>
-<path d="M598 283h48m-12-9 12 9-12 9" stroke="#55dbe8" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-<g transform="translate(658 222)">
- <rect width="230" height="122" rx="16" fill="#102b48" stroke="#285477"/>
- <rect x="20" y="19" width="42" height="42" rx="11" fill="#123d5a"/><path d="M31 34h20v15H31zM35 29h12" stroke="#5ee4ee" stroke-width="2.5" fill="none" stroke-linejoin="round"/>
- <text x="78" y="43" fill="#e8f5ff" font-family="Arial,sans-serif" font-size="21" font-weight="700">Package</text>
- <text x="20" y="91" fill="#9bb5cc" font-family="Arial,sans-serif" font-size="17">Docker · GHCR</text>
-</g>
-<path d="M896 283h48m-12-9 12 9-12 9" stroke="#55dbe8" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-<g transform="translate(956 222)">
- <rect width="182" height="122" rx="16" fill="#102b48" stroke="#285477"/>
- <rect x="20" y="19" width="42" height="42" rx="11" fill="#123d5a"/><path d="M31 42l7 7 14-18" stroke="#5ee4ee" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
- <text x="78" y="43" fill="#e8f5ff" font-family="Arial,sans-serif" font-size="21" font-weight="700">CI</text>
- <text x="20" y="91" fill="#9bb5cc" font-family="Arial,sans-serif" font-size="17">GitHub Actions</text>
-</g>
-<text x="62" y="392" fill="#6c8ca8" font-family="Arial,sans-serif" font-size="15" letter-spacing="2">ILLUSTRATIVE PROJECT OVERVIEW · NOT A LIVE SYSTEM DIAGRAM</text>
+<rect width="1200" height="430" rx="28" fill="url(#bg)"/><rect width="1200" height="430" rx="28" fill="url(#grid)"/>
+<circle cx="1025" cy="205" r="180" fill="#00bfe9" opacity=".10" filter="url(#glow)"/>
+<path d="M0 355 Q180 295 360 355 T720 350 T1200 335" fill="none" stroke="url(#cyan)" stroke-width="2" opacity=".65"/>
+<g fill="none" stroke="#0d70ad" stroke-width="2" opacity=".5"><path d="M710 45h80l25 25h65M740 90h55l28-28h65M730 320h70l22-22h90"/></g>
+<text x="62" y="76" fill="#17d9f0" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="5">EF  /  PROJECT 01</text>
+<text x="62" y="145" fill="#f5f9ff" font-family="Arial,sans-serif" font-size="48" font-weight="700">ML SERVING</text>
+<text x="62" y="202" fill="#f5f9ff" font-family="Arial,sans-serif" font-size="48" font-weight="700">&amp; DEPLOYMENT</text>
+<text x="64" y="247" fill="#a9c8e2" font-family="Arial,sans-serif" font-size="21">FastAPI  ·  Docker  ·  MLflow  ·  CI/CD</text>
+<g transform="translate(64 292)" font-family="Arial,sans-serif"><rect width="138" height="42" rx="21" fill="#0a2c4b" stroke="#087db5"/><text x="69" y="27" text-anchor="middle" font-size="15" fill="#c9f4ff">MODEL API</text><rect x="151" width="148" height="42" rx="21" fill="#0a2c4b" stroke="#087db5"/><text x="225" y="27" text-anchor="middle" font-size="15" fill="#c9f4ff">DATA QUALITY</text><rect x="312" width="125" height="42" rx="21" fill="#0a2c4b" stroke="#087db5"/><text x="374" y="27" text-anchor="middle" font-size="15" fill="#c9f4ff">DELIVERY</text></g>
+<g transform="translate(930 77)"><circle cx="100" cy="130" r="126" fill="#061b31" stroke="url(#cyan)" stroke-width="5"/><circle cx="100" cy="130" r="108" fill="none" stroke="#147db8" stroke-width="1.5" opacity=".7"/><path d="M47 79h102l-13 21H60l-13 0zM47 111h71l-13 21H60l-13 0zM47 143h102l-13 21H60l-13 0z" fill="#f4f8ff"/><path d="M113 111h47l-13 21h-47zM113 143h47l-13 21h-47z" fill="#14d8ef"/><text x="100" y="202" text-anchor="middle" fill="#c7eaff" font-family="Arial,sans-serif" font-size="13" letter-spacing="4">BUILD · DEPLOY</text></g>
+<text x="64" y="394" fill="#729cbd" font-family="Arial,sans-serif" font-size="14" letter-spacing="3">PROJECT OVERVIEW  /  EDUCATIONAL &amp; COLLABORATIVE WORK</text>
 </svg>
