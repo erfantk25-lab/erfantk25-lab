@@ -75,7 +75,7 @@ Three featured projects. Each banner is displayed at full profile width so the E
 
 ### 01 — ML serving & deployment
 
-<a href="https://github.com/erfantk25-lab/fastapi-docker-ml-serving"><img src="assets/project-ml-serving-v2.svg" alt="EF branded ML serving and deployment project banner" width="100%"/></a>
+<a href="https://github.com/erfantk25-lab/fastapi-docker-ml-serving"><img src="assets/project-ml-serving-v3.svg" alt="EF branded ML serving and deployment project banner" width="100%"/></a>
 
 **[fastapi-docker-ml-serving](https://github.com/erfantk25-lab/fastapi-docker-ml-serving)**
 
@@ -89,7 +89,7 @@ An educational MLOps project combining a customer-churn workflow, data checks, m
 
 ### 02 — Full-stack machine learning
 
-<a href="https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN"><img src="assets/project-taxi-ml-v2.svg" alt="EF branded taxi fare prediction project banner" width="100%"/></a>
+<a href="https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN"><img src="assets/project-taxi-ml-v3.svg" alt="EF branded taxi fare prediction project banner" width="100%"/></a>
 
 **[taxi-prediction-fullstack-ERFAN](https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN)**
 
@@ -103,7 +103,7 @@ An individually developed taxi fare prediction application connecting a scikit-l
 
 ### 03 — Team CI/CD & MLOps
 
-<a href="https://github.com/LeoLindqvist123/ci-cd-pipeline"><img src="assets/project-team-cicd-v2.svg" alt="EF branded shared team CI/CD and MLOps project banner" width="100%"/></a>
+<a href="https://github.com/LeoLindqvist123/ci-cd-pipeline"><img src="assets/project-team-cicd-v3.svg" alt="EF branded shared team CI/CD and MLOps project banner" width="100%"/></a>
 
 **[ci-cd-pipeline](https://github.com/LeoLindqvist123/ci-cd-pipeline)**
 
