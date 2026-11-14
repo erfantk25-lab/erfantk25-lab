@@ -38,7 +38,7 @@ Three projects that best represent the areas I am developing: ML serving and dep
 
 ### 01 · ML serving & deployment
 
-<a href="https://github.com/erfantk25-lab/fastapi-docker-ml-serving"><img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/main/assets/project-ml-serving-v3.svg" alt="ML serving and deployment project banner" width="100%"/></a>
+[![ML serving and deployment project banner](https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/2e0f241dc62bf7ad4c7289ccfa8a4d158c8c3032/assets/project-ml-serving-v3.svg)](https://github.com/erfantk25-lab/fastapi-docker-ml-serving)
 
 **[fastapi-docker-ml-serving](https://github.com/erfantk25-lab/fastapi-docker-ml-serving)** · *Educational project with an individual Kubernetes mini-project*
 
@@ -52,7 +52,7 @@ A customer-churn ML workflow combining data validation, model evaluation, artifa
 
 ### 02 · Full-stack machine learning
 
-<a href="https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN"><img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/main/assets/project-taxi-ml-v3.svg" alt="Taxi fare prediction project banner" width="100%"/></a>
+[![Taxi fare prediction project banner](https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/4727773abb5dbf7e7b184d40004102a70b83bee5/assets/project-taxi-ml-v3.svg)](https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN)
 
 **[taxi-prediction-fullstack-ERFAN](https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN)** · *Individual project*
 
@@ -66,7 +66,7 @@ A taxi fare prediction application connecting a scikit-learn regression pipeline
 
 ### 03 · Team CI/CD & MLOps
 
-<a href="https://github.com/LeoLindqvist123/ci-cd-pipeline"><img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/main/assets/project-team-cicd-v3.svg" alt="Team CI/CD and MLOps project banner" width="100%"/></a>
+[![Team CI/CD and MLOps project banner](https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/cbf10a6473d1f63da866592a0dbea632b8741e64/assets/project-team-cicd-v3.svg)](https://github.com/LeoLindqvist123/ci-cd-pipeline)
 
 **[ci-cd-pipeline](https://github.com/LeoLindqvist123/ci-cd-pipeline)** · *Shared team project*
 
