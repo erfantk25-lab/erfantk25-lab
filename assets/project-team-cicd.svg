@@ -1,12 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
-<title id="title">EF branded team CI/CD and MLOps project banner</title><desc id="desc">Navy and cyan CI/CD delivery workflow banner with quality checks, Docker packaging and EF monogram.</desc>
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020914"/><stop offset=".55" stop-color="#061a32"/><stop offset="1" stop-color="#092e50"/></linearGradient><linearGradient id="cyan"><stop stop-color="#087deb"/><stop offset="1" stop-color="#16e8f2"/></linearGradient><pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#12609a" stroke-opacity=".2"/></pattern></defs>
-<rect width="1200" height="430" rx="28" fill="url(#bg)"/><rect width="1200" height="430" rx="28" fill="url(#grid)"/>
-<text x="62" y="76" fill="#17d9f0" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="5">EF  /  PROJECT 03 · TEAM</text>
-<text x="62" y="145" fill="#f5f9ff" font-family="Arial,sans-serif" font-size="48" font-weight="700">CI/CD PIPELINE</text><text x="62" y="202" fill="#f5f9ff" font-family="Arial,sans-serif" font-size="48" font-weight="700">&amp; MLOPS PRACTICES</text>
-<text x="64" y="247" fill="#a9c8e2" font-family="Arial,sans-serif" font-size="21">GitHub Actions  ·  Docker  ·  Ruff  ·  Data drift</text>
-<g transform="translate(64 292)" font-family="Arial,sans-serif"><rect width="128" height="42" rx="21" fill="#0a2c4b" stroke="#087db5"/><text x="64" y="27" text-anchor="middle" font-size="15" fill="#c9f4ff">SOURCE</text><rect x="141" width="145" height="42" rx="21" fill="#0a2c4b" stroke="#087db5"/><text x="213" y="27" text-anchor="middle" font-size="15" fill="#c9f4ff">QUALITY GATES</text><rect x="299" width="132" height="42" rx="21" fill="#0a2c4b" stroke="#087db5"/><text x="365" y="27" text-anchor="middle" font-size="15" fill="#c9f4ff">DELIVERY</text></g>
-<g transform="translate(825 70)" fill="none" stroke="url(#cyan)" stroke-width="4"><rect x="0" y="0" width="260" height="235" rx="28" opacity=".75"/><path d="M40 60h180M40 115h180M40 170h180" stroke="#176a9e" stroke-width="2"/><rect x="38" y="38" width="52" height="44" rx="10" fill="#0a2d4a"/><path d="M50 60l10 10 18-22" stroke="#16e8f2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><rect x="105" y="93" width="52" height="44" rx="10" fill="#0a2d4a"/><path d="M117 115h28M131 101v28" stroke="#16e8f2" stroke-width="4" stroke-linecap="round"/><rect x="172" y="148" width="52" height="44" rx="10" fill="#0a2d4a"/><path d="M184 170h28M198 156v28" stroke="#16e8f2" stroke-width="4" stroke-linecap="round"/></g>
-<g transform="translate(1040 300)"><circle cx="52" cy="40" r="54" fill="#061b31" stroke="url(#cyan)" stroke-width="4"/><path d="M24 20h57l-8 14H32zM24 42h39l-8 14H32z" fill="#f4f8ff"/><path d="M60 42h24l-8 14H52z" fill="#14d8ef"/></g>
-<text x="64" y="394" fill="#729cbd" font-family="Arial,sans-serif" font-size="14" letter-spacing="3">5 MERGED PULL REQUESTS  /  SHARED TEAM PROJECT</text>
+<title id="title">EF branded CI/CD PIPELINE &amp; MLOPS PRACTICES project banner</title>
+<desc id="desc">A branded navy and cyan project banner using the same EF monogram, typography and color system as the main Erfan Tahmasebi MLOps banner.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020916"/><stop offset=".56" stop-color="#061d36"/><stop offset="1" stop-color="#082b49"/></linearGradient>
+ <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00dfff"/><stop offset="1" stop-color="#1389ff"/></linearGradient>
+ <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#8bcdf0" stroke-opacity=".09"/></pattern>
+ <radialGradient id="halo"><stop stop-color="#00cfff" stop-opacity=".20"/><stop offset="1" stop-color="#00cfff" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1200" height="430" rx="24" fill="url(#bg)"/><rect width="1200" height="430" rx="24" fill="url(#grid)"/>
+<circle cx="1015" cy="205" r="220" fill="url(#halo)"/>
+<path d="M0 376C190 320 310 430 500 378S820 350 1000 390S1120 405 1200 368" fill="none" stroke="url(#cyan)" stroke-width="2" opacity=".55"/>
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+ <text x="64" y="72" fill="#00dfff" font-size="17" font-weight="750" letter-spacing="4">EF  /  PROJECT 03 · TEAM</text>
+ <text x="62" y="144" fill="#f5f8ff" font-size="47" font-weight="750">CI/CD PIPELINE</text>
+ <text x="62" y="199" fill="#f5f8ff" font-size="47" font-weight="750">&amp; MLOPS PRACTICES</text>
+ <text x="64" y="246" fill="#c5dced" font-size="20">GitHub Actions · Docker · Ruff · Data drift</text>
+ <g><rect x="64" y="296" width="160" height="42" rx="21" fill="#041a2e" stroke="#087eae" stroke-width="1.5"/><text x="144" y="322" text-anchor="middle" fill="#c9f4ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">SOURCE</text><rect x="238" y="296" width="160" height="42" rx="21" fill="#041a2e" stroke="#087eae" stroke-width="1.5"/><text x="318" y="322" text-anchor="middle" fill="#c9f4ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">QUALITY GATES</text><rect x="412" y="296" width="160" height="42" rx="21" fill="#041a2e" stroke="#087eae" stroke-width="1.5"/><text x="492" y="322" text-anchor="middle" fill="#c9f4ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">DELIVERY</text></g>
+ <text x="64" y="393" fill="#729cbd" font-size="13" letter-spacing="2.5">SHARED TEAM PROJECT / FIVE MERGED PULL REQUESTS BY ERFAN</text>
+</g>
+<circle cx="1008" cy="208" r="153" fill="#061b31" stroke="url(#cyan)" stroke-width="4"/><circle cx="1008" cy="208" r="135" fill="none" stroke="#1389ff" stroke-width="1.2" opacity=".55"/>
+<g transform="translate(928 102) scale(.66) translate(-25 -120)">
+ <path d="M65 120H220L206 146H83L70 180H179L165 205H57L42 245H162L149 272H25L65 120Z" fill="#f5f9ff"/>
+ <path d="M174 120H240L229 146H211L167 272H133L177 146H157Z" fill="#09c8f4"/>
+</g>
+<text x="1008" y="347" text-anchor="middle" fill="#c5dced" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="3.5">ENGINEERED BY ERFAN</text>
 </svg>
