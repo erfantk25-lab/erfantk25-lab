@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="550" viewBox="0 0 1600 550" role="img" aria-labelledby="title desc">
+<title id="title">Erfan Tahmasebi — MLOps Engineer Student</title>
+<desc id="desc">Brand banner in Midnight Navy, Electric Cyan and Deep Blue. ET monogram, MLOps workflow, technology stack and LIA availability.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#071426"/>
+    <stop offset=".58" stop-color="#0A1D34"/>
+    <stop offset="1" stop-color="#102B49"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#42D9F5"/>
+    <stop offset="1" stop-color="#1769AA"/>
+  </linearGradient>
+  <radialGradient id="glow">
+    <stop offset="0" stop-color="#42D9F5" stop-opacity=".20"/>
+    <stop offset="1" stop-color="#42D9F5" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#8CA3B8" stroke-opacity=".10" stroke-width="1"/>
+  </pattern>
+  <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="7" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+
+<rect width="1600" height="550" rx="26" fill="url(#bg)"/>
+<rect width="1600" height="550" rx="26" fill="url(#grid)"/>
+<ellipse cx="1370" cy="245" rx="390" ry="310" fill="url(#glow)"/>
+<path d="M0 430C320 365 520 510 835 425S1325 355 1600 410" fill="none" stroke="#1769AA" stroke-opacity=".22" stroke-width="2"/>
+<path d="M0 448C320 383 520 528 835 443S1325 373 1600 428" fill="none" stroke="#42D9F5" stroke-opacity=".10" stroke-width="1"/>
+
+<!-- ET monogram -->
+<g transform="translate(66 123)">
+  <rect width="154" height="154" rx="25" fill="#0D2036" stroke="#42D9F5" stroke-opacity=".7" stroke-width="2"/>
+  <path d="M30 42H116L105 61H48L40 81H101L90 100H33L25 121H91L81 140H0L30 42Z" fill="#F2F7FC"/>
+  <path d="M91 42H139L132 61H119L91 140H67L96 61H82Z" fill="#42D9F5"/>
+  <circle cx="126" cy="27" r="5" fill="#36D399" filter="url(#softGlow)"/>
+</g>
+<path d="M255 112V306" stroke="url(#accent)" stroke-width="3"/>
+
+<!-- Name and positioning -->
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+  <text x="300" y="166" fill="#F2F7FC" font-size="62" font-weight="750" letter-spacing="-1.8">Erfan <tspan fill="#42D9F5">Tahmasebi</tspan></text>
+  <text x="304" y="216" fill="#8CA3B8" font-size="25" font-weight="600" letter-spacing="4">MLOPS ENGINEER STUDENT</text>
+  <rect x="304" y="244" width="570" height="3" rx="2" fill="url(#accent)"/>
+  <text x="304" y="291" fill="#F2F7FC" font-size="25" font-weight="500">Building reliable ML systems,</text>
+  <text x="304" y="325" fill="#F2F7FC" font-size="25" font-weight="500">from experimentation to <tspan fill="#42D9F5">production.</tspan></text>
+  <text x="304" y="370" fill="#42D9F5" font-size="17" font-weight="700" letter-spacing="3">BUILD. AUTOMATE. DEPLOY. IMPROVE.</text>
+</g>
+
+<!-- Workflow panel -->
+<g transform="translate(965 100)" font-family="Inter,Segoe UI,Arial,sans-serif">
+  <text x="0" y="0" fill="#8CA3B8" font-size="13" font-weight="700" letter-spacing="3">ENGINEERING WORKFLOW</text>
+  <path d="M18 86H545" stroke="#1769AA" stroke-width="2" stroke-dasharray="5 8"/>
+  <g>
+    <rect x="0" y="42" width="122" height="102" rx="15" fill="#0D2036" stroke="#42D9F5" stroke-opacity=".8" stroke-width="1.5"/>
+    <rect x="143" y="42" width="122" height="102" rx="15" fill="#0D2036" stroke="#42D9F5" stroke-opacity=".8" stroke-width="1.5"/>
+    <rect x="286" y="42" width="122" height="102" rx="15" fill="#0D2036" stroke="#42D9F5" stroke-opacity=".8" stroke-width="1.5"/>
+    <rect x="429" y="42" width="122" height="102" rx="15" fill="#0D2036" stroke="#36D399" stroke-opacity=".85" stroke-width="1.5"/>
+  </g>
+  <g fill="none" stroke="#42D9F5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="61" cy="75" rx="20" ry="8"/><path d="M41 75V104C41 115 81 115 81 104V75M41 89C41 100 81 100 81 89"/>
+    <path d="M178 95L194 73L210 95M194 73V115M178 115H210"/>
+    <rect x="317" y="70" width="60" height="43" rx="5"/><path d="M327 82L337 91L327 100M343 101H366"/>
+    <path d="M457 96L473 112L510 73"/><circle cx="486" cy="93" r="30"/>
+  </g>
+  <g fill="#F2F7FC" font-size="15" font-weight="600" text-anchor="middle">
+    <text x="61" y="132">DATA</text><text x="204" y="132">TRAIN</text><text x="347" y="132">DEPLOY</text><text x="490" y="132">MONITOR</text>
+  </g>
+  <g fill="#8CA3B8" font-size="12" text-anchor="middle">
+    <text x="61" y="168">Quality</text><text x="204" y="168">MLflow</text><text x="347" y="168">FastAPI</text><text x="490" y="168">Improve</text>
+  </g>
+  <path d="M0 198H551" stroke="#8CA3B8" stroke-opacity=".22"/>
+  <text x="0" y="228" fill="#8CA3B8" font-size="12" font-weight="700" letter-spacing="2">CORE TOOLKIT</text>
+  <g font-size="13" font-weight="600" text-anchor="middle">
+    <g fill="#0D2036" stroke="#1769AA"><rect x="0" y="246" width="83" height="34" rx="8"/><rect x="93" y="246" width="106" height="34" rx="8"/><rect x="209" y="246" width="88" height="34" rx="8"/><rect x="307" y="246" width="88" height="34" rx="8"/><rect x="405" y="246" width="78" height="34" rx="8"/><rect x="493" y="246" width="58" height="34" rx="8"/></g>
+    <g fill="#F2F7FC"><text x="41" y="268">Python</text><text x="146" y="268">scikit-learn</text><text x="253" y="268">MLflow</text><text x="351" y="268">FastAPI</text><text x="444" y="268">Docker</text><text x="522" y="268">SQL</text></g>
+    <g fill="#0D2036" stroke="#1769AA"><rect x="0" y="291" width="122" height="34" rx="8"/><rect x="132" y="291" width="133" height="34" rx="8"/><rect x="275" y="291" width="276" height="34" rx="8"/></g>
+    <g fill="#F2F7FC"><text x="61" y="313">Kubernetes</text><text x="198" y="313">GitHub Actions</text><text x="413" y="313">CI/CD · Automation</text></g>
+  </g>
+</g>
+
+<!-- LIA marker -->
+<g transform="translate(66 455)" font-family="Inter,Segoe UI,Arial,sans-serif">
+  <rect width="505" height="55" rx="12" fill="#0D2036" stroke="#36D399" stroke-opacity=".65"/>
+  <circle cx="25" cy="27" r="6" fill="#36D399" filter="url(#softGlow)"/>
+  <text x="45" y="23" fill="#36D399" font-size="12" font-weight="700" letter-spacing="2">AVAILABLE FOR LIA</text>
+  <text x="45" y="42" fill="#F2F7FC" font-size="14">8 February – 21 May 2027 · Sweden</text>
+</g>
+<text x="1540" y="507" text-anchor="end" fill="#8CA3B8" fill-opacity=".65" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="2">ERFANTK25-LAB</text>
+</svg>
