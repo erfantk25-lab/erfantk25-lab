@@ -1,20 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
-<title id="title">EF branded ML serving and deployment project banner</title><desc id="desc">Navy and cyan MLOps banner with a model serving pipeline and EF monogram.</desc>
+<title id="title">EF branded ML SERVING &amp; DEPLOYMENT project banner</title>
+<desc id="desc">A branded navy and cyan project banner using the same EF monogram, typography and color system as the main Erfan Tahmasebi MLOps banner.</desc>
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020914"/><stop offset=".55" stop-color="#061a32"/><stop offset="1" stop-color="#092e50"/></linearGradient>
- <linearGradient id="cyan"><stop stop-color="#087deb"/><stop offset="1" stop-color="#16e8f2"/></linearGradient>
- <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#12609a" stroke-opacity=".2"/></pattern>
- <filter id="glow"><feGaussianBlur stdDeviation="18"/></filter>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020916"/><stop offset=".56" stop-color="#061d36"/><stop offset="1" stop-color="#082b49"/></linearGradient>
+ <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00dfff"/><stop offset="1" stop-color="#1389ff"/></linearGradient>
+ <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#8bcdf0" stroke-opacity=".09"/></pattern>
+ <radialGradient id="halo"><stop stop-color="#00cfff" stop-opacity=".20"/><stop offset="1" stop-color="#00cfff" stop-opacity="0"/></radialGradient>
 </defs>
-<rect width="1200" height="430" rx="28" fill="url(#bg)"/><rect width="1200" height="430" rx="28" fill="url(#grid)"/>
-<circle cx="1025" cy="205" r="180" fill="#00bfe9" opacity=".10" filter="url(#glow)"/>
-<path d="M0 355 Q180 295 360 355 T720 350 T1200 335" fill="none" stroke="url(#cyan)" stroke-width="2" opacity=".65"/>
-<g fill="none" stroke="#0d70ad" stroke-width="2" opacity=".5"><path d="M710 45h80l25 25h65M740 90h55l28-28h65M730 320h70l22-22h90"/></g>
-<text x="62" y="76" fill="#17d9f0" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="5">EF  /  PROJECT 01</text>
-<text x="62" y="145" fill="#f5f9ff" font-family="Arial,sans-serif" font-size="48" font-weight="700">ML SERVING</text>
-<text x="62" y="202" fill="#f5f9ff" font-family="Arial,sans-serif" font-size="48" font-weight="700">&amp; DEPLOYMENT</text>
-<text x="64" y="247" fill="#a9c8e2" font-family="Arial,sans-serif" font-size="21">FastAPI  ·  Docker  ·  MLflow  ·  CI/CD</text>
-<g transform="translate(64 292)" font-family="Arial,sans-serif"><rect width="138" height="42" rx="21" fill="#0a2c4b" stroke="#087db5"/><text x="69" y="27" text-anchor="middle" font-size="15" fill="#c9f4ff">MODEL API</text><rect x="151" width="148" height="42" rx="21" fill="#0a2c4b" stroke="#087db5"/><text x="225" y="27" text-anchor="middle" font-size="15" fill="#c9f4ff">DATA QUALITY</text><rect x="312" width="125" height="42" rx="21" fill="#0a2c4b" stroke="#087db5"/><text x="374" y="27" text-anchor="middle" font-size="15" fill="#c9f4ff">DELIVERY</text></g>
-<g transform="translate(930 77)"><circle cx="100" cy="130" r="126" fill="#061b31" stroke="url(#cyan)" stroke-width="5"/><circle cx="100" cy="130" r="108" fill="none" stroke="#147db8" stroke-width="1.5" opacity=".7"/><path d="M47 79h102l-13 21H60l-13 0zM47 111h71l-13 21H60l-13 0zM47 143h102l-13 21H60l-13 0z" fill="#f4f8ff"/><path d="M113 111h47l-13 21h-47zM113 143h47l-13 21h-47z" fill="#14d8ef"/><text x="100" y="202" text-anchor="middle" fill="#c7eaff" font-family="Arial,sans-serif" font-size="13" letter-spacing="4">BUILD · DEPLOY</text></g>
-<text x="64" y="394" fill="#729cbd" font-family="Arial,sans-serif" font-size="14" letter-spacing="3">PROJECT OVERVIEW  /  EDUCATIONAL &amp; COLLABORATIVE WORK</text>
+<rect width="1200" height="430" rx="24" fill="url(#bg)"/><rect width="1200" height="430" rx="24" fill="url(#grid)"/>
+<circle cx="1015" cy="205" r="220" fill="url(#halo)"/>
+<path d="M0 376C190 320 310 430 500 378S820 350 1000 390S1120 405 1200 368" fill="none" stroke="url(#cyan)" stroke-width="2" opacity=".55"/>
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+ <text x="64" y="72" fill="#00dfff" font-size="17" font-weight="750" letter-spacing="4">EF  /  PROJECT 01</text>
+ <text x="62" y="144" fill="#f5f8ff" font-size="47" font-weight="750">ML SERVING</text>
+ <text x="62" y="199" fill="#f5f8ff" font-size="47" font-weight="750">&amp; DEPLOYMENT</text>
+ <text x="64" y="246" fill="#c5dced" font-size="20">FastAPI · Docker · MLflow · CI/CD</text>
+ <g><rect x="64" y="296" width="160" height="42" rx="21" fill="#041a2e" stroke="#087eae" stroke-width="1.5"/><text x="144" y="322" text-anchor="middle" fill="#c9f4ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">MODEL API</text><rect x="238" y="296" width="160" height="42" rx="21" fill="#041a2e" stroke="#087eae" stroke-width="1.5"/><text x="318" y="322" text-anchor="middle" fill="#c9f4ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">DATA QUALITY</text><rect x="412" y="296" width="160" height="42" rx="21" fill="#041a2e" stroke="#087eae" stroke-width="1.5"/><text x="492" y="322" text-anchor="middle" fill="#c9f4ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">DELIVERY</text></g>
+ <text x="64" y="393" fill="#729cbd" font-size="13" letter-spacing="2.5">EDUCATIONAL MLOPS WORK / INDIVIDUAL &amp; TEAM CONTRIBUTIONS ARE SEPARATED</text>
+</g>
+<circle cx="1008" cy="208" r="153" fill="#061b31" stroke="url(#cyan)" stroke-width="4"/><circle cx="1008" cy="208" r="135" fill="none" stroke="#1389ff" stroke-width="1.2" opacity=".55"/>
+<g transform="translate(928 102) scale(.66) translate(-25 -120)">
+ <path d="M65 120H220L206 146H83L70 180H179L165 205H57L42 245H162L149 272H25L65 120Z" fill="#f5f9ff"/>
+ <path d="M174 120H240L229 146H211L167 272H133L177 146H157Z" fill="#09c8f4"/>
+</g>
+<text x="1008" y="347" text-anchor="middle" fill="#c5dced" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="3.5">ENGINEERED BY ERFAN</text>
 </svg>
