@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="assets/erfan-tahmasebi-mlops-banner-v2.svg" alt="Erfan Tahmasebi — MLOps Engineer" width="100%" />
+<img src="assets/erfan-tahmasebi-github-banner.webp" alt="Erfan Tahmasebi — MLOps Engineer Student" width="100%" />
 
 <br/>
 
@@ -10,9 +10,7 @@
 
 ### MLOps Engineering Student · Python · Machine Learning Systems
 
-**I build ML applications and the engineering workflows that make them reliable.**
-
-Model serving · Data quality · CI/CD · Containers · Automation
+**I build reliable ML applications and the engineering workflows behind them — from data validation and model serving to automated delivery.**
 
 <br/>
 
@@ -24,33 +22,67 @@ Model serving · Data quality · CI/CD · Containers · Automation
 
 <img src="https://img.shields.io/badge/LIA-08_FEB_—_21_MAY_2027-123C59?style=for-the-badge&labelColor=071426" alt="LIA 8 February to 21 May 2027"/>
 
-</div>
-
-
----
-
-## Visual identity
-
-<div align="center">
-
-<img src="assets/erfan-profile-avatar.svg" alt="ET monogram avatar matching the GitHub banner" width="132" />
-
-**One identity · One visual system**
-
-<sub>ET monogram · Inter typography · deep navy · cyan-to-blue gradient · subtle grid and glow</sub>
+**Available for LIA · 8 February – 21 May 2027 · Sweden**
 
 </div>
 
-The profile and project graphics follow the same visual language as the main banner. The ET monogram uses the same custom letterform paths, while the project banners reuse the banner's navy gradient, cyan accent, typography and technical grid.
+---
 
-**Brand palette:** `#020916` · `#061D36` · `#082B49` · `#00DFFF` · `#1389FF` · `#F5F9FF`
+## Featured work
 
+Three projects that best represent the areas I am developing: ML serving and deployment, full-stack machine learning, and collaborative MLOps engineering.
+
+### 01 · ML serving & deployment
+
+<a href="https://github.com/erfantk25-lab/fastapi-docker-ml-serving"><img src="assets/project-ml-serving-v3.svg" alt="ML serving and deployment project banner" width="100%"/></a>
+
+**[fastapi-docker-ml-serving](https://github.com/erfantk25-lab/fastapi-docker-ml-serving)** · *Educational project with an individual Kubernetes mini-project*
+
+A customer-churn ML workflow combining data validation, model evaluation, artifact lineage, a FastAPI inference service and container packaging. The individual Kubernetes deployment exercise is documented separately from collaborative pipeline work.
+
+**Technologies:** Python · FastAPI · scikit-learn · Pandera · MLflow · pytest · Docker · GitHub Actions · GHCR · Kubernetes / kind
+
+[Repository, architecture and setup →](https://github.com/erfantk25-lab/fastapi-docker-ml-serving)
+
+---
+
+### 02 · Full-stack machine learning
+
+<a href="https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN"><img src="assets/project-taxi-ml-v3.svg" alt="Taxi fare prediction project banner" width="100%"/></a>
+
+**[taxi-prediction-fullstack-ERFAN](https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN)** · *Individual project*
+
+A taxi fare prediction application connecting a scikit-learn regression pipeline to a FastAPI service and Streamlit interface. OpenRouteService supplies route information and Folium displays the route.
+
+**Technologies:** Python · FastAPI · Streamlit · scikit-learn · OpenRouteService · Folium · Joblib
+
+[Repository, architecture and setup →](https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN)
+
+---
+
+### 03 · Team CI/CD & MLOps
+
+<a href="https://github.com/LeoLindqvist123/ci-cd-pipeline"><img src="assets/project-team-cicd-v3.svg" alt="Team CI/CD and MLOps project banner" width="100%"/></a>
+
+**[ci-cd-pipeline](https://github.com/LeoLindqvist123/ci-cd-pipeline)** · *Shared team project*
+
+A customer-churn ML delivery pipeline. My contribution includes **five merged pull requests** covering Ruff in CI, model lineage, Docker packaging, Buildx optimisation and statistical data-drift checks.
+
+**Technologies:** Python · GitHub Actions · Docker · pytest · MLflow · Pandera · GHCR
+
+[Team repository →](https://github.com/LeoLindqvist123/ci-cd-pipeline) · [My contribution summary →](https://github.com/erfantk25-lab/erfantk25-lab.github.io/blob/main/projects/ci-cd-pipeline-contributions.md)
+
+<div align="center">
+
+[**EXPLORE ALL REPOSITORIES →**](https://github.com/erfantk25-lab?tab=repositories)
+
+</div>
 
 ---
 
 <div align="center">
 
-[ABOUT](#about) &nbsp; · &nbsp; [FEATURED WORK](#featured-work) &nbsp; · &nbsp; [WORKFLOW](#engineering-workflow) &nbsp; · &nbsp; [TOOLKIT](#technical-toolkit) &nbsp; · &nbsp; [LIA](#lia--spring-2027) &nbsp; · &nbsp; [CONTACT](#connect)
+[ABOUT](#about) &nbsp; · &nbsp; [WORKFLOW](#engineering-workflow) &nbsp; · &nbsp; [TOOLKIT](#technical-toolkit) &nbsp; · &nbsp; [MORE EXPLORATIONS](#more-explorations) &nbsp; · &nbsp; [CONTACT](#connect)
 
 </div>
 
@@ -71,64 +103,12 @@ I enjoy building with Python and exploring the complete path from data validatio
 
 ---
 
-## Featured work
-
-Three projects that best represent the areas I am currently developing. Each project README contains its own setup instructions, architecture and technical details.
-
-### 01 · ML serving & deployment
-
-<a href="https://github.com/erfantk25-lab/fastapi-docker-ml-serving"><img src="assets/project-ml-serving-v3.svg" alt="EF branded ML serving and deployment project banner" width="100%"/></a>
-
-**[fastapi-docker-ml-serving](https://github.com/erfantk25-lab/fastapi-docker-ml-serving)** · *Educational project with individual Kubernetes mini-project*
-
-A customer-churn ML workflow combining data checks, model evaluation, artifact lineage, a FastAPI inference service and container packaging. The individual Kubernetes deployment exercise is documented separately from collaborative pipeline work.
-
-**Technologies:** Python · FastAPI · scikit-learn · Pandera · MLflow · pytest · Docker · GitHub Actions · GHCR · Kubernetes / kind
-
-[Repository, architecture and setup →](https://github.com/erfantk25-lab/fastapi-docker-ml-serving)
-
----
-
-### 02 · Full-stack machine learning
-
-<a href="https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN"><img src="assets/project-taxi-ml-v3.svg" alt="EF branded taxi fare prediction project banner" width="100%"/></a>
-
-**[taxi-prediction-fullstack-ERFAN](https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN)** · *Individual project*
-
-A taxi fare prediction application connecting a scikit-learn regression pipeline to a FastAPI service and Streamlit interface. OpenRouteService supplies route information and Folium displays the route.
-
-**Technologies:** Python · FastAPI · Streamlit · scikit-learn · OpenRouteService · Folium · Joblib
-
-[Repository, architecture and setup →](https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN)
-
----
-
-### 03 · Team CI/CD & MLOps
-
-<a href="https://github.com/LeoLindqvist123/ci-cd-pipeline"><img src="assets/project-team-cicd-v3.svg" alt="EF branded shared team CI/CD and MLOps project banner" width="100%"/></a>
-
-**[ci-cd-pipeline](https://github.com/LeoLindqvist123/ci-cd-pipeline)** · *Shared team project*
-
-A customer-churn ML delivery pipeline. My contribution includes **five merged pull requests** covering Ruff in CI, model lineage, Docker packaging, Buildx optimisation and statistical data-drift checks.
-
-**Technologies:** Python · GitHub Actions · Docker · pytest · MLflow · Pandera · GHCR
-
-[Team repository →](https://github.com/LeoLindqvist123/ci-cd-pipeline) · [My contribution summary →](https://github.com/erfantk25-lab/erfantk25-lab.github.io/blob/main/projects/ci-cd-pipeline-contributions.md)
-
-<div align="center">
-
-[**EXPLORE ALL REPOSITORIES →**](https://github.com/erfantk25-lab?tab=repositories)
-
-</div>
-
----
-
 ## Engineering workflow
 
 The diagram is a **conceptual map of practices explored across separate portfolio projects**. It does not imply that every stage runs in one production system.
 
 <div align="center">
-<img src="assets/mlops-workflow-overview.svg" width="100%" alt="Conceptual EF MLOps workflow from data quality and model training to serving, automation and packaging"/>
+<img src="assets/mlops-workflow-overview.svg" width="100%" alt="Conceptual MLOps workflow from data quality and model training to serving, automation and packaging"/>
 </div>
 
 ---
@@ -157,23 +137,6 @@ Grouped by the role each technology plays in an ML application lifecycle.
 - [**MCP integration demo**](https://github.com/erfantk25-lab/nackademin-mcp-demo) — course demo exploring Model Context Protocol integration.
 - [**LangChain demo**](https://github.com/erfantk25-lab/nackademin-langchain-demo) — course project exploring LangChain-based LLM application patterns.
 - [**More portfolio context**](https://erfantk25-lab.github.io/)
-
----
-
-## LIA · Spring 2027
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/AVAILABLE-08_FEB_2027-123C59?style=for-the-badge&labelColor=071426" alt="Available from 8 February 2027"/>
-<img src="https://img.shields.io/badge/UNTIL-21_MAY_2027-123C59?style=for-the-badge&labelColor=071426" alt="Until 21 May 2027"/>
-
-### Looking for an opportunity to grow as an MLOps Engineer
-
-I'd be excited to contribute to a team working with:
-
-**ML pipelines** · **Model serving** · **CI/CD** · **Data quality** · **Cloud & containers**
-
-</div>
 
 ---
 
