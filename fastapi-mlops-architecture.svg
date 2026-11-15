@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+<title id="title">Customer Churn MLOps architecture</title>
+<desc id="desc">Data validation and tests lead to model training, evaluation and regression gates, MLflow registration, Docker packaging and a FastAPI prediction service.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071426"/><stop offset="1" stop-color="#102B49"/></linearGradient>
+  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#42D9F5"/><stop offset="1" stop-color="#1769AA"/></linearGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#8CA3B8" stroke-opacity=".08"/></pattern>
+  <style>
+    .eyebrow{font:600 12px monospace;letter-spacing:2px;fill:#42D9F5}
+    .head{font:700 16px Arial,sans-serif;fill:#F2F7FC}
+    .sub{font:12px Arial,sans-serif;fill:#B8CADD}
+    .tiny{font:11px monospace;fill:#8CA3B8}
+    .node{fill:#0B1D32;stroke:#2A5577;stroke-width:1.5}
+    .arrow{fill:none;stroke:url(#cyan);stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+  </style>
+</defs>
+<rect width="1200" height="390" rx="18" fill="url(#bg)"/>
+<rect width="1200" height="390" rx="18" fill="url(#grid)"/>
+<text x="42" y="40" class="eyebrow">01 / CUSTOMER CHURN MLOPS · DELIVERY WORKFLOW</text>
+<text x="42" y="67" class="sub">Automated checks gate training, evaluation, registration and container packaging</text>
+
+<g transform="translate(36 100)">
+  <rect class="node" width="205" height="112" rx="12"/>
+  <rect x="0" y="0" width="205" height="4" rx="2" fill="#42D9F5"/>
+  <circle cx="22" cy="25" r="11" fill="#102B49" stroke="#42D9F5"/>
+  <text x="22" y="29" font-family="monospace" font-size="10" fill="#42D9F5" text-anchor="middle">01</text>
+  <text x="18" y="57" class="head">DATA + QUALITY</text>
+  <text x="18" y="80" class="sub">Pandera schema</text>
+  <text x="18" y="98" class="sub">Drift checks · Ruff · Pytest</text>
+  <path d="M208 56H234L244 56" class="arrow"/><path d="M237 49L245 56L237 63" class="arrow"/>
+</g>
+<g transform="translate(280 100)">
+  <rect class="node" width="205" height="112" rx="12"/>
+  <rect x="0" y="0" width="205" height="4" rx="2" fill="#42D9F5"/>
+  <circle cx="22" cy="25" r="11" fill="#102B49" stroke="#42D9F5"/>
+  <text x="22" y="29" font-family="monospace" font-size="10" fill="#42D9F5" text-anchor="middle">02</text>
+  <text x="18" y="57" class="head">TRAIN MODEL</text>
+  <text x="18" y="80" class="sub">scikit-learn pipeline</text>
+  <text x="18" y="98" class="sub">Model + metrics artifacts</text>
+  <path d="M208 56H234L244 56" class="arrow"/><path d="M237 49L245 56L237 63" class="arrow"/>
+</g>
+<g transform="translate(524 100)">
+  <rect class="node" width="205" height="112" rx="12"/>
+  <rect x="0" y="0" width="205" height="4" rx="2" fill="#42D9F5"/>
+  <circle cx="22" cy="25" r="11" fill="#102B49" stroke="#42D9F5"/>
+  <text x="22" y="29" font-family="monospace" font-size="10" fill="#42D9F5" text-anchor="middle">03</text>
+  <text x="18" y="57" class="head">EVALUATE</text>
+  <text x="18" y="80" class="sub">Metric quality gate</text>
+  <text x="18" y="98" class="sub">Regression comparison</text>
+  <path d="M208 56H234L244 56" class="arrow"/><path d="M237 49L245 56L237 63" class="arrow"/>
+</g>
+<g transform="translate(768 100)">
+  <rect class="node" width="170" height="112" rx="12"/>
+  <rect x="0" y="0" width="170" height="4" rx="2" fill="#42D9F5"/>
+  <circle cx="22" cy="25" r="11" fill="#102B49" stroke="#42D9F5"/>
+  <text x="22" y="29" font-family="monospace" font-size="10" fill="#42D9F5" text-anchor="middle">04</text>
+  <text x="18" y="57" class="head">REGISTER</text>
+  <text x="18" y="80" class="sub">MLflow tracking</text>
+  <text x="18" y="98" class="sub">Approved model</text>
+  <path d="M173 56H204L214 56" class="arrow"/><path d="M207 49L215 56L207 63" class="arrow"/>
+</g>
+<g transform="translate(982 100)">
+  <rect class="node" width="182" height="112" rx="12"/>
+  <rect x="0" y="0" width="182" height="4" rx="2" fill="#36D399"/>
+  <circle cx="22" cy="25" r="11" fill="#102B49" stroke="#36D399"/>
+  <text x="22" y="29" font-family="monospace" font-size="10" fill="#36D399" text-anchor="middle">05</text>
+  <text x="18" y="57" class="head">PACKAGE</text>
+  <text x="18" y="80" class="sub">Docker image</text>
+  <text x="18" y="98" class="sub">GHCR on main</text>
+</g>
+
+<path d="M42 246H1158" stroke="#42D9F5" stroke-opacity=".25"/>
+<text x="42" y="276" class="eyebrow">02 / INFERENCE WORKFLOW</text>
+<g transform="translate(42 296)">
+  <rect width="230" height="62" rx="10" fill="#102B49" stroke="#1769AA"/>
+  <text x="115" y="25" class="head" text-anchor="middle">POST /predict</text>
+  <text x="115" y="45" class="sub" text-anchor="middle">JSON request</text>
+  <path d="M233 31H265L275 31" class="arrow"/><path d="M268 24L276 31L268 38" class="arrow"/>
+</g>
+<g transform="translate(320 296)">
+  <rect width="230" height="62" rx="10" fill="#102B49" stroke="#1769AA"/>
+  <text x="115" y="25" class="head" text-anchor="middle">FastAPI service</text>
+  <text x="115" y="45" class="sub" text-anchor="middle">Health + inference</text>
+  <path d="M233 31H265L275 31" class="arrow"/><path d="M268 24L276 31L268 38" class="arrow"/>
+</g>
+<g transform="translate(598 296)">
+  <rect width="230" height="62" rx="10" fill="#102B49" stroke="#1769AA"/>
+  <text x="115" y="25" class="head" text-anchor="middle">model.joblib</text>
+  <text x="115" y="45" class="sub" text-anchor="middle">Integrity-checked artifact</text>
+  <path d="M233 31H265L275 31" class="arrow"/><path d="M268 24L276 31L268 38" class="arrow"/>
+</g>
+<g transform="translate(876 296)">
+  <rect width="282" height="62" rx="10" fill="#0D2B31" stroke="#36D399"/>
+  <text x="141" y="25" class="head" text-anchor="middle">Churn prediction</text>
+  <text x="141" y="45" class="sub" text-anchor="middle">Class + probability</text>
+</g>
+</svg>
