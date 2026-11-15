@@ -24,6 +24,8 @@ I enjoy taking a model beyond the experiment and making the surrounding system e
 
 ## Selected projects
 
+<p align="center"><img src="fastapi-ml-serving-banner.svg" alt="FastAPI Docker ML Serving project banner" width="100%"></p>
+
 ### 1. [FastAPI Docker ML Serving](https://github.com/erfantk25-lab/fastapi-docker-ml-serving)
 
 An individual project focused on packaging and serving a machine learning model through an API.
@@ -34,6 +36,8 @@ An individual project focused on packaging and serving a machine learning model 
 
 **Technologies:** Python, FastAPI, Docker, MLflow
 
+<p align="center"><img src="taxi-prediction-banner.svg" alt="Taxi Prediction Full Stack project banner" width="100%"></p>
+
 ### 2. [Taxi Prediction — Full Stack](https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN)
 
 An end-to-end prediction application combining a machine learning model with an API and a user-facing interface.
@@ -43,6 +47,8 @@ An end-to-end prediction application combining a machine learning model with an 
 - Geographic context using OpenRouteService and Folium
 
 **Technologies:** Python, scikit-learn, FastAPI, Streamlit, Folium
+
+<p align="center"><img src="edge-computing-banner.svg" alt="Edge Computing project banner" width="100%"></p>
 
 ### 3. [Edge Computing Project](https://github.com/erfantk25-lab/Edge-computing-project-)
 
