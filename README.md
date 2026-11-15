@@ -34,7 +34,17 @@ An individual project focused on packaging and serving a machine learning model 
 
 **Technologies:** Python, FastAPI, Docker, MLflow
 
-### 2. [CI/CD Pipeline for Machine Learning](https://github.com/erfantk25-lab/CI-CD-pipeline)
+### 2. [Taxi Prediction — Full Stack](https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN)
+
+An end-to-end prediction application combining a machine learning model with an API and a user-facing interface.
+
+- Scikit-learn model exposed through a FastAPI backend
+- Streamlit frontend for interacting with predictions
+- Geographic context using OpenRouteService and Folium
+
+**Technologies:** Python, scikit-learn, FastAPI, Streamlit, Folium
+
+### 3. [CI/CD Pipeline for Machine Learning](https://github.com/erfantk25-lab/CI-CD-pipeline)
 
 A team project exploring how CI/CD practices can make ML delivery more reliable. I contributed through merged pull requests covering:
 
@@ -46,16 +56,6 @@ A team project exploring how CI/CD practices can make ML delivery more reliable.
 **Technologies:** Python, GitHub Actions, Docker, GHCR, Ruff
 
 *This was collaborative work; the project outcomes reflect the team's combined effort.*
-
-### 3. [Taxi Prediction — Full Stack](https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN)
-
-An end-to-end prediction application combining a machine learning model with an API and a user-facing interface.
-
-- Scikit-learn model exposed through a FastAPI backend
-- Streamlit frontend for interacting with predictions
-- Geographic context using OpenRouteService and Folium
-
-**Technologies:** Python, scikit-learn, FastAPI, Streamlit, Folium
 
 ## Areas I'm developing
 
