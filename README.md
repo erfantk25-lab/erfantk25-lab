@@ -1,52 +1,78 @@
 <p align="center">
-  <img src="banner.png" alt="Erfan Tahmasebi - MLOps Engineering Student" width="100%">
+  <img src="banner.png" alt="Erfan Tahmasebi — MLOps Engineering Student" width="100%">
 </p>
 
-### 👨‍💻 About
+<h1 align="center">Erfan Tahmasebi</h1>
 
-I am an **MLOps Engineering Student** at **Nackademin**, passionate about building reliable machine learning systems, deploying scalable solutions, and working with modern technologies like Python, FastAPI, Docker and Kubernetes.
-
-- 🔭 **Current Focus**: Machine Learning Serving, Automated CI/CD Pipelines & Cloud Architecture
-- ⚙️ **Core Stack**: Python, Docker, Kubernetes, FastAPI, MLflow, GitHub Actions
-- 🎓 **Education**: MLOps Engineering at Nackademin, Stockholm, Sweden
-- 🌐 **Portfolio & Projects**: [github.com/erfantk25-lab](https://github.com/erfantk25-lab)
-- 📫 **Contact**: [erfan.tahmasebi@gmail.com](mailto:erfan.tahmasebi@gmail.com) • [LinkedIn](https://www.linkedin.com/in/erfan-tahmasbikondroodi/)
-
----
-
-### 🛠️ Tech Stack
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white" alt="MLflow" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+<p align="center">
+  <strong>MLOps Engineering Student · ML Systems · Model Serving · CI/CD</strong>
 </p>
 
----
+<p align="center">
+  Stockholm, Sweden ·
+  <a href="https://erfantk25-lab.github.io/">Portfolio</a> ·
+  <a href="https://www.linkedin.com/in/erfan-tahmasbikondroodi/">LinkedIn</a>
+</p>
 
-### 📌 Pinned Repositories Overview
+## Profile
 
-| Repository | Description | Tech Stack |
-| :--- | :--- | :---: |
-| 🚕 **[taxi-prediction-fullstack-ERFAN](https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN)** | Taxi fare prediction with ML, FastAPI and Streamlit | Python, FastAPI, Streamlit |
-| 🐳 **[fastapi-docker-ml-serving](https://github.com/erfantk25-lab/fastapi-docker-ml-serving)** | ML model serving with FastAPI, Docker and CI/CD | Python, FastAPI, Docker |
-| 🔄 **[ci-cd-pipeline](https://github.com/erfantk25-lab/CI-CD-pipeline)** | CI/CD pipeline for machine learning projects | Python, GitHub Actions |
-| 🌐 **[Edge-computing-project-](https://github.com/erfantk25-lab/Edge-computing-project-)** | Edge AI and IoT project | Python, Edge AI, IoT |
-| 📦 **[nackademin-mcp-demo](https://github.com/erfantk25-lab/nackademin-mcp-demo)** | MCP demo with Python | Python, MCP Protocol |
-| 🔗 **[nackademin-langchain-demo](https://github.com/erfantk25-lab/nackademin-langchain-demo)** | LangChain demo application | Python, LangChain |
+I'm studying **MLOps Engineering at Nackademin** and building practical machine learning systems through individual and team projects. My focus is on the engineering around ML: validating data, serving models, packaging applications, and automating delivery workflows.
 
----
+I enjoy taking a model beyond the experiment and making the surrounding system easier to run, test, and maintain. My experience so far is primarily project-based.
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=erfantk25-lab&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Erfans GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=erfantk25-lab&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165" />
-</div>
+**Current focus:** Python · FastAPI · Docker · MLflow · GitHub Actions · Kubernetes fundamentals
 
-<br>
+## Selected projects
 
-<div align="center">
-  <sub>Build • Deploy • Scale | © 2026 Erfan Tahmasebi</sub>
-</div>
+### 1. [FastAPI Docker ML Serving](https://github.com/erfantk25-lab/fastapi-docker-ml-serving)
+
+An individual project focused on packaging and serving a machine learning model through an API.
+
+- FastAPI-based model-serving workflow
+- Containerization with Docker
+- Input validation and model-serving practices
+
+**Technologies:** Python, FastAPI, Docker, MLflow
+
+### 2. [CI/CD Pipeline for Machine Learning](https://github.com/erfantk25-lab/CI-CD-pipeline)
+
+A team project exploring how CI/CD practices can make ML delivery more reliable. I contributed through merged pull requests covering:
+
+- Statistical data-drift checks and delivery verification
+- Multi-stage Docker builds, layer caching, and smoke tests
+- Container publishing to GHCR
+- Model metadata / lineage and Ruff checks in CI
+
+**Technologies:** Python, GitHub Actions, Docker, GHCR, Ruff
+
+*This was collaborative work; the project outcomes reflect the team's combined effort.*
+
+### 3. [Taxi Prediction — Full Stack](https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN)
+
+An end-to-end prediction application combining a machine learning model with an API and a user-facing interface.
+
+- Scikit-learn model exposed through a FastAPI backend
+- Streamlit frontend for interacting with predictions
+- Geographic context using OpenRouteService and Folium
+
+**Technologies:** Python, scikit-learn, FastAPI, Streamlit, Folium
+
+## Areas I'm developing
+
+- **ML engineering:** model serving, validation, experiment workflows
+- **Platform & delivery:** Docker, CI/CD, GitHub Actions, container registries
+- **Operations fundamentals:** Kubernetes, testing, monitoring concepts
+
+## LIA 1 — Spring 2027
+
+I'm looking for an **LIA 1 placement in MLOps, ML Engineering, or a closely related field**, starting **8 February 2027**. I'm based in Stockholm and interested in on-site or hybrid opportunities.
+
+## Contact
+
+- **Email:** [erfan.tahmasebi@gmail.com](mailto:erfan.tahmasebi@gmail.com)
+- **LinkedIn:** [linkedin.com/in/erfan-tahmasbikondroodi](https://www.linkedin.com/in/erfan-tahmasbikondroodi/)
+- **Portfolio:** [erfantk25-lab.github.io](https://erfantk25-lab.github.io/)
+
+<p align="center">
+  <sub>Build · Validate · Deploy · Improve</sub>
+</p>
