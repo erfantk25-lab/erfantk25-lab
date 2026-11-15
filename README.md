@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="banner.svg" alt="Erfan Tahmasebi — MLOps Engineering" width="100%">
+  <img src="banner.svg" alt="Erfan Tahmasebi — Elite Midnight navy and cyan MLOps banner" width="100%">
+</p>
+
+<p align="center">
+  <img src="elite-midnight-profile-panel.svg" alt="Elite Midnight profile panel" width="100%">
 </p>
 
 <h1 align="center">Erfan Tahmasebi</h1>
@@ -36,6 +40,10 @@ I enjoy connecting model development with practical software engineering: data v
 | **Data & reliability** | Schema validation, drift checks, tests and monitoring |
 | **Edge & connected systems** | Device telemetry, MQTT pipelines and observability |
 
+<p align="center">
+  <img src="elite-midnight-toolkit-panel.svg" alt="Elite Midnight technical toolkit panel" width="100%">
+</p>
+
 ## Technical toolkit
 
 <p align="center">
@@ -50,6 +58,10 @@ I enjoy connecting model development with practical software engineering: data v
 </p>
 
 ---
+
+<p align="center">
+  <img src="elite-midnight-work-panel.svg" alt="Elite Midnight selected work panel" width="100%">
+</p>
 
 ## Selected work
 
@@ -108,11 +120,11 @@ An individual application that combines a regression model, a prediction API and
 - **Quality:** GitHub Actions trains the model and runs API tests.
 
 <p>
-  <img src="https://img.shields.io/badge/Python-071426?style=flat-square&logo=python&logoColor=F4C76B" alt="Python">
-  <img src="https://img.shields.io/badge/scikit--learn-071426?style=flat-square&logo=scikitlearn&logoColor=F4C76B" alt="scikit-learn">
-  <img src="https://img.shields.io/badge/FastAPI-071426?style=flat-square&logo=fastapi&logoColor=F4C76B" alt="FastAPI">
-  <img src="https://img.shields.io/badge/Streamlit-071426?style=flat-square&logo=streamlit&logoColor=F4C76B" alt="Streamlit">
-  <img src="https://img.shields.io/badge/Folium-071426?style=flat-square&logo=python&logoColor=F4C76B" alt="Folium">
+  <img src="https://img.shields.io/badge/Python-071426?style=flat-square&logo=python&logoColor=42D9F5" alt="Python">
+  <img src="https://img.shields.io/badge/scikit--learn-071426?style=flat-square&logo=scikitlearn&logoColor=42D9F5" alt="scikit-learn">
+  <img src="https://img.shields.io/badge/FastAPI-071426?style=flat-square&logo=fastapi&logoColor=42D9F5" alt="FastAPI">
+  <img src="https://img.shields.io/badge/Streamlit-071426?style=flat-square&logo=streamlit&logoColor=42D9F5" alt="Streamlit">
+  <img src="https://img.shields.io/badge/Folium-071426?style=flat-square&logo=python&logoColor=42D9F5" alt="Folium">
 </p>
 
 <details>
@@ -145,11 +157,11 @@ A collaborative edge-IoT project using a Raspberry Pi Pico W to monitor environm
 - **Simulation:** a Wokwi digital twin complements the physical setup.
 
 <p>
-  <img src="https://img.shields.io/badge/EDGE-Computing-071426?style=flat-square&logo=cloudflare&logoColor=63D6B0" alt="Edge Computing">
-  <img src="https://img.shields.io/badge/Raspberry_Pi-Pico_W-071426?style=flat-square&logo=raspberrypi&logoColor=63D6B0" alt="Raspberry Pi Pico W">
-  <img src="https://img.shields.io/badge/MQTT-Mosquitto-071426?style=flat-square&logo=eclipsemosquitto&logoColor=63D6B0" alt="MQTT Mosquitto">
-  <img src="https://img.shields.io/badge/TimescaleDB-071426?style=flat-square&logo=postgresql&logoColor=63D6B0" alt="TimescaleDB">
-  <img src="https://img.shields.io/badge/Grafana-071426?style=flat-square&logo=grafana&logoColor=63D6B0" alt="Grafana">
+  <img src="https://img.shields.io/badge/EDGE-Computing-071426?style=flat-square&logo=cloudflare&logoColor=42D9F5" alt="Edge Computing">
+  <img src="https://img.shields.io/badge/Raspberry_Pi-Pico_W-071426?style=flat-square&logo=raspberrypi&logoColor=42D9F5" alt="Raspberry Pi Pico W">
+  <img src="https://img.shields.io/badge/MQTT-Mosquitto-071426?style=flat-square&logo=eclipsemosquitto&logoColor=42D9F5" alt="MQTT Mosquitto">
+  <img src="https://img.shields.io/badge/TimescaleDB-071426?style=flat-square&logo=postgresql&logoColor=42D9F5" alt="TimescaleDB">
+  <img src="https://img.shields.io/badge/Grafana-071426?style=flat-square&logo=grafana&logoColor=42D9F5" alt="Grafana">
 </p>
 
 <details>
@@ -165,6 +177,10 @@ A collaborative edge-IoT project using a Raspberry Pi Pico W to monitor environm
 
 ---
 
+<p align="center">
+  <img src="elite-midnight-lia-panel.svg" alt="Elite Midnight LIA internship panel" width="100%">
+</p>
+
 ## LIA 1 · Internship
 
 <p align="center">
@@ -176,6 +192,10 @@ I'm looking for an **LIA 1 placement** starting **8 February 2027**, preferably 
 Based in Stockholm and open to on-site or hybrid opportunities. I'm eager to contribute to a team, learn from experienced engineers and help build reliable machine learning systems.
 
 ---
+
+<p align="center">
+  <img src="elite-midnight-profile-panel.svg" alt="Elite Midnight contact section visual" width="100%">
+</p>
 
 ## Let's connect
 
