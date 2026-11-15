@@ -5,7 +5,7 @@
 <path d="M0 248H1200" stroke="#42D9F5" stroke-opacity=".55"/>
 <rect x="54" y="48" width="5" height="25" rx="2" fill="#42D9F5"/>
 <text x="76" y="67" fill="#42D9F5" font-family="monospace" font-size="13" letter-spacing="3">SELECTED PROJECT / ERFAN TAHMASEBI</text>
-<text x="54" y="132" fill="#F2F7FC" font-family="Arial,sans-serif" font-size="39" font-weight="700">EDGE COMPUTING · CONNECTED SYSTEMS</text>
+<text x="54" y="132" fill="#F2F7FC" font-family="Arial,sans-serif" font-size="30" font-weight="700">EDGE COMPUTING · CONNECTED SYSTEMS</text>
 <text x="56" y="169" fill="#B8CADD" font-family="Arial,sans-serif" font-size="18">Bringing compute closer to devices, data sources and real-world environments</text>
 <g transform="translate(720 35)"><rect x="5" y="18" width="440" height="170" rx="15" fill="#050F1E" stroke="#42D9F5" stroke-opacity=".45"/>
   <g stroke="#42D9F5" stroke-width="2" fill="none"><path d="M220 102L90 55M220 102L90 151M220 102L350 55M220 102L350 151M90 55L90 151M350 55L350 151"/></g>
