@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="154" viewBox="0 0 1200 154" role="img" aria-labelledby="t d">
+<title id="t">Technical toolkit — Elite Midnight</title>
+<desc id="d">Navy and cyan technology panel for Python, FastAPI, Docker, CI/CD, MLflow and observability tooling.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#050F1E"/><stop offset="1" stop-color="#0A1D33"/></linearGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#8CA3B8" stroke-opacity=".08"/></pattern>
+  <style>.eyebrow{font:600 11px monospace;letter-spacing:3px;fill:#42D9F5}.name{font:600 12px monospace;letter-spacing:.7px;fill:#F2F7FC}</style>
+</defs>
+<rect width="1200" height="154" rx="18" fill="url(#bg)"/><rect width="1200" height="154" rx="18" fill="url(#grid)"/>
+<rect x="1" y="1" width="1198" height="152" rx="17" fill="none" stroke="#2A5577" stroke-opacity=".65"/>
+<text x="38" y="38" class="eyebrow">TECHNICAL TOOLKIT / BUILD · SHIP · OPERATE</text>
+<g transform="translate(38 61)">
+  <g fill="#0B1D32" stroke="#2A5577">
+    <rect width="165" height="54" rx="9"/><rect x="181" width="165" height="54" rx="9"/><rect x="362" width="165" height="54" rx="9"/><rect x="543" width="165" height="54" rx="9"/><rect x="724" width="165" height="54" rx="9"/><rect x="905" width="219" height="54" rx="9"/>
+  </g>
+  <g class="name" text-anchor="middle">
+    <text x="82" y="32">PYTHON</text><text x="263" y="32">FASTAPI</text><text x="444" y="32">DOCKER</text><text x="625" y="32">CI / CD</text><text x="806" y="32">MLFLOW</text><text x="1014" y="32">LINUX · K8S · GRAFANA</text>
+  </g>
+  <g fill="#42D9F5"><rect x="0" y="0" width="165" height="3" rx="1.5"/><rect x="181" y="0" width="165" height="3" rx="1.5"/><rect x="362" y="0" width="165" height="3" rx="1.5"/><rect x="543" y="0" width="165" height="3" rx="1.5"/><rect x="724" y="0" width="165" height="3" rx="1.5"/><rect x="905" y="0" width="219" height="3" rx="1.5"/></g>
+</g>
+</svg>
