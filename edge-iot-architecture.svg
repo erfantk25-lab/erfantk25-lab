@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+<title id="title">Smart Grow Edge IoT architecture</title>
+<desc id="desc">A Raspberry Pi Pico W reads temperature, humidity and light sensors, checks thresholds locally and triggers local alarms, then sends MQTT telemetry through Mosquitto to a Python consumer, TimescaleDB and Grafana, with Discord alerts.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071426"/><stop offset="1" stop-color="#102B49"/></linearGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#8CA3B8" stroke-opacity=".08"/></pattern>
+  <style>
+    .eyebrow{font:600 12px monospace;letter-spacing:2px;fill:#63D6B0}
+    .head{font:700 16px Arial,sans-serif;fill:#F2F7FC}
+    .sub{font:12px Arial,sans-serif;fill:#B8CADD}
+    .tiny{font:11px monospace;fill:#8CA3B8}
+    .node{fill:#0B1D32;stroke:#327D70;stroke-width:1.5}
+    .arrow{fill:none;stroke:#63D6B0;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+  </style>
+</defs>
+<rect width="1200" height="380" rx="18" fill="url(#bg)"/><rect width="1200" height="380" rx="18" fill="url(#grid)"/>
+<text x="42" y="42" class="eyebrow">03 / πCO SMART GROW · EDGE IOT TELEMETRY</text>
+<text x="42" y="68" class="sub">Local threshold decisions continue on the device while telemetry flows to the monitoring stack</text>
+
+<g transform="translate(38 108)">
+  <rect class="node" width="188" height="120" rx="12"/><rect width="188" height="4" rx="2" fill="#63D6B0"/>
+  <text x="16" y="35" class="head">PICO W</text>
+  <text x="16" y="60" class="sub">DHT11 · APDS-9999</text>
+  <text x="16" y="81" class="sub">Temperature · humidity</text>
+  <text x="16" y="102" class="sub">Light sensor readings</text>
+  <path d="M191 60H222L234 60" class="arrow"/><path d="M227 53L235 60L227 67" class="arrow"/>
+</g>
+<g transform="translate(276 108)">
+  <rect class="node" width="188" height="120" rx="12"/><rect width="188" height="4" rx="2" fill="#63D6B0"/>
+  <text x="16" y="35" class="head">EDGE LOGIC</text>
+  <text x="16" y="60" class="sub">Local threshold checks</text>
+  <text x="16" y="81" class="sub">Wi-Fi · JSON / MQTT</text>
+  <text x="16" y="102" class="sub">On-device decisions</text>
+  <path d="M191 60H222L234 60" class="arrow"/><path d="M227 53L235 60L227 67" class="arrow"/>
+</g>
+<g transform="translate(514 108)">
+  <rect class="node" width="174" height="120" rx="12"/><rect width="174" height="4" rx="2" fill="#63D6B0"/>
+  <text x="16" y="35" class="head">MOSQUITTO</text>
+  <text x="16" y="60" class="sub">MQTT broker</text>
+  <text x="16" y="81" class="sub">Telemetry ingestion</text>
+  <text x="16" y="102" class="sub">QoS 1</text>
+  <path d="M177 60H209L221 60" class="arrow"/><path d="M214 53L222 60L214 67" class="arrow"/>
+</g>
+<g transform="translate(744 108)">
+  <rect class="node" width="174" height="120" rx="12"/><rect width="174" height="4" rx="2" fill="#63D6B0"/>
+  <text x="16" y="35" class="head">PYTHON</text>
+  <text x="16" y="60" class="sub">MQTT consumer</text>
+  <text x="16" y="81" class="sub">DB ingestion</text>
+  <text x="16" y="102" class="sub">Discord webhook</text>
+  <path d="M177 60H209L221 60" class="arrow"/><path d="M214 53L222 60L214 67" class="arrow"/>
+</g>
+<g transform="translate(974 108)">
+  <rect class="node" width="188" height="120" rx="12"/><rect width="188" height="4" rx="2" fill="#63D6B0"/>
+  <text x="16" y="35" class="head">TIMESCALEDB</text>
+  <text x="16" y="60" class="sub">Time-series storage</text>
+  <text x="16" y="81" class="sub">sensor_readings</text>
+  <text x="16" y="102" class="sub">Persistent telemetry</text>
+</g>
+
+<path d="M370 228V272H150V294" fill="none" stroke="#63D6B0" stroke-width="2.5" stroke-dasharray="6 6"/>
+<path d="M370 272H374V294" fill="none" stroke="#63D6B0" stroke-width="2.5" stroke-dasharray="6 6"/>
+<g transform="translate(38 294)">
+  <rect width="224" height="58" rx="10" fill="#102B36" stroke="#63D6B0"/>
+  <text x="112" y="24" class="head" text-anchor="middle">LOCAL ALERTS</text>
+  <text x="112" y="43" class="sub" text-anchor="middle">Buzzer · LED · LCD</text>
+</g>
+<g transform="translate(286 294)">
+  <rect width="176" height="58" rx="10" fill="#102B36" stroke="#63D6B0"/>
+  <text x="88" y="24" class="head" text-anchor="middle">DEVICE ACTION</text>
+  <text x="88" y="43" class="sub" text-anchor="middle">Threshold response</text>
+</g>
+<path d="M1068 228V270H934V294" fill="none" stroke="#63D6B0" stroke-width="2.5"/>
+<g transform="translate(720 294)">
+  <rect width="210" height="58" rx="10" fill="#102B36" stroke="#63D6B0"/>
+  <text x="105" y="24" class="head" text-anchor="middle">GRAFANA</text>
+  <text x="105" y="43" class="sub" text-anchor="middle">Dashboards · monitoring</text>
+</g>
+<path d="M832 228V268H1042V294" fill="none" stroke="#63D6B0" stroke-width="2" stroke-dasharray="5 5"/>
+<g transform="translate(968 294)">
+  <rect width="194" height="58" rx="10" fill="#102B36" stroke="#63D6B0"/>
+  <text x="97" y="24" class="head" text-anchor="middle">DISCORD ALERTS</text>
+  <text x="97" y="43" class="sub" text-anchor="middle">Webhook notifications</text>
+</g>
+</svg>
