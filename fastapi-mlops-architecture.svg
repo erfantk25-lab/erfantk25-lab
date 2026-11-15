@@ -2,7 +2,7 @@
 <title id="title">Customer Churn MLOps architecture</title>
 <desc id="desc">Data validation and tests lead to model training, evaluation and regression gates, MLflow registration, Docker packaging and a FastAPI prediction service.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071426"/><stop offset="1" stop-color="#102B49"/></linearGradient>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050F1E"/><stop offset="1" stop-color="#102B49"/></linearGradient>
   <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#42D9F5"/><stop offset="1" stop-color="#1769AA"/></linearGradient>
   <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#8CA3B8" stroke-opacity=".08"/></pattern>
   <style>
@@ -61,9 +61,9 @@
 </g>
 <g transform="translate(982 100)">
   <rect class="node" width="182" height="112" rx="12"/>
-  <rect x="0" y="0" width="182" height="4" rx="2" fill="#36D399"/>
-  <circle cx="22" cy="25" r="11" fill="#102B49" stroke="#36D399"/>
-  <text x="22" y="29" font-family="monospace" font-size="10" fill="#36D399" text-anchor="middle">05</text>
+  <rect x="0" y="0" width="182" height="4" rx="2" fill="#42D9F5"/>
+  <circle cx="22" cy="25" r="11" fill="#102B49" stroke="#42D9F5"/>
+  <text x="22" y="29" font-family="monospace" font-size="10" fill="#42D9F5" text-anchor="middle">05</text>
   <text x="18" y="57" class="head">PACKAGE</text>
   <text x="18" y="80" class="sub">Docker image</text>
   <text x="18" y="98" class="sub">GHCR on main</text>
@@ -90,7 +90,7 @@
   <path d="M233 31H265L275 31" class="arrow"/><path d="M268 24L276 31L268 38" class="arrow"/>
 </g>
 <g transform="translate(876 296)">
-  <rect width="282" height="62" rx="10" fill="#0D2B31" stroke="#36D399"/>
+  <rect width="282" height="62" rx="10" fill="#0B1D32" stroke="#42D9F5"/>
   <text x="141" y="25" class="head" text-anchor="middle">Churn prediction</text>
   <text x="141" y="45" class="sub" text-anchor="middle">Class + probability</text>
 </g>
