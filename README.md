@@ -44,18 +44,11 @@ An end-to-end prediction application combining a machine learning model with an 
 
 **Technologies:** Python, scikit-learn, FastAPI, Streamlit, Folium
 
-### 3. [CI/CD Pipeline for Machine Learning](https://github.com/erfantk25-lab/CI-CD-pipeline)
+### 3. [Edge Computing Project](https://github.com/erfantk25-lab/Edge-computing-project-)
 
-A team project exploring how CI/CD practices can make ML delivery more reliable. I contributed through merged pull requests covering:
+A project exploring edge computing concepts and their practical implementation.
 
-- Statistical data-drift checks and delivery verification
-- Multi-stage Docker builds, layer caching, and smoke tests
-- Container publishing to GHCR
-- Model metadata / lineage and Ruff checks in CI
-
-**Technologies:** Python, GitHub Actions, Docker, GHCR, Ruff
-
-*This was collaborative work; the project outcomes reflect the team's combined effort.*
+**Repository:** [Edge-computing-project-](https://github.com/erfantk25-lab/Edge-computing-project-)
 
 ## Areas I'm developing
 
