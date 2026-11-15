@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.png" alt="Erfan Tahmasebi — MLOps Engineering Student" width="100%">
+  <img src="banner.svg" alt="Erfan Tahmasebi — MLOps Engineering Student" width="100%">
 </p>
 
 <h1 align="center">Erfan Tahmasebi</h1>
