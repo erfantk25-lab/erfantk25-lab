@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="t d">
+<title id="t">FASTAPI · DOCKER · ML SERVING</title><desc id="d">Packaging and serving machine learning models through a clean API</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071426"/><stop offset="1" stop-color="#102B49"/></linearGradient><linearGradient id="a" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#42D9F5"/><stop offset="1" stop-color="#1769AA"/></linearGradient><pattern id="g" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#8CA3B8" stroke-opacity=".10"/></pattern></defs>
+<rect width="1200" height="260" rx="16" fill="url(#bg)"/><rect width="1200" height="260" rx="16" fill="url(#g)"/>
+<path d="M0 248H1200" stroke="#42D9F5" stroke-opacity=".55"/>
+<rect x="54" y="48" width="5" height="25" rx="2" fill="#42D9F5"/>
+<text x="76" y="67" fill="#42D9F5" font-family="monospace" font-size="13" letter-spacing="3">SELECTED PROJECT / ERFAN TAHMASEBI</text>
+<text x="54" y="132" fill="#F2F7FC" font-family="Arial,sans-serif" font-size="39" font-weight="700">FASTAPI · DOCKER · ML SERVING</text>
+<text x="56" y="169" fill="#B8CADD" font-family="Arial,sans-serif" font-size="18">Packaging and serving machine learning models through a clean API</text>
+<g transform="translate(720 35)"><rect x="5" y="18" width="440" height="170" rx="15" fill="#071426" stroke="#42D9F5" stroke-opacity=".45"/>
+  <g fill="#102B49" stroke="#42D9F5" stroke-width="2"><rect x="28" y="65" width="105" height="75" rx="9"/><rect x="170" y="65" width="105" height="75" rx="9"/><rect x="312" y="65" width="105" height="75" rx="9"/></g>
+  <g fill="none" stroke="#42D9F5" stroke-width="3" stroke-linecap="round"><path d="M133 102H170M275 102H312"/><path d="M158 92L170 102L158 112M300 92L312 102L300 112"/><path d="M54 87H107M54 101H107M54 115H93"/><path d="M194 88H250M194 102H250M194 116H236"/><path d="M337 87H392M337 102H392M337 116H378"/></g>
+  <g fill="#F2F7FC" font-family="monospace" font-size="12" text-anchor="middle"><text x="80" y="158">MODEL</text><text x="222" y="158">DOCKER</text><text x="364" y="158">FASTAPI</text></g>
+  <circle cx="422" cy="38" r="5" fill="#36D399"/></g>
+<text x="56" y="220" fill="#8CA3B8" font-family="monospace" font-size="12" letter-spacing="2">PYTHON  ·  MACHINE LEARNING  ·  ENGINEERING</text>
+</svg>
