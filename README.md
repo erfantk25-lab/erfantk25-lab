@@ -79,6 +79,18 @@ A collaborative full-stack Retrieval-Augmented Generation (RAG) application buil
 - **LLMOps:** MLflow tracing, evaluation and prompt versioning.
 - **Delivery:** Docker Compose; the project was also deployed to Azure App Service during development.
 
+<p>
+  <img src="https://img.shields.io/badge/Python-071426?style=flat-square&logo=python&logoColor=C4A7FF" alt="Python">
+  <img src="https://img.shields.io/badge/FastAPI-071426?style=flat-square&logo=fastapi&logoColor=C4A7FF" alt="FastAPI">
+  <img src="https://img.shields.io/badge/Streamlit-071426?style=flat-square&logo=streamlit&logoColor=C4A7FF" alt="Streamlit">
+  <img src="https://img.shields.io/badge/LanceDB-071426?style=flat-square&logo=databricks&logoColor=C4A7FF" alt="LanceDB">
+  <img src="https://img.shields.io/badge/Cohere-071426?style=flat-square&logo=cohere&logoColor=C4A7FF" alt="Cohere">
+  <img src="https://img.shields.io/badge/Pydantic--AI-071426?style=flat-square&logo=pydantic&logoColor=C4A7FF" alt="Pydantic AI">
+  <img src="https://img.shields.io/badge/MLflow-071426?style=flat-square&logo=mlflow&logoColor=C4A7FF" alt="MLflow">
+  <img src="https://img.shields.io/badge/Docker-071426?style=flat-square&logo=docker&logoColor=C4A7FF" alt="Docker">
+  <img src="https://img.shields.io/badge/Azure-071426?style=flat-square&logo=microsoftazure&logoColor=C4A7FF" alt="Azure">
+</p>
+
 ---
 
 ---
