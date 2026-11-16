@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="320" viewBox="0 0 1500 320" role="img" aria-labelledby="title desc">
+<title id="title">Taxi Prediction — Full-stack Machine Learning</title>
+<desc id="desc">A polished dark navy and violet project banner with a golden route line, city map, taxi illustration and fare prediction panel.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071426"/><stop offset=".55" stop-color="#101b3d"/><stop offset="1" stop-color="#21134a"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f5d77b"/><stop offset=".55" stop-color="#f0b84f"/><stop offset="1" stop-color="#d98a45"/></linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b3461"/><stop offset="1" stop-color="#27194d"/></linearGradient>
+  <radialGradient id="glow"><stop offset="0" stop-color="#d69b45" stop-opacity=".26"/><stop offset="1" stop-color="#d69b45" stop-opacity="0"/></radialGradient>
+  <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="12"/></filter>
+  <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#89a9ff" stroke-opacity=".08"/></pattern>
+</defs>
+<rect width="1500" height="320" rx="26" fill="url(#bg)"/>
+<rect width="1500" height="320" rx="26" fill="url(#grid)"/>
+<ellipse cx="1195" cy="154" rx="355" ry="235" fill="url(#glow)"/>
+<ellipse cx="1180" cy="275" rx="330" ry="75" fill="#d69b45" opacity=".10" filter="url(#softGlow)"/>
+<path d="M0 270C190 210 330 320 525 277S850 210 1030 264s315 40 470-38v94H0Z" fill="#10265a" opacity=".78"/>
+<path d="M0 286C205 228 345 327 540 288s315-54 495-16 330 26 465-40" fill="none" stroke="url(#accent)" stroke-width="2.5" opacity=".55"/>
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+  <text x="80" y="64" font-size="14" font-weight="700" letter-spacing="3" fill="#e8c66e">SELECTED WORK  /  03</text>
+  <text x="76" y="143" font-size="62" font-weight="760" letter-spacing="-1.2" fill="#f5f8ff">Taxi Prediction</text>
+  <text x="80" y="193" font-size="29" font-weight="650" fill="url(#accent)">Full-stack Machine Learning</text>
+  <text x="82" y="235" font-size="19" fill="#bdcbe4">From trip coordinates to an intelligent fare estimate.</text>
+  <text x="82" y="270" font-size="13" letter-spacing="1.4" fill="#e8c66e">SCIKIT-LEARN  ·  FASTAPI  ·  STREAMLIT  ·  FOLIUM</text>
+</g>
+<!-- Map and route interface -->
+<g transform="translate(865 34)">
+  <rect width="570" height="252" rx="23" fill="#071426" fill-opacity=".72" stroke="#8292ff" stroke-opacity=".48" stroke-width="1.5"/>
+  <text x="24" y="30" font-family="monospace" font-size="11" letter-spacing="2" fill="#aab8d8">ROUTE INTELLIGENCE  /  FARE ESTIMATION</text>
+  <g transform="translate(18 48)" opacity=".62" fill="none" stroke="#667dbb" stroke-width="2">
+    <path d="M0 20L75 0 150 28 225 4 300 34 375 6 465 32 530 12M0 92L78 66 155 98 230 72 305 103 382 73 465 104 530 80M0 164L80 139 155 170 230 144 305 176 385 146 465 177 530 151"/>
+    <path d="M75 0L78 66 80 139M150 28L155 98 155 170M225 4L230 72 230 144M300 34L305 103 305 176M375 6L382 73 385 146M465 32L465 104 465 177"/>
+    <path d="M32 0l25 190M125 0l20 190M250 0l20 190M405 0l22 190"/>
+  </g>
+  <path d="M55 205C108 190 103 103 191 106S299 207 365 156 434 77 507 91" fill="none" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-dasharray="9 8"/>
+  <g fill="#f2c65e" stroke="#071426" stroke-width="3"><circle cx="73" cy="198" r="10"/><circle cx="507" cy="91" r="10"/></g>
+  <g transform="translate(238 115)" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="0" cy="64" rx="78" ry="12" fill="#d69b45" opacity=".16"/>
+    <path d="M-62 39l15-30q6-13 21-13h48q16 0 23 14l17 29 10 7v23h-151V46Z" fill="#f4d47a" stroke="#ffe7a3" stroke-width="3"/>
+    <path d="M-37 0h58q10 0 16 11l12 21h-99l10-24q2-8 3-8Z" fill="#263e70" stroke="#91a8df" stroke-width="2"/>
+    <path d="M-5 1v31" stroke="#9eb4e4" stroke-width="2"/>
+    <rect x="-60" y="39" width="120" height="17" rx="5" fill="#d99b43"/>
+    <rect x="-18" y="-23" width="36" height="12" rx="4" fill="#f6d978" stroke="#ffe7a3" stroke-width="2"/>
+    <text x="0" y="-14" text-anchor="middle" font-family="monospace" font-size="7" font-weight="700" fill="#392b19">TAXI</text>
+    <circle cx="-38" cy="68" r="14" fill="#071426" stroke="#a9badc" stroke-width="3"/><circle cx="39" cy="68" r="14" fill="#071426" stroke="#a9badc" stroke-width="3"/>
+  </g>
+  <g transform="translate(386 188)">
+    <rect width="158" height="49" rx="11" fill="url(#panel)" stroke="#e8bd5d" stroke-opacity=".85"/>
+    <text x="79" y="16" text-anchor="middle" font-family="monospace" font-size="9" letter-spacing="1" fill="#c6d3ec">ESTIMATED FARE</text>
+    <text x="79" y="38" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="750" fill="#f5f8ff">€ 18.40</text>
+  </g>
+  <g fill="#e0ebff" font-family="monospace" font-size="9" letter-spacing="1"><text x="22" y="239">PICKUP</text><text x="484" y="69">DROP-OFF</text></g>
+</g>
+<rect x="25" y="24" width="1450" height="272" rx="25" fill="none" stroke="#6c8dff" stroke-opacity=".20" stroke-width="2"/>
+</svg>
