@@ -165,6 +165,19 @@ A collaborative edge-IoT project using a Raspberry Pi Pico W to monitor environm
 
 ---
 
+### 04 / Study Buddy RAG · Full-stack LLMOps
+
+**[Study Buddy RAG – Fullstack LLMOps Project](https://github.com/LAjoyan/Fullstack_LLMops_Project)**
+
+A collaborative full-stack Retrieval-Augmented Generation (RAG) application built by a team of four. It turns lecture transcriptions into an interactive study assistant for course questions, quiz and flashcard generation, and PDF exports.
+
+- **Retrieval:** semantic search with LanceDB and Cohere multilingual embeddings, with source-aware answers.
+- **Application:** FastAPI backend, Streamlit frontend and Pydantic-AI agents.
+- **LLMOps:** MLflow tracing, evaluation and prompt versioning.
+- **Delivery:** Docker Compose; the project was also deployed to Azure App Service during development.
+
+---
+
 ## LIA 1 · Internship
 
 <p align="center">
