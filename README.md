@@ -2,34 +2,10 @@
   <img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/c17a9d2ae2f2b0e5380bf6bed147ebba43ce45b5/banner.svg" alt="Erfan Tahmasebi — MLOps Engineering" width="100%">
 </p>
 
----
-
-## Technical toolkit
-
-### Programming & ML
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,sklearn&theme=dark" alt="Python, FastAPI and scikit-learn">
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Streamlit-Data%20Apps-42D9F5?style=flat-square&labelColor=071426" alt="Streamlit">
-  <img src="https://img.shields.io/badge/Folium-Geospatial-42D9F5?style=flat-square&labelColor=071426" alt="Folium">
-</p>
-
-### MLOps & DevOps
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=docker,githubactions,git,linux,kubernetes&theme=dark" alt="Docker, GitHub Actions, Git, Linux and Kubernetes">
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/MLflow-Experiment%20Tracking-42D9F5?style=flat-square&labelColor=071426" alt="MLflow">
-</p>
-
-### Data, messaging & observability
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=postgres,grafana&theme=dark" alt="PostgreSQL and Grafana">
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/MQTT-Device%20Telemetry-42D9F5?style=flat-square&labelColor=071426" alt="MQTT">
-  <img src="https://img.shields.io/badge/TimescaleDB-Time%20Series-42D9F5?style=flat-square&labelColor=071426" alt="TimescaleDB">
+  <a href="https://erfantk25-lab.github.io/"><strong>Portfolio</strong></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/erfan-tahmasbikondroodi/"><strong>LinkedIn</strong></a>
 </p>
 
 ---
@@ -185,6 +161,36 @@ A collaborative edge-IoT project using a Raspberry Pi Pico W to monitor environm
 </details>
 
 <p align="right"><a href="https://github.com/erfantk25-lab/Edge-computing-project-">VIEW PROJECT REPOSITORY →</a></p>
+
+---
+
+## Technical toolkit
+
+### Programming & ML
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,fastapi,sklearn&theme=dark" alt="Python, FastAPI and scikit-learn">
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Streamlit-Data%20Apps-42D9F5?style=flat-square&labelColor=071426" alt="Streamlit">
+  <img src="https://img.shields.io/badge/Folium-Geospatial-42D9F5?style=flat-square&labelColor=071426" alt="Folium">
+</p>
+
+### MLOps & DevOps
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=docker,githubactions,git,linux,kubernetes&theme=dark" alt="Docker, GitHub Actions, Git, Linux and Kubernetes">
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/MLflow-Experiment%20Tracking-42D9F5?style=flat-square&labelColor=071426" alt="MLflow">
+</p>
+
+### Data, messaging & observability
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=postgres,grafana&theme=dark" alt="PostgreSQL and Grafana">
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/MQTT-Device%20Telemetry-42D9F5?style=flat-square&labelColor=071426" alt="MQTT">
+  <img src="https://img.shields.io/badge/TimescaleDB-Time%20Series-42D9F5?style=flat-square&labelColor=071426" alt="TimescaleDB">
+</p>
 
 ---
 
