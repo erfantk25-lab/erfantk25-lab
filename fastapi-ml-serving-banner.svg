@@ -1,30 +1,70 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1500" height="320" viewBox="0 0 1500 320" role="img" aria-labelledby="title desc">
 <defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071426"/><stop offset=".55" stop-color="#101b3d"/><stop offset="1" stop-color="#21134a"/></linearGradient>
-<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#43d9f5"/><stop offset=".52" stop-color="#647bff"/><stop offset="1" stop-color="#b36bff"/></linearGradient>
-<linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b3461"/><stop offset="1" stop-color="#27194d"/></linearGradient>
-<radialGradient id="glow"><stop offset="0" stop-color="#4a6cff" stop-opacity=".38"/><stop offset="1" stop-color="#4a6cff" stop-opacity="0"/></radialGradient>
-<pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#89a9ff" stroke-opacity=".08"/></pattern>
-<filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="11"/></filter>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071426"/><stop offset=".55" stop-color="#101b3d"/><stop offset="1" stop-color="#21134a"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#43d9f5"/><stop offset=".52" stop-color="#647bff"/><stop offset="1" stop-color="#b36bff"/></linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b3461"/><stop offset="1" stop-color="#27194d"/></linearGradient>
+  <radialGradient id="glow"><stop offset="0" stop-color="#4a6cff" stop-opacity=".38"/><stop offset="1" stop-color="#4a6cff" stop-opacity="0"/></radialGradient>
+  <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="11"/></filter>
+  <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#89a9ff" stroke-opacity=".08" stroke-width="1"/></pattern>
 </defs>
-<rect width="1500" height="320" rx="26" fill="url(#bg)"/><rect width="1500" height="320" rx="26" fill="url(#grid)"/>
-<ellipse cx="1285" cy="155" rx="310" ry="220" fill="url(#glow)"/><ellipse cx="1150" cy="280" rx="330" ry="95" fill="#254bff" opacity=".13" filter="url(#softGlow)"/>
+<rect width="1500" height="320" rx="26" fill="url(#bg)"/>
+<rect width="1500" height="320" rx="26" fill="url(#grid)"/>
+<ellipse cx="1285" cy="155" rx="310" ry="220" fill="url(#glow)"/>
+<ellipse cx="1150" cy="280" rx="330" ry="95" fill="#254bff" opacity=".13" filter="url(#softGlow)"/>
 <path d="M0 270C190 210 310 320 510 276S840 205 1010 258s310 42 490-38v100H0Z" fill="#10265a" opacity=".8"/>
 <path d="M0 285C200 225 330 326 520 285S850 225 1020 270s330 28 480-45" fill="none" stroke="url(#accent)" stroke-width="3" opacity=".65"/>
 <path d="M0 304C220 250 350 335 545 300s310-58 500-18 330 22 455-25" fill="none" stroke="#43d9f5" stroke-width="1.5" opacity=".28"/>
-<title id="title">Customer Churn — MLOps Engineering</title><desc id="desc">Customer churn model lifecycle, data validation, training and FastAPI Docker deployment.</desc>
-<g font-family="Inter,Segoe UI,Arial,sans-serif">
-<text x="315" y="132" font-size="66" font-weight="750" fill="#f5f8ff">Customer</text><text x="315" y="180" font-size="25" font-weight="500" fill="#dbe7ff">Churn · MLOps Engineering</text>
-<rect x="318" y="205" width="430" height="2" rx="1" fill="url(#accent)" opacity=".85"/>
-<text x="318" y="244" font-size="20" fill="#aebfdf">Validated data. Reliable model delivery.</text>
-<text x="318" y="274" font-size="15" letter-spacing="2.1" fill="#6edcf7">PANDERA  •  FASTAPI  •  DOCKER  •  CI / CD</text>
+<title id="title">Customer Churn — MLOps model delivery</title>
+<desc id="desc">A customer churn machine learning system with validated data, model evaluation, API serving and Docker delivery.</desc>
+
+<!-- Data and model mark, aligned to the Study Buddy book emblem -->
+<g transform="translate(76 77)" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 49C12 34 48 22 88 22s76 12 76 27-36 27-76 27S12 64 12 49Z" fill="#132f62" stroke="url(#accent)" stroke-width="4.5"/>
+  <path d="M12 49v83c0 15 36 27 76 27s76-12 76-27V49" fill="#122c55" stroke="url(#accent)" stroke-width="4.5"/>
+  <path d="M12 77c0 15 36 27 76 27s76-12 76-27M12 105c0 15 36 27 76 27s76-12 76-27" fill="none" stroke="#8aa6ff" stroke-width="3.5"/>
+  <path d="M88 22V159" stroke="#8aa6ff" stroke-width="2" opacity=".45"/>
+  <path d="M52 55h23M52 83h23M52 111h23" stroke="#53dcff" stroke-width="4"/>
+  <path d="M102 56h27M102 84h27M102 112h27" stroke="#a98bff" stroke-width="4"/>
+  <path d="M88 4v-9" stroke="#49d9f5" stroke-width="4"/><circle cx="88" cy="-9" r="7" fill="#49d9f5"/>
 </g>
-<g transform="translate(900 40)">
-<rect width="535" height="238" rx="24" fill="#071426" fill-opacity=".64" stroke="#8292ff" stroke-opacity=".48"/>
-<text x="25" y="31" font-family="monospace" font-size="11" letter-spacing="2" fill="#aab8d8">MODEL DELIVERY WORKFLOW</text>
-<path d="M90 119H445" stroke="url(#accent)" stroke-width="4" stroke-dasharray="6 8"/>
-<g fill="url(#panel)" stroke="url(#accent)" stroke-width="2.8"><circle cx="90" cy="119" r="39"/><circle cx="268" cy="119" r="48"/><circle cx="445" cy="119" r="39"/></g>
-<g fill="none" stroke="#e2edff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M71 105h38M71 117h38M71 129h25M253 99l15-9 15 9v18l-15 9-15-9zM268 90v36M253 108h30"/><rect x="427" y="99" width="36" height="40" rx="5"/><path d="M434 109h22M434 118h22M434 127h15"/></g>
-<g fill="#e7f0ff" font-family="monospace" font-size="11" text-anchor="middle"><text x="90" y="178">VALIDATE</text><text x="268" y="184">TRAIN + EVALUATE</text><text x="445" y="178">SERVE</text></g>
-<g transform="translate(28 198)"><rect width="140" height="25" rx="12.5" fill="#14335a" stroke="#43d9f5" stroke-opacity=".5"/><text x="70" y="17" text-anchor="middle" font-family="monospace" font-size="9" letter-spacing="1" fill="#c9f7ff">DATA QUALITY</text><rect x="155" width="128" height="25" rx="12.5" fill="#25285c" stroke="#647bff" stroke-opacity=".6"/><text x="219" y="17" text-anchor="middle" font-family="monospace" font-size="9" letter-spacing="1" fill="#e2e6ff">MLFLOW</text><rect x="298" width="170" height="25" rx="12.5" fill="#30245b" stroke="#b36bff" stroke-opacity=".6"/><text x="383" y="17" text-anchor="middle" font-family="monospace" font-size="9" letter-spacing="1" fill="#f0dfff">DOCKER + CI / CD</text></g>
-</g><rect x="25" y="24" width="1450" height="272" rx="25" fill="none" stroke="#6c8dff" stroke-opacity=".18" stroke-width="2"/></svg>
+
+<!-- Study Buddy typography grid: same coordinates, scale and line rhythm -->
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+  <text x="315" y="132" font-size="66" font-weight="750" fill="#f5f8ff">Customer</text>
+  <text x="630" y="132" font-size="66" font-weight="750" fill="url(#accent)">Churn</text>
+  <text x="318" y="180" font-size="25" font-weight="500" fill="#dbe7ff">Validate  ·  Train  ·  Deploy  ·  Monitor</text>
+  <rect x="318" y="205" width="430" height="2" rx="1" fill="url(#accent)" opacity=".85"/>
+  <text x="318" y="244" font-size="20" fill="#aebfdf">Reliable churn prediction, built for production</text>
+  <text x="318" y="274" font-size="15" letter-spacing="2.1" fill="#6edcf7">PANDERA  •  FASTAPI  •  DOCKER  •  CI / CD</text>
+</g>
+
+<!-- Model-serving illustration in the same friendly, outlined visual language -->
+<g transform="translate(1055 43)" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M96 29V8" stroke="#6f9eff" stroke-width="5"/><circle cx="96" cy="2" r="8" fill="#45d9f5"/>
+  <rect x="28" y="40" width="138" height="135" rx="30" fill="url(#panel)" stroke="url(#accent)" stroke-width="5"/>
+  <rect x="45" y="58" width="104" height="83" rx="18" fill="#071426" stroke="#4265b8" stroke-width="2"/>
+  <path d="M58 122l18-19 18 9 19-27 23 12" fill="none" stroke="#53dcff" stroke-width="4"/>
+  <path d="M58 131h78" stroke="#647bff" stroke-width="2" opacity=".7"/>
+  <circle cx="62" cy="73" r="4" fill="#43d9f5"/><circle cx="76" cy="73" r="4" fill="#647bff"/><circle cx="90" cy="73" r="4" fill="#b36bff"/>
+  <path d="M13 79H0v51h20M180 79h13v51h-20" fill="none" stroke="#6e93ff" stroke-width="7"/>
+  <path d="M66 176v17m62-17v17" stroke="#6f9eff" stroke-width="8"/>
+  <rect x="48" y="189" width="98" height="13" rx="6.5" fill="#465fba"/>
+  <path d="M18 226q78-32 156 0v29q-78-32-156 0Z" fill="#153765" stroke="#55aaff" stroke-width="3"/>
+  <path d="M96 227v29" stroke="#85a7ff" stroke-width="3"/>
+</g>
+
+<!-- Floating status cards, matching Study Buddy -->
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+  <g transform="translate(1285 67)">
+    <rect width="157" height="54" rx="12" fill="#101f46" stroke="#4775d9" stroke-width="1.5"/>
+    <circle cx="23" cy="27" r="8" fill="#43d9f5"/><path d="m19 27 3 3 6-7" fill="none" stroke="#071426" stroke-width="2.5"/>
+    <text x="43" y="34" font-size="16" fill="#e8f1ff">Model ready</text>
+  </g>
+  <g transform="translate(1302 139)">
+    <rect width="140" height="54" rx="12" fill="#101f46" stroke="#7b6ce8" stroke-width="1.5"/>
+    <path d="M17 17h15v20H17zM20 22h9M20 28h9M20 33h6" fill="none" stroke="#b49bff" stroke-width="2"/>
+    <text x="43" y="34" font-size="16" fill="#e8f1ff">API live</text>
+  </g>
+</g>
+<path d="M25 24h1450v272H25z" fill="none" stroke="#6c8dff" stroke-opacity=".18" stroke-width="2" rx="25"/>
+</svg>
