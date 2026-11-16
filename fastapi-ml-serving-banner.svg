@@ -1,45 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1500" height="320" viewBox="0 0 1500 320" role="img" aria-labelledby="title desc">
-<title id="title">Customer Churn — MLOps Pipeline</title><desc id="desc">Customer churn prediction pipeline with validated data, model training, evaluation, FastAPI inference, Docker delivery and monitoring.</desc>
 <defs>
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071426"/><stop offset=".55" stop-color="#101b3d"/><stop offset="1" stop-color="#21134a"/></linearGradient>
 <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#43d9f5"/><stop offset=".52" stop-color="#647bff"/><stop offset="1" stop-color="#b36bff"/></linearGradient>
 <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b3461"/><stop offset="1" stop-color="#27194d"/></linearGradient>
-<radialGradient id="glow"><stop offset="0" stop-color="#4a6cff" stop-opacity=".42"/><stop offset="1" stop-color="#4a6cff" stop-opacity="0"/></radialGradient>
-<filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="13"/></filter>
+<radialGradient id="glow"><stop offset="0" stop-color="#4a6cff" stop-opacity=".38"/><stop offset="1" stop-color="#4a6cff" stop-opacity="0"/></radialGradient>
 <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#89a9ff" stroke-opacity=".08"/></pattern>
+<filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="11"/></filter>
 </defs>
-<rect width="1500" height="320" rx="26" fill="url(#bg)"/>
-<rect width="1500" height="320" rx="26" fill="url(#grid)"/>
-<ellipse cx="1200" cy="155" rx="340" ry="230" fill="url(#glow)"/>
-<ellipse cx="1190" cy="270" rx="300" ry="70" fill="#254bff" opacity=".14" filter="url(#shadow)"/>
-<path d="M0 275C220 215 340 325 545 281S850 220 1030 267s315 42 470-38v91H0Z" fill="#10265a" opacity=".72"/>
-<path d="M0 290C200 238 360 328 550 292s310-52 490-15 330 28 460-38" fill="none" stroke="url(#accent)" stroke-width="2.5" opacity=".48"/>
+<rect width="1500" height="320" rx="26" fill="url(#bg)"/><rect width="1500" height="320" rx="26" fill="url(#grid)"/>
+<ellipse cx="1285" cy="155" rx="310" ry="220" fill="url(#glow)"/><ellipse cx="1150" cy="280" rx="330" ry="95" fill="#254bff" opacity=".13" filter="url(#softGlow)"/>
+<path d="M0 270C190 210 310 320 510 276S840 205 1010 258s310 42 490-38v100H0Z" fill="#10265a" opacity=".8"/>
+<path d="M0 285C200 225 330 326 520 285S850 225 1020 270s330 28 480-45" fill="none" stroke="url(#accent)" stroke-width="3" opacity=".65"/>
+<path d="M0 304C220 250 350 335 545 300s310-58 500-18 330 22 455-25" fill="none" stroke="#43d9f5" stroke-width="1.5" opacity=".28"/>
+<title id="title">Customer Churn — MLOps Engineering</title><desc id="desc">Customer churn model lifecycle, data validation, training and FastAPI Docker deployment.</desc>
 <g font-family="Inter,Segoe UI,Arial,sans-serif">
-<text x="80" y="65" font-size="14" font-weight="700" letter-spacing="3" fill="#6edcf7">SELECTED WORK / 02</text>
-<text x="80" y="132" font-size="66" font-weight="750"><tspan fill="#f5f8ff">Customer</tspan><tspan dx="13" fill="url(#accent)">Churn</tspan></text>
-<text x="82" y="180" font-size="25" font-weight="500" fill="#dbe7ff">MLOps · Model serving &amp; delivery</text>
-<rect x="82" y="205" width="430" height="2" rx="1" fill="url(#accent)" opacity=".85"/>
-<text x="82" y="244" font-size="20" fill="#aebfdf">Reliable models, from validated data to API.</text>
-<text x="82" y="274" font-size="15" letter-spacing="2.1" fill="#6edcf7">DATA QUALITY  •  FASTAPI  •  DOCKER  •  CI / CD</text>
+<text x="315" y="132" font-size="66" font-weight="750" fill="#f5f8ff">Customer</text><text x="315" y="180" font-size="25" font-weight="500" fill="#dbe7ff">Churn · MLOps Engineering</text>
+<rect x="318" y="205" width="430" height="2" rx="1" fill="url(#accent)" opacity=".85"/>
+<text x="318" y="244" font-size="20" fill="#aebfdf">Validated data. Reliable model delivery.</text>
+<text x="318" y="274" font-size="15" letter-spacing="2.1" fill="#6edcf7">PANDERA  •  FASTAPI  •  DOCKER  •  CI / CD</text>
 </g>
-<g transform="translate(900 36)">
-<rect x="0" y="0" width="535" height="238" rx="24" fill="#071426" fill-opacity=".64" stroke="#8292ff" stroke-opacity=".48"/>
+<g transform="translate(900 40)">
+<rect width="535" height="238" rx="24" fill="#071426" fill-opacity=".64" stroke="#8292ff" stroke-opacity=".48"/>
 <text x="25" y="31" font-family="monospace" font-size="11" letter-spacing="2" fill="#aab8d8">MODEL DELIVERY WORKFLOW</text>
 <path d="M90 119H445" stroke="url(#accent)" stroke-width="4" stroke-dasharray="6 8"/>
-<g fill="#142b55" stroke="url(#accent)" stroke-width="2.8">
-<circle cx="90" cy="119" r="39"/><circle cx="268" cy="119" r="48"/><circle cx="445" cy="119" r="39"/>
-</g>
-<g fill="none" stroke="#e2edff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-<path d="M71 105h38M71 117h38M71 129h25M253 99l15-9 15 9v18l-15 9-15-9zM268 90v36M253 108h30"/>
-<rect x="427" y="99" width="36" height="40" rx="5"/><path d="M434 109h22M434 118h22M434 127h15"/>
-</g>
+<g fill="url(#panel)" stroke="url(#accent)" stroke-width="2.8"><circle cx="90" cy="119" r="39"/><circle cx="268" cy="119" r="48"/><circle cx="445" cy="119" r="39"/></g>
+<g fill="none" stroke="#e2edff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M71 105h38M71 117h38M71 129h25M253 99l15-9 15 9v18l-15 9-15-9zM268 90v36M253 108h30"/><rect x="427" y="99" width="36" height="40" rx="5"/><path d="M434 109h22M434 118h22M434 127h15"/></g>
 <g fill="#e7f0ff" font-family="monospace" font-size="11" text-anchor="middle"><text x="90" y="178">VALIDATE</text><text x="268" y="184">TRAIN + EVALUATE</text><text x="445" y="178">SERVE</text></g>
-<g transform="translate(28 198)">
-<rect width="140" height="25" rx="12.5" fill="#14335a" stroke="#43d9f5" stroke-opacity=".5"/><text x="70" y="17" text-anchor="middle" font-family="monospace" font-size="9" letter-spacing="1" fill="#c9f7ff">PANDERA CHECKS</text>
-<rect x="155" width="128" height="25" rx="12.5" fill="#25285c" stroke="#647bff" stroke-opacity=".6"/><text x="219" y="17" text-anchor="middle" font-family="monospace" font-size="9" letter-spacing="1" fill="#e2e6ff">MLFLOW TRACKING</text>
-<rect x="298" width="170" height="25" rx="12.5" fill="#30245b" stroke="#b36bff" stroke-opacity=".6"/><text x="383" y="17" text-anchor="middle" font-family="monospace" font-size="9" letter-spacing="1" fill="#f0dfff">DOCKER + CI / CD</text>
-</g>
-<g opacity=".7" fill="#6edcf7"><circle cx="487" cy="54" r="3"/><circle cx="47" cy="60" r="3"/><circle cx="495" cy="184" r="2"/></g>
-</g>
-<rect x="25" y="24" width="1450" height="272" rx="25" fill="none" stroke="#6c8dff" stroke-opacity=".20" stroke-width="2"/>
-</svg>
+<g transform="translate(28 198)"><rect width="140" height="25" rx="12.5" fill="#14335a" stroke="#43d9f5" stroke-opacity=".5"/><text x="70" y="17" text-anchor="middle" font-family="monospace" font-size="9" letter-spacing="1" fill="#c9f7ff">DATA QUALITY</text><rect x="155" width="128" height="25" rx="12.5" fill="#25285c" stroke="#647bff" stroke-opacity=".6"/><text x="219" y="17" text-anchor="middle" font-family="monospace" font-size="9" letter-spacing="1" fill="#e2e6ff">MLFLOW</text><rect x="298" width="170" height="25" rx="12.5" fill="#30245b" stroke="#b36bff" stroke-opacity=".6"/><text x="383" y="17" text-anchor="middle" font-family="monospace" font-size="9" letter-spacing="1" fill="#f0dfff">DOCKER + CI / CD</text></g>
+</g><rect x="25" y="24" width="1450" height="272" rx="25" fill="none" stroke="#6c8dff" stroke-opacity=".18" stroke-width="2"/></svg>
