@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="320" viewBox="0 0 1500 320" role="img" aria-labelledby="title desc">
+  <title id="title">Study Buddy — AI-powered learning assistant</title>
+  <desc id="desc">A dark blue and purple banner with a friendly study robot, open book, and learning tools.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071426"/>
+      <stop offset=".55" stop-color="#101b3d"/>
+      <stop offset="1" stop-color="#21134a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#43d9f5"/>
+      <stop offset=".52" stop-color="#647bff"/>
+      <stop offset="1" stop-color="#b36bff"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b3461"/>
+      <stop offset="1" stop-color="#27194d"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#4a6cff" stop-opacity=".38"/>
+      <stop offset="1" stop-color="#4a6cff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="11"/>
+    </filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#89a9ff" stroke-opacity=".08" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1500" height="320" rx="26" fill="url(#bg)"/>
+  <rect width="1500" height="320" rx="26" fill="url(#grid)"/>
+  <ellipse cx="1285" cy="155" rx="310" ry="220" fill="url(#glow)"/>
+  <ellipse cx="1150" cy="280" rx="330" ry="95" fill="#254bff" opacity=".13" filter="url(#softGlow)"/>
+  <path d="M0 270C190 210 310 320 510 276S840 205 1010 258s310 42 490-38v100H0Z" fill="#10265a" opacity=".8"/>
+  <path d="M0 285C200 225 330 326 520 285S850 225 1020 270s330 28 480-45" fill="none" stroke="url(#accent)" stroke-width="3" opacity=".65"/>
+  <path d="M0 304C220 250 350 335 545 300s310-58 500-18 330 22 455-25" fill="none" stroke="#43d9f5" stroke-width="1.5" opacity=".28"/>
+
+  <!-- Book and graduation-cap mark -->
+  <g transform="translate(76 78)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M8 76c31-14 58-12 83 5 25-17 52-19 83-5v89c-31-14-58-12-83 5-25-17-52-19-83-5Z" fill="#122c55" stroke="url(#accent)" stroke-width="5"/>
+    <path d="M91 81v88" stroke="#8aa6ff" stroke-width="4" opacity=".85"/>
+    <path d="M0 37 91 5l91 32-91 33Z" fill="#132f62" stroke="url(#accent)" stroke-width="4"/>
+    <path d="M42 53v27c24 19 74 19 98 0V53" fill="none" stroke="#8f8cff" stroke-width="4"/>
+    <path d="M182 37v35" stroke="#49d9f5" stroke-width="4"/>
+    <circle cx="182" cy="78" r="7" fill="#49d9f5"/>
+  </g>
+
+  <!-- Text block -->
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="315" y="132" font-size="66" font-weight="750" fill="#f5f8ff">Study</text>
+    <text x="505" y="132" font-size="66" font-weight="750" fill="url(#accent)">Buddy</text>
+    <text x="318" y="180" font-size="25" font-weight="500" fill="#dbe7ff">Learn  ·  Ask  ·  Practice  ·  Grow</text>
+    <rect x="318" y="205" width="430" height="2" rx="1" fill="url(#accent)" opacity=".85"/>
+    <text x="318" y="244" font-size="20" fill="#aebfdf">AI-powered study companion</text>
+    <text x="318" y="274" font-size="15" letter-spacing="2.1" fill="#6edcf7">RAG  •  SEMANTIC SEARCH  •  SMART QUIZZES</text>
+  </g>
+
+  <!-- Friendly study robot -->
+  <g transform="translate(1055 44)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M91 37V17" stroke="#6f9eff" stroke-width="5"/>
+    <circle cx="91" cy="11" r="8" fill="#45d9f5"/>
+    <rect x="30" y="41" width="126" height="111" rx="34" fill="url(#panel)" stroke="url(#accent)" stroke-width="5"/>
+    <rect x="47" y="64" width="92" height="63" rx="23" fill="#071426" stroke="#4265b8" stroke-width="2"/>
+    <path d="M69 91q9-12 18 0M104 91q9-12 18 0" fill="none" stroke="#53dcff" stroke-width="6"/>
+    <path d="M83 108q9 8 18 0" fill="none" stroke="#a98bff" stroke-width="4"/>
+    <path d="M21 76H9v35h17M165 76h12v35h-17" fill="none" stroke="#6e93ff" stroke-width="7"/>
+    <path d="M65 153v20m52-20v20" stroke="#6f9eff" stroke-width="8"/>
+    <rect x="43" y="169" width="99" height="13" rx="6.5" fill="#465fba"/>
+    <path d="M-7 233q52-31 102 0 49-31 103 0v33q-53-31-103 0-50-31-102 0Z" fill="#153765" stroke="#55aaff" stroke-width="3"/>
+    <path d="M95 234v32" stroke="#85a7ff" stroke-width="3"/>
+    <path d="M-7 233q50-34 102 0 49-34 103 0" fill="none" stroke="#d5e6ff" stroke-width="3"/>
+  </g>
+
+  <!-- Floating study cards -->
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <g transform="translate(1285 67)">
+      <rect width="157" height="54" rx="12" fill="#101f46" stroke="#4775d9" stroke-width="1.5"/>
+      <circle cx="23" cy="27" r="8" fill="#43d9f5"/>
+      <path d="m19 27 3 3 6-7" fill="none" stroke="#071426" stroke-width="2.5"/>
+      <text x="43" y="34" font-size="17" fill="#e8f1ff">Quizzes</text>
+    </g>
+    <g transform="translate(1302 139)">
+      <rect width="140" height="54" rx="12" fill="#101f46" stroke="#7b6ce8" stroke-width="1.5"/>
+      <path d="M17 17h15v20H17zM20 22h9M20 28h9M20 33h6" fill="none" stroke="#b49bff" stroke-width="2"/>
+      <text x="43" y="34" font-size="16" fill="#e8f1ff">Flashcards</text>
+    </g>
+  </g>
+  <path d="M25 24h1450v272H25z" fill="none" stroke="#6c8dff" stroke-opacity=".18" stroke-width="2" rx="25"/>
+</svg>
