@@ -1,38 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1500" height="400" viewBox="0 0 1500 400" role="img" aria-labelledby="title desc">
 <title id="title">Erfan Tahmasebi — MLOps Engineering</title>
-<desc id="desc">Portfolio banner with clear typography and a machine learning lifecycle illustration.</desc>
+<desc id="desc">A refined dark navy and violet portfolio banner matching the project's visual identity, with a machine learning lifecycle illustration.</desc>
 <defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071426"/><stop offset=".58" stop-color="#101b3d"/><stop offset="1" stop-color="#21134a"/></linearGradient>
-<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#43d9f5"/><stop offset=".52" stop-color="#647bff"/><stop offset="1" stop-color="#b36bff"/></linearGradient>
-<radialGradient id="glow"><stop stop-color="#4a6cff" stop-opacity=".35"/><stop offset="1" stop-color="#4a6cff" stop-opacity="0"/></radialGradient>
-<pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#89a9ff" stroke-opacity=".08"/></pattern>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071426"/><stop offset=".55" stop-color="#101b3d"/><stop offset="1" stop-color="#21134a"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#43d9f5"/><stop offset=".52" stop-color="#647bff"/><stop offset="1" stop-color="#b36bff"/></linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b3461"/><stop offset="1" stop-color="#27194d"/></linearGradient>
+  <radialGradient id="glow"><stop offset="0" stop-color="#4a6cff" stop-opacity=".4"/><stop offset="1" stop-color="#4a6cff" stop-opacity="0"/></radialGradient>
+  <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="12"/></filter>
+  <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#89a9ff" stroke-opacity=".08"/></pattern>
 </defs>
-<rect width="1500" height="400" rx="26" fill="url(#bg)"/><rect width="1500" height="400" rx="26" fill="url(#grid)"/>
-<g transform="translate(0 -32) scale(1 1.2)">
-<ellipse cx="1200" cy="150" rx="340" ry="230" fill="url(#glow)"/>
-<path d="M0 275C220 220 340 320 540 280S850 225 1030 268s310 35 470-35v87H0Z" fill="#10265a" opacity=".7"/>
+<rect width="1500" height="400" rx="26" fill="url(#bg)"/>
+<rect width="1500" height="400" rx="26" fill="url(#grid)"/>
+<ellipse cx="1215" cy="178" rx="355" ry="255" fill="url(#glow)"/>
+<ellipse cx="1170" cy="340" rx="360" ry="90" fill="#254bff" opacity=".13" filter="url(#softGlow)"/>
+<path d="M0 330C190 255 330 390 535 333S860 250 1040 315s310 50 460-45v130H0Z" fill="#10265a" opacity=".8"/>
+<path d="M0 345C200 275 350 390 545 345s315-65 500-20 330 35 455-48" fill="none" stroke="url(#accent)" stroke-width="3" opacity=".62"/>
+<path d="M0 370C220 300 365 398 560 365s315-62 505-24 330 25 435-34" fill="none" stroke="#43d9f5" stroke-width="1.5" opacity=".25"/>
 <g font-family="Inter,Segoe UI,Arial,sans-serif">
-<text x="78" y="74" font-size="15" font-weight="650" letter-spacing="3" fill="#6edcf7">PORTFOLIO / SELECTED ENGINEERING WORK</text>
-<text x="76" y="151" font-size="62" font-weight="760" fill="#f5f8ff">Erfan Tahmasebi</text>
-<text x="80" y="202" font-size="29" font-weight="600" fill="url(#accent)">MLOps Engineering</text>
-<text x="80" y="244" font-size="20" fill="#bdcbe4">Building reliable machine learning systems</text>
-<text x="80" y="273" font-size="20" fill="#bdcbe4">from validated data to deployment.</text>
+  <text x="82" y="88" font-size="15" font-weight="700" letter-spacing="3.2" fill="#6edcf7">PORTFOLIO  /  MLOPS ENGINEERING</text>
+  <text x="78" y="183" font-size="72" font-weight="760" letter-spacing="-1.5" fill="#f5f8ff">Erfan Tahmasebi</text>
+  <text x="83" y="237" font-size="31" font-weight="650" fill="url(#accent)">MLOps Engineering</text>
+  <rect x="83" y="264" width="470" height="2" rx="1" fill="url(#accent)" opacity=".85"/>
+  <text x="83" y="306" font-size="20" fill="#bdcbe4">Building reliable machine learning systems</text>
+  <text x="83" y="336" font-size="20" fill="#bdcbe4">from validated data to deployment.</text>
 </g>
-<g transform="translate(900 38)">
-<rect width="520" height="225" rx="22" fill="#071426" fill-opacity=".68" stroke="#778eff" stroke-opacity=".5"/>
-<text x="260" y="34" text-anchor="middle" font-family="monospace" font-size="12" letter-spacing="2" fill="#9badcb">THE ML ENGINEERING LIFECYCLE</text>
-<path d="M75 118H445" stroke="url(#accent)" stroke-width="4" stroke-dasharray="7 8"/>
-<g fill="#112b55" stroke="url(#accent)" stroke-width="3"><circle cx="75" cy="118" r="32"/><circle cx="198" cy="118" r="32"/><circle cx="322" cy="118" r="32"/><circle cx="445" cy="118" r="32"/></g>
-<g fill="none" stroke="#d7e9ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-<path d="M61 108h28M61 118h28M61 128h19"/>
-<path d="M185 102l13-7 13 7v15l-13 8-13-8zM198 95v30"/>
-<path d="M309 105h26v25h-26zM315 99h14"/>
-<path d="M432 118l9 9 17-20"/>
+<g transform="translate(890 76)">
+  <rect width="535" height="248" rx="24" fill="#071426" fill-opacity=".68" stroke="#8292ff" stroke-opacity=".48" stroke-width="1.5"/>
+  <text x="267" y="38" text-anchor="middle" font-family="monospace" font-size="12" letter-spacing="2.4" fill="#aab8d8">THE MACHINE LEARNING LIFECYCLE</text>
+  <path d="M72 126H463" stroke="url(#accent)" stroke-width="4" stroke-dasharray="7 9" opacity=".9"/>
+  <g fill="url(#panel)" stroke="url(#accent)" stroke-width="3">
+    <circle cx="72" cy="126" r="35"/><circle cx="202" cy="126" r="35"/><circle cx="333" cy="126" r="35"/><circle cx="463" cy="126" r="35"/>
+  </g>
+  <g fill="none" stroke="#d7e9ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M57 114h30M57 126h30M57 138h20"/>
+    <path d="M188 112l14-8 14 8v17l-14 9-14-9zM202 104v34"/>
+    <path d="M320 112h26v27h-26zM326 105h14M326 119h14M326 127h9"/>
+    <path d="M448 126l10 10 20-23"/>
+  </g>
+  <g fill="#e0ebff" font-family="monospace" font-size="12" text-anchor="middle" letter-spacing="1.1"><text x="72" y="188">DATA</text><text x="202" y="188">TRAIN</text><text x="333" y="188">DEPLOY</text><text x="463" y="188">MONITOR</text></g>
+  <path d="M48 211H487" stroke="#607ab1" stroke-opacity=".5"/>
+  <text x="267" y="232" text-anchor="middle" font-family="monospace" font-size="11" letter-spacing="2.3" fill="#6edcf7">BUILD  ·  AUTOMATE  ·  IMPROVE</text>
 </g>
-<g fill="#e8f1ff" font-family="monospace" font-size="12" text-anchor="middle"><text x="75" y="174">DATA</text><text x="198" y="174">TRAIN</text><text x="322" y="174">DEPLOY</text><text x="445" y="174">MONITOR</text></g>
-<path d="M55 193H465" stroke="#607ab1" stroke-opacity=".5"/>
-<text x="260" y="214" text-anchor="middle" font-family="monospace" font-size="10" letter-spacing="2" fill="#6edcf7">BUILD · AUTOMATE · IMPROVE</text>
-</g>
-</g>
-<rect x="25" y="24" width="1450" height="352" rx="25" fill="none" stroke="#6c8dff" stroke-opacity=".2" stroke-width="2"/>
+<rect x="25" y="24" width="1450" height="352" rx="25" fill="none" stroke="#6c8dff" stroke-opacity=".22" stroke-width="2"/>
 </svg>
