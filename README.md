@@ -88,7 +88,7 @@ An MLOps pipeline for customer churn prediction, combining data quality checks, 
 ### 03 / Taxi Prediction · Full-stack machine learning
 
 <p align="center">
-  <img src="taxi-prediction-banner.svg" alt="Taxi prediction full-stack project banner" width="100%">
+  <img src="taxi-prediction-banner-v2.svg" alt="Taxi prediction full-stack project banner" width="100%">
 </p>
 
 **[Taxi Prediction — Full Stack](https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN)**
