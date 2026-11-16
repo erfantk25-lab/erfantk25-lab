@@ -77,7 +77,7 @@ A collaborative full-stack Retrieval-Augmented Generation (RAG) application buil
 ### 02 / Customer Churn MLOps · Model serving & delivery
 
 <p align="center">
-  <img src="fastapi-ml-serving-banner.svg" alt="FastAPI, Docker and ML serving project banner" width="100%">
+  <img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/c6be7cb34fa5478e9747a9da7d06eac07c4c41ca/fastapi-ml-serving-banner.svg" alt="FastAPI, Docker and ML serving project banner" width="100%">
 </p>
 
 **[FastAPI Docker ML Serving](https://github.com/erfantk25-lab/fastapi-docker-ml-serving)**
@@ -113,7 +113,7 @@ An MLOps pipeline for customer churn prediction, combining data quality checks, 
 ### 03 / Taxi Prediction · Full-stack machine learning
 
 <p align="center">
-  <img src="taxi-prediction-banner.svg" alt="Taxi prediction full-stack project banner" width="100%">
+  <img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/c6be7cb34fa5478e9747a9da7d06eac07c4c41ca/taxi-prediction-banner.svg" alt="Taxi prediction full-stack project banner" width="100%">
 </p>
 
 **[Taxi Prediction — Full Stack](https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN)**
@@ -150,7 +150,7 @@ An individual application that combines a regression model, a prediction API and
 ### 04 / Edge Computing · Smart Grow environmental monitor
 
 <p align="center">
-  <img src="edge-computing-banner.svg" alt="Edge computing project banner" width="100%">
+  <img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/c6be7cb34fa5478e9747a9da7d06eac07c4c41ca/edge-computing-banner.svg" alt="Edge computing project banner" width="100%">
 </p>
 
 **[Edge Computing Project](https://github.com/erfantk25-lab/Edge-computing-project-)**
