@@ -53,9 +53,28 @@ I enjoy connecting model development with practical software engineering: data v
 
 ## Selected work
 
-Three projects, one engineering direction: build systems that move data reliably from source to useful outcomes.
+Four projects, one engineering direction: build systems that move data reliably from source to useful outcomes.
 
-### 01 / Customer Churn MLOps · Model serving & delivery
+### 01 / Study Buddy RAG · Full-stack LLMOps
+
+<p align="center">
+  <img src="study-buddy-banner.svg" alt="Study Buddy — AI-powered study companion with RAG, quizzes and flashcards" width="100%">
+</p>
+
+**[Study Buddy RAG – Fullstack LLMOps Project](https://github.com/LAjoyan/Fullstack_LLMops_Project)**
+
+A collaborative full-stack Retrieval-Augmented Generation (RAG) application built by a team of four. It turns lecture transcriptions into an interactive study assistant for course questions, quiz and flashcard generation, and PDF exports.
+
+- **Retrieval:** semantic search with LanceDB and Cohere multilingual embeddings, with source-aware answers.
+- **Application:** FastAPI backend, Streamlit frontend and Pydantic-AI agents.
+- **LLMOps:** MLflow tracing, evaluation and prompt versioning.
+- **Delivery:** Docker Compose; the project was also deployed to Azure App Service during development.
+
+---
+
+---
+
+### 02 / Customer Churn MLOps · Model serving & delivery
 
 <p align="center">
   <img src="fastapi-ml-serving-banner.svg" alt="FastAPI, Docker and ML serving project banner" width="100%">
@@ -91,7 +110,7 @@ An MLOps pipeline for customer churn prediction, combining data quality checks, 
 
 ---
 
-### 02 / Taxi Prediction · Full-stack machine learning
+### 03 / Taxi Prediction · Full-stack machine learning
 
 <p align="center">
   <img src="taxi-prediction-banner.svg" alt="Taxi prediction full-stack project banner" width="100%">
@@ -128,7 +147,7 @@ An individual application that combines a regression model, a prediction API and
 
 ---
 
-### 03 / Edge Computing · Smart Grow environmental monitor
+### 04 / Edge Computing · Smart Grow environmental monitor
 
 <p align="center">
   <img src="edge-computing-banner.svg" alt="Edge computing project banner" width="100%">
@@ -162,19 +181,6 @@ A collaborative edge-IoT project using a Raspberry Pi Pico W to monitor environm
 </details>
 
 <p align="right"><a href="https://github.com/erfantk25-lab/Edge-computing-project-">VIEW PROJECT REPOSITORY →</a></p>
-
----
-
-### 04 / Study Buddy RAG · Full-stack LLMOps
-
-**[Study Buddy RAG – Fullstack LLMOps Project](https://github.com/LAjoyan/Fullstack_LLMops_Project)**
-
-A collaborative full-stack Retrieval-Augmented Generation (RAG) application built by a team of four. It turns lecture transcriptions into an interactive study assistant for course questions, quiz and flashcard generation, and PDF exports.
-
-- **Retrieval:** semantic search with LanceDB and Cohere multilingual embeddings, with source-aware answers.
-- **Application:** FastAPI backend, Streamlit frontend and Pydantic-AI agents.
-- **LLMOps:** MLflow tracing, evaluation and prompt versioning.
-- **Delivery:** Docker Compose; the project was also deployed to Azure App Service during development.
 
 ---
 
