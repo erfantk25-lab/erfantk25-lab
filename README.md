@@ -2,29 +2,6 @@
   <img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/c17a9d2ae2f2b0e5380bf6bed147ebba43ce45b5/banner.svg" alt="Erfan Tahmasebi — MLOps Engineering" width="100%">
 </p>
 
-<h1 align="center">Erfan Tahmasebi</h1>
-
-<h2 align="center">MLOps Engineer in Training</h2>
-
-<p align="center">
-  <strong>Stockholm, Sweden · Nackademin</strong><br>
-  MLOps Engineering student focused on reliable ML systems, from data validation and model serving to automation, CI/CD and monitoring.
-</p>
-
-<p align="center">
-  <a href="https://erfantk25-lab.github.io/"><img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/b775dba15fafa1554d23d5a2cdaf56fc23acd8ed/icons/portfolio.svg" alt="" width="22" height="22"> <strong>Portfolio</strong></a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/erfan-tahmasbikondroodi/"><img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/b775dba15fafa1554d23d5a2cdaf56fc23acd8ed/icons/linkedin.svg" alt="" width="22" height="22"> <strong>LinkedIn</strong></a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="mailto:erfan.tahmasbikondroodi@yh.nackademin.se"><img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/b775dba15fafa1554d23d5a2cdaf56fc23acd8ed/icons/email.svg" alt="" width="22" height="22"> <strong>Email</strong></a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/FOCUS-MLOps-43D9F5?style=flat-square&labelColor=071426" alt="Focus: MLOps">
-  <img src="https://img.shields.io/badge/BUILD-ML%20Systems-43D9F5?style=flat-square&labelColor=071426" alt="Building ML systems">
-  <img src="https://img.shields.io/badge/BASED-Stockholm-43D9F5?style=flat-square&labelColor=071426" alt="Based in Stockholm">
-</p>
-
 ---
 
 ## Technical toolkit
