@@ -12,7 +12,7 @@
 <p align="center">
   <a href="https://erfantk25-lab.github.io/">PORTFOLIO</a> &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/erfan-tahmasbikondroodi/">LINKEDIN</a> &nbsp;·&nbsp;
-  <a href="mailto:erfan.tahmasebi@gmail.com">EMAIL</a>
+  <a href="mailto:erfan.tahmasbikondroodi@yh.nackademin.se">EMAIL</a>
 </p>
 
 <p align="center">
@@ -199,7 +199,7 @@ Based in Stockholm and open to on-site or hybrid opportunities. I'm eager to con
 ## Let's connect
 
 <p align="center">
-  <a href="mailto:erfan.tahmasebi@gmail.com"><img src="https://img.shields.io/badge/EMAIL-Contact%20me-42D9F5?style=for-the-badge&logo=gmail&logoColor=071426&labelColor=071426" alt="Email"></a>
+  <a href="mailto:erfan.tahmasbikondroodi@yh.nackademin.se"><img src="https://img.shields.io/badge/EMAIL-Contact%20me-42D9F5?style=for-the-badge&logo=gmail&logoColor=071426&labelColor=071426" alt="Email"></a>
   <a href="https://www.linkedin.com/in/erfan-tahmasbikondroodi/"><img src="https://img.shields.io/badge/LINKEDIN-Connect-42D9F5?style=for-the-badge&logo=linkedin&logoColor=071426&labelColor=071426" alt="LinkedIn"></a>
   <a href="https://erfantk25-lab.github.io/"><img src="https://img.shields.io/badge/PORTFOLIO-Visit%20website-42D9F5?style=for-the-badge&logo=githubpages&logoColor=071426&labelColor=071426" alt="Portfolio"></a>
 </p>
