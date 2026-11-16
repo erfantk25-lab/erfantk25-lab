@@ -1,74 +1,92 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-<title id="title">Taxi price prediction full-stack architecture</title>
-<desc id="desc">A Streamlit application uses OpenRouteService to obtain route information, sends trip features to a FastAPI service running a saved scikit-learn pipeline, and displays the predicted fare and Folium route map.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="520" viewBox="0 0 1500 520" role="img" aria-labelledby="title desc">
+<title id="title">Taxi Prediction Full Stack — System Architecture</title><desc id="desc">Taxi prediction architecture: Streamlit collects trip inputs, OpenRouteService provides geocoding and driving route context, FastAPI serves a scikit-learn regression pipeline, and the UI presents the predicted fare with a Folium map. GitHub Actions trains the model and tests the API.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050F1E"/><stop offset="1" stop-color="#102B49"/></linearGradient>
-  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#8CA3B8" stroke-opacity=".08"/></pattern>
-  <style>
-    .eyebrow{font:600 12px monospace;letter-spacing:2px;fill:#42D9F5}
-    .head{font:700 17px Arial,sans-serif;fill:#F2F7FC}
-    .sub{font:12px Arial,sans-serif;fill:#B8CADD}
-    .node{fill:#0B1D32;stroke:#2A5577;stroke-width:1.5}
-    .arrow{fill:none;stroke:#42D9F5;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
-  </style>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071426"/><stop offset=".55" stop-color="#101b3d"/><stop offset="1" stop-color="#21134a"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#43d9f5"/><stop offset=".52" stop-color="#647bff"/><stop offset="1" stop-color="#b36bff"/></linearGradient>
+  <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#142e57"/><stop offset="1" stop-color="#211b4d"/></linearGradient>
+  <radialGradient id="glow"><stop offset="0" stop-color="#4a6cff" stop-opacity=".34"/><stop offset="1" stop-color="#4a6cff" stop-opacity="0"/></radialGradient>
+  <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="16"/></filter>
+  <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#89a9ff" stroke-opacity=".075" stroke-width="1"/></pattern>
 </defs>
-<rect width="1200" height="360" rx="18" fill="url(#bg)"/><rect width="1200" height="360" rx="18" fill="url(#grid)"/>
-<text x="42" y="42" class="eyebrow">02 / TAXI PRICE PREDICTION · FULL-STACK SYSTEM</text>
-<text x="42" y="68" class="sub">Route enrichment → API inference → fare prediction and map visualization</text>
-
-<g transform="translate(40 112)">
-  <rect class="node" width="198" height="122" rx="12"/>
-  <rect width="198" height="4" rx="2" fill="#42D9F5"/>
-  <text x="18" y="36" class="head">STREAMLIT UI</text>
-  <text x="18" y="62" class="sub">Pickup + drop-off</text>
-  <text x="18" y="82" class="sub">Passenger + fare inputs</text>
-  <text x="18" y="104" class="sub">Trip request</text>
-  <path d="M201 61H236L248 61" class="arrow"/><path d="M241 54L249 61L241 68" class="arrow"/>
-</g>
-<g transform="translate(290 112)">
-  <rect class="node" width="198" height="122" rx="12"/>
-  <rect width="198" height="4" rx="2" fill="#42D9F5"/>
-  <text x="18" y="36" class="head">OPENROUTESERVICE</text>
-  <text x="18" y="62" class="sub">Geocoding + driving route</text>
-  <text x="18" y="82" class="sub">Distance + duration</text>
-  <text x="18" y="104" class="sub">External route data</text>
-  <path d="M201 61H236L248 61" class="arrow"/><path d="M241 54L249 61L241 68" class="arrow"/>
-</g>
-<g transform="translate(540 112)">
-  <rect class="node" width="198" height="122" rx="12"/>
-  <rect width="198" height="4" rx="2" fill="#42D9F5"/>
-  <text x="18" y="36" class="head">FASTAPI</text>
-  <text x="18" y="62" class="sub">POST /predict</text>
-  <text x="18" y="82" class="sub">Trip feature payload</text>
-  <text x="18" y="104" class="sub">REST inference endpoint</text>
-  <path d="M201 61H236L248 61" class="arrow"/><path d="M241 54L249 61L241 68" class="arrow"/>
-</g>
-<g transform="translate(790 112)">
-  <rect class="node" width="174" height="122" rx="12"/>
-  <rect width="174" height="4" rx="2" fill="#42D9F5"/>
-  <text x="18" y="36" class="head">MODEL</text>
-  <text x="18" y="62" class="sub">scikit-learn</text>
-  <text x="18" y="82" class="sub">Regression pipeline</text>
-  <text x="18" y="104" class="sub">Joblib artifact</text>
-  <path d="M177 61H207L219 61" class="arrow"/><path d="M212 54L220 61L212 68" class="arrow"/>
-</g>
-<g transform="translate(1010 112)">
-  <rect width="150" height="122" rx="12" fill="#0B1D32" stroke="#42D9F5" stroke-width="1.5"/>
-  <rect width="150" height="4" rx="2" fill="#42D9F5"/>
-  <text x="18" y="36" class="head">PREDICTION</text>
-  <text x="18" y="62" class="sub">Predicted fare</text>
-  <text x="18" y="82" class="sub">SEK response</text>
-  <text x="18" y="104" class="sub">Returned to UI</text>
-</g>
-
-<path d="M139 234V273H390" fill="none" stroke="#42D9F5" stroke-width="2" stroke-dasharray="6 6"/>
-<path d="M390 273V246" fill="none" stroke="#42D9F5" stroke-width="2" stroke-dasharray="6 6"/>
-<g transform="translate(390 246)">
-  <rect width="420" height="82" rx="12" fill="#0B1D32" stroke="#2A5577" stroke-width="1.5"/>
-  <text x="22" y="31" class="head">FOLIUM ROUTE MAP</text>
-  <text x="22" y="54" class="sub">Interactive geographic view rendered in the Streamlit experience</text>
-  <text x="22" y="72" font-family="monospace" font-size="10" fill="#42D9F5">VISUALIZATION LAYER</text>
-</g>
-<text x="840" y="286" font-family="monospace" font-size="11" fill="#8CA3B8">AUTOMATED CI</text>
-<text x="840" y="306" class="sub">Train model · API tests · GitHub Actions</text>
+<rect width="1500" height="520" rx="26" fill="url(#bg)"/><rect width="1500" height="520" rx="26" fill="url(#grid)"/>
+<ellipse cx="1210" cy="230" rx="380" ry="270" fill="url(#glow)"/>
+<ellipse cx="1180" cy="440" rx="350" ry="90" fill="#254bff" opacity=".1" filter="url(#softGlow)"/>
+<path d="M0 466C220 405 350 500 560 462s340-75 520-34 300 38 420-20v112H0Z" fill="#10265a" opacity=".58"/>
+<path d="M0 476C200 425 360 510 550 476s310-56 500-20 330 29 450-35" fill="none" stroke="url(#accent)" stroke-width="2.5" opacity=".52"/>
+<text x="88" y="72" font-family="monospace" font-size="13" font-weight="700" letter-spacing="3" fill="#6edcf7">SYSTEM ARCHITECTURE / 03</text>
+<text x="88" y="128" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="42" font-weight="760" fill="#f5f8ff">Taxi Prediction Full Stack</text>
+<text x="90" y="166" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="500" fill="#dbe7ff">Route enrichment and trip features flow into a regression API and map-based result.</text>
+<rect x="88" y="190" width="430" height="2" rx="1" fill="url(#accent)" opacity=".86"/>
+<g fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M335 310H358"/><path d="M350 302l9 8-9 8"/></g><g fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M605 310H628"/><path d="M620 302l9 8-9 8"/></g><g fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M875 310H898"/><path d="M890 302l9 8-9 8"/></g><g fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M1145 310H1168"/><path d="M1160 302l9 8-9 8"/></g><g transform="translate(88 232)">
+      <rect width="244" height="156" rx="16" fill="url(#card)" stroke="#526db0" stroke-opacity=".55" stroke-width="1.5"/>
+      <rect x="1" y="1" width="242" height="4" rx="2" fill="url(#accent)"/>
+      <circle cx="25" cy="29" r="13" fill="#132f62" stroke="url(#accent)" stroke-width="1.5"/>
+      <text x="25" y="33" text-anchor="middle" font-family="monospace" font-size="10" font-weight="700" fill="#eaf5ff">01</text>
+      <text x="47" y="33" font-family="monospace" font-size="11" font-weight="700" letter-spacing="1" fill="#6edcf7">USER INPUT</text>
+      <text x="18" y="68" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#f5f8ff">Streamlit UI</text>
+      <path d="M18 83H226" stroke="#6c8dff" stroke-opacity=".25"/>
+      <text x="18" y="108" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5" fill="#c4d4ed">Pickup + drop-off</text>
+      <text x="18" y="129" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5" fill="#c4d4ed">Trip details</text>
+      <text x="18" y="149" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12.5" fill="#90a9ce">Prediction request</text>
+    </g><g transform="translate(358 232)">
+      <rect width="244" height="156" rx="16" fill="url(#card)" stroke="#526db0" stroke-opacity=".55" stroke-width="1.5"/>
+      <rect x="1" y="1" width="242" height="4" rx="2" fill="url(#accent)"/>
+      <circle cx="25" cy="29" r="13" fill="#132f62" stroke="url(#accent)" stroke-width="1.5"/>
+      <text x="25" y="33" text-anchor="middle" font-family="monospace" font-size="10" font-weight="700" fill="#eaf5ff">02</text>
+      <text x="47" y="33" font-family="monospace" font-size="11" font-weight="700" letter-spacing="1" fill="#6edcf7">ROUTE CONTEXT</text>
+      <text x="18" y="68" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#f5f8ff">OpenRouteService</text>
+      <path d="M18 83H226" stroke="#6c8dff" stroke-opacity=".25"/>
+      <text x="18" y="108" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5" fill="#c4d4ed">Geocoding</text>
+      <text x="18" y="129" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5" fill="#c4d4ed">Driving route</text>
+      <text x="18" y="149" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12.5" fill="#90a9ce">Distance + duration</text>
+    </g><g transform="translate(628 232)">
+      <rect width="244" height="156" rx="16" fill="url(#card)" stroke="#526db0" stroke-opacity=".55" stroke-width="1.5"/>
+      <rect x="1" y="1" width="242" height="4" rx="2" fill="url(#accent)"/>
+      <circle cx="25" cy="29" r="13" fill="#132f62" stroke="url(#accent)" stroke-width="1.5"/>
+      <text x="25" y="33" text-anchor="middle" font-family="monospace" font-size="10" font-weight="700" fill="#eaf5ff">03</text>
+      <text x="47" y="33" font-family="monospace" font-size="11" font-weight="700" letter-spacing="1" fill="#6edcf7">API LAYER</text>
+      <text x="18" y="68" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#f5f8ff">FastAPI</text>
+      <path d="M18 83H226" stroke="#6c8dff" stroke-opacity=".25"/>
+      <text x="18" y="108" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5" fill="#c4d4ed">POST /predict</text>
+      <text x="18" y="129" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5" fill="#c4d4ed">Validated trip features</text>
+      <text x="18" y="149" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12.5" fill="#90a9ce">REST response</text>
+    </g><g transform="translate(898 232)">
+      <rect width="244" height="156" rx="16" fill="url(#card)" stroke="#526db0" stroke-opacity=".55" stroke-width="1.5"/>
+      <rect x="1" y="1" width="242" height="4" rx="2" fill="url(#accent)"/>
+      <circle cx="25" cy="29" r="13" fill="#132f62" stroke="url(#accent)" stroke-width="1.5"/>
+      <text x="25" y="33" text-anchor="middle" font-family="monospace" font-size="10" font-weight="700" fill="#eaf5ff">04</text>
+      <text x="47" y="33" font-family="monospace" font-size="11" font-weight="700" letter-spacing="1" fill="#6edcf7">INFERENCE</text>
+      <text x="18" y="68" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#f5f8ff">scikit-learn</text>
+      <path d="M18 83H226" stroke="#6c8dff" stroke-opacity=".25"/>
+      <text x="18" y="108" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5" fill="#c4d4ed">Regression pipeline</text>
+      <text x="18" y="129" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5" fill="#c4d4ed">Saved model artifact</text>
+      <text x="18" y="149" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12.5" fill="#90a9ce">Predicted fare</text>
+    </g><g transform="translate(1168 232)">
+      <rect width="244" height="156" rx="16" fill="url(#card)" stroke="#526db0" stroke-opacity=".55" stroke-width="1.5"/>
+      <rect x="1" y="1" width="242" height="4" rx="2" fill="url(#accent)"/>
+      <circle cx="25" cy="29" r="13" fill="#132f62" stroke="url(#accent)" stroke-width="1.5"/>
+      <text x="25" y="33" text-anchor="middle" font-family="monospace" font-size="10" font-weight="700" fill="#eaf5ff">05</text>
+      <text x="47" y="33" font-family="monospace" font-size="11" font-weight="700" letter-spacing="1" fill="#6edcf7">RESULT</text>
+      <text x="18" y="68" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#f5f8ff">Fare + Folium</text>
+      <path d="M18 83H226" stroke="#6c8dff" stroke-opacity=".25"/>
+      <text x="18" y="108" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5" fill="#c4d4ed">Fare shown in UI</text>
+      <text x="18" y="129" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5" fill="#c4d4ed">Interactive route map</text>
+      <text x="18" y="149" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12.5" fill="#90a9ce">Geographic context</text>
+    </g><g transform="translate(88 426)">
+      <rect width="374" height="58" rx="12" fill="#101f46" stroke="#526db0" stroke-opacity=".48"/>
+      <circle cx="22" cy="29" r="5" fill="#43d9f5"/>
+      <text x="39" y="24" font-family="monospace" font-size="10.5" font-weight="700" letter-spacing="1.5" fill="#6edcf7">MODEL WORKFLOW</text>
+      <text x="39" y="44" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5" fill="#dbe7ff">Compare candidate regressors with RMSE</text>
+    </g><g transform="translate(563 426)">
+      <rect width="374" height="58" rx="12" fill="#101f46" stroke="#526db0" stroke-opacity=".48"/>
+      <circle cx="22" cy="29" r="5" fill="#647bff"/>
+      <text x="39" y="24" font-family="monospace" font-size="10.5" font-weight="700" letter-spacing="1.5" fill="#6edcf7">AUTOMATION</text>
+      <text x="39" y="44" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5" fill="#dbe7ff">GitHub Actions · training · API tests</text>
+    </g><g transform="translate(1038 426)">
+      <rect width="374" height="58" rx="12" fill="#101f46" stroke="#526db0" stroke-opacity=".48"/>
+      <circle cx="22" cy="29" r="5" fill="#b36bff"/>
+      <text x="39" y="24" font-family="monospace" font-size="10.5" font-weight="700" letter-spacing="1.5" fill="#6edcf7">APP EXPERIENCE</text>
+      <text x="39" y="44" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5" fill="#dbe7ff">Streamlit inputs · route map · fare estimate</text>
+    </g>
+<rect x="25" y="24" width="1450" height="472" rx="25" fill="none" stroke="#6c8dff" stroke-opacity=".18" stroke-width="2"/>
 </svg>

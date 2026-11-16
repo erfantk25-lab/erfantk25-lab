@@ -1,97 +1,92 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
-<title id="title">Customer Churn MLOps architecture</title>
-<desc id="desc">Data validation and tests lead to model training, evaluation and regression gates, MLflow registration, Docker packaging and a FastAPI prediction service.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="520" viewBox="0 0 1500 520" role="img" aria-labelledby="title desc">
+<title id="title">Customer Churn MLOps — System Architecture</title><desc id="desc">Customer churn MLOps architecture: data passes Pandera schema and drift checks, a scikit-learn model is trained and evaluated behind threshold and regression gates, optional MLflow tracks the model, and a checksum-verified artifact is served through FastAPI in Docker with GitHub Actions CI.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050F1E"/><stop offset="1" stop-color="#102B49"/></linearGradient>
-  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#42D9F5"/><stop offset="1" stop-color="#1769AA"/></linearGradient>
-  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#8CA3B8" stroke-opacity=".08"/></pattern>
-  <style>
-    .eyebrow{font:600 12px monospace;letter-spacing:2px;fill:#42D9F5}
-    .head{font:700 16px Arial,sans-serif;fill:#F2F7FC}
-    .sub{font:12px Arial,sans-serif;fill:#B8CADD}
-    .tiny{font:11px monospace;fill:#8CA3B8}
-    .node{fill:#0B1D32;stroke:#2A5577;stroke-width:1.5}
-    .arrow{fill:none;stroke:url(#cyan);stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
-  </style>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071426"/><stop offset=".55" stop-color="#101b3d"/><stop offset="1" stop-color="#21134a"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#43d9f5"/><stop offset=".52" stop-color="#647bff"/><stop offset="1" stop-color="#b36bff"/></linearGradient>
+  <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#142e57"/><stop offset="1" stop-color="#211b4d"/></linearGradient>
+  <radialGradient id="glow"><stop offset="0" stop-color="#4a6cff" stop-opacity=".34"/><stop offset="1" stop-color="#4a6cff" stop-opacity="0"/></radialGradient>
+  <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="16"/></filter>
+  <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#89a9ff" stroke-opacity=".075" stroke-width="1"/></pattern>
 </defs>
-<rect width="1200" height="390" rx="18" fill="url(#bg)"/>
-<rect width="1200" height="390" rx="18" fill="url(#grid)"/>
-<text x="42" y="40" class="eyebrow">01 / CUSTOMER CHURN MLOPS · DELIVERY WORKFLOW</text>
-<text x="42" y="67" class="sub">Automated checks gate training, evaluation, registration and container packaging</text>
-
-<g transform="translate(36 100)">
-  <rect class="node" width="205" height="112" rx="12"/>
-  <rect x="0" y="0" width="205" height="4" rx="2" fill="#42D9F5"/>
-  <circle cx="22" cy="25" r="11" fill="#102B49" stroke="#42D9F5"/>
-  <text x="22" y="29" font-family="monospace" font-size="10" fill="#42D9F5" text-anchor="middle">01</text>
-  <text x="18" y="57" class="head">DATA + QUALITY</text>
-  <text x="18" y="80" class="sub">Pandera schema</text>
-  <text x="18" y="98" class="sub">Drift checks · Ruff · Pytest</text>
-  <path d="M208 56H234L244 56" class="arrow"/><path d="M237 49L245 56L237 63" class="arrow"/>
-</g>
-<g transform="translate(280 100)">
-  <rect class="node" width="205" height="112" rx="12"/>
-  <rect x="0" y="0" width="205" height="4" rx="2" fill="#42D9F5"/>
-  <circle cx="22" cy="25" r="11" fill="#102B49" stroke="#42D9F5"/>
-  <text x="22" y="29" font-family="monospace" font-size="10" fill="#42D9F5" text-anchor="middle">02</text>
-  <text x="18" y="57" class="head">TRAIN MODEL</text>
-  <text x="18" y="80" class="sub">scikit-learn pipeline</text>
-  <text x="18" y="98" class="sub">Model + metrics artifacts</text>
-  <path d="M208 56H234L244 56" class="arrow"/><path d="M237 49L245 56L237 63" class="arrow"/>
-</g>
-<g transform="translate(524 100)">
-  <rect class="node" width="205" height="112" rx="12"/>
-  <rect x="0" y="0" width="205" height="4" rx="2" fill="#42D9F5"/>
-  <circle cx="22" cy="25" r="11" fill="#102B49" stroke="#42D9F5"/>
-  <text x="22" y="29" font-family="monospace" font-size="10" fill="#42D9F5" text-anchor="middle">03</text>
-  <text x="18" y="57" class="head">EVALUATE</text>
-  <text x="18" y="80" class="sub">Metric quality gate</text>
-  <text x="18" y="98" class="sub">Regression comparison</text>
-  <path d="M208 56H234L244 56" class="arrow"/><path d="M237 49L245 56L237 63" class="arrow"/>
-</g>
-<g transform="translate(768 100)">
-  <rect class="node" width="170" height="112" rx="12"/>
-  <rect x="0" y="0" width="170" height="4" rx="2" fill="#42D9F5"/>
-  <circle cx="22" cy="25" r="11" fill="#102B49" stroke="#42D9F5"/>
-  <text x="22" y="29" font-family="monospace" font-size="10" fill="#42D9F5" text-anchor="middle">04</text>
-  <text x="18" y="57" class="head">REGISTER</text>
-  <text x="18" y="80" class="sub">MLflow tracking</text>
-  <text x="18" y="98" class="sub">Approved model</text>
-  <path d="M173 56H204L214 56" class="arrow"/><path d="M207 49L215 56L207 63" class="arrow"/>
-</g>
-<g transform="translate(982 100)">
-  <rect class="node" width="182" height="112" rx="12"/>
-  <rect x="0" y="0" width="182" height="4" rx="2" fill="#42D9F5"/>
-  <circle cx="22" cy="25" r="11" fill="#102B49" stroke="#42D9F5"/>
-  <text x="22" y="29" font-family="monospace" font-size="10" fill="#42D9F5" text-anchor="middle">05</text>
-  <text x="18" y="57" class="head">PACKAGE</text>
-  <text x="18" y="80" class="sub">Docker image</text>
-  <text x="18" y="98" class="sub">GHCR on main</text>
-</g>
-
-<path d="M42 246H1158" stroke="#42D9F5" stroke-opacity=".25"/>
-<text x="42" y="276" class="eyebrow">02 / INFERENCE WORKFLOW</text>
-<g transform="translate(42 296)">
-  <rect width="230" height="62" rx="10" fill="#102B49" stroke="#1769AA"/>
-  <text x="115" y="25" class="head" text-anchor="middle">POST /predict</text>
-  <text x="115" y="45" class="sub" text-anchor="middle">JSON request</text>
-  <path d="M233 31H265L275 31" class="arrow"/><path d="M268 24L276 31L268 38" class="arrow"/>
-</g>
-<g transform="translate(320 296)">
-  <rect width="230" height="62" rx="10" fill="#102B49" stroke="#1769AA"/>
-  <text x="115" y="25" class="head" text-anchor="middle">FastAPI service</text>
-  <text x="115" y="45" class="sub" text-anchor="middle">Health + inference</text>
-  <path d="M233 31H265L275 31" class="arrow"/><path d="M268 24L276 31L268 38" class="arrow"/>
-</g>
-<g transform="translate(598 296)">
-  <rect width="230" height="62" rx="10" fill="#102B49" stroke="#1769AA"/>
-  <text x="115" y="25" class="head" text-anchor="middle">model.joblib</text>
-  <text x="115" y="45" class="sub" text-anchor="middle">Integrity-checked artifact</text>
-  <path d="M233 31H265L275 31" class="arrow"/><path d="M268 24L276 31L268 38" class="arrow"/>
-</g>
-<g transform="translate(876 296)">
-  <rect width="282" height="62" rx="10" fill="#0B1D32" stroke="#42D9F5"/>
-  <text x="141" y="25" class="head" text-anchor="middle">Churn prediction</text>
-  <text x="141" y="45" class="sub" text-anchor="middle">Class + probability</text>
-</g>
+<rect width="1500" height="520" rx="26" fill="url(#bg)"/><rect width="1500" height="520" rx="26" fill="url(#grid)"/>
+<ellipse cx="1210" cy="230" rx="380" ry="270" fill="url(#glow)"/>
+<ellipse cx="1180" cy="440" rx="350" ry="90" fill="#254bff" opacity=".1" filter="url(#softGlow)"/>
+<path d="M0 466C220 405 350 500 560 462s340-75 520-34 300 38 420-20v112H0Z" fill="#10265a" opacity=".58"/>
+<path d="M0 476C200 425 360 510 550 476s310-56 500-20 330 29 450-35" fill="none" stroke="url(#accent)" stroke-width="2.5" opacity=".52"/>
+<text x="88" y="72" font-family="monospace" font-size="13" font-weight="700" letter-spacing="3" fill="#6edcf7">SYSTEM ARCHITECTURE / 02</text>
+<text x="88" y="128" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="42" font-weight="760" fill="#f5f8ff">Customer Churn MLOps</text>
+<text x="90" y="166" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="500" fill="#dbe7ff">Quality gates protect the model from training through production inference.</text>
+<rect x="88" y="190" width="430" height="2" rx="1" fill="url(#accent)" opacity=".86"/>
+<g fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M335 310H358"/><path d="M350 302l9 8-9 8"/></g><g fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M605 310H628"/><path d="M620 302l9 8-9 8"/></g><g fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M875 310H898"/><path d="M890 302l9 8-9 8"/></g><g fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M1145 310H1168"/><path d="M1160 302l9 8-9 8"/></g><g transform="translate(88 232)">
+      <rect width="244" height="156" rx="16" fill="url(#card)" stroke="#526db0" stroke-opacity=".55" stroke-width="1.5"/>
+      <rect x="1" y="1" width="242" height="4" rx="2" fill="url(#accent)"/>
+      <circle cx="25" cy="29" r="13" fill="#132f62" stroke="url(#accent)" stroke-width="1.5"/>
+      <text x="25" y="33" text-anchor="middle" font-family="monospace" font-size="10" font-weight="700" fill="#eaf5ff">01</text>
+      <text x="47" y="33" font-family="monospace" font-size="11" font-weight="700" letter-spacing="1" fill="#6edcf7">DATA INPUT</text>
+      <text x="18" y="68" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#f5f8ff">Churn dataset</text>
+      <path d="M18 83H226" stroke="#6c8dff" stroke-opacity=".25"/>
+      <text x="18" y="108" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5" fill="#c4d4ed">Source features</text>
+      <text x="18" y="129" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5" fill="#c4d4ed">Schema expectations</text>
+      <text x="18" y="149" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12.5" fill="#90a9ce">Training / test split</text>
+    </g><g transform="translate(358 232)">
+      <rect width="244" height="156" rx="16" fill="url(#card)" stroke="#526db0" stroke-opacity=".55" stroke-width="1.5"/>
+      <rect x="1" y="1" width="242" height="4" rx="2" fill="url(#accent)"/>
+      <circle cx="25" cy="29" r="13" fill="#132f62" stroke="url(#accent)" stroke-width="1.5"/>
+      <text x="25" y="33" text-anchor="middle" font-family="monospace" font-size="10" font-weight="700" fill="#eaf5ff">02</text>
+      <text x="47" y="33" font-family="monospace" font-size="11" font-weight="700" letter-spacing="1" fill="#6edcf7">QUALITY GATE</text>
+      <text x="18" y="68" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#f5f8ff">Validate data</text>
+      <path d="M18 83H226" stroke="#6c8dff" stroke-opacity=".25"/>
+      <text x="18" y="108" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5" fill="#c4d4ed">Pandera schema checks</text>
+      <text x="18" y="129" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5" fill="#c4d4ed">Statistical drift checks</text>
+      <text x="18" y="149" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12.5" fill="#90a9ce">Automated tests</text>
+    </g><g transform="translate(628 232)">
+      <rect width="244" height="156" rx="16" fill="url(#card)" stroke="#526db0" stroke-opacity=".55" stroke-width="1.5"/>
+      <rect x="1" y="1" width="242" height="4" rx="2" fill="url(#accent)"/>
+      <circle cx="25" cy="29" r="13" fill="#132f62" stroke="url(#accent)" stroke-width="1.5"/>
+      <text x="25" y="33" text-anchor="middle" font-family="monospace" font-size="10" font-weight="700" fill="#eaf5ff">03</text>
+      <text x="47" y="33" font-family="monospace" font-size="11" font-weight="700" letter-spacing="1" fill="#6edcf7">MODEL PIPELINE</text>
+      <text x="18" y="68" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#f5f8ff">Train model</text>
+      <path d="M18 83H226" stroke="#6c8dff" stroke-opacity=".25"/>
+      <text x="18" y="108" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5" fill="#c4d4ed">scikit-learn workflow</text>
+      <text x="18" y="129" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5" fill="#c4d4ed">Model + metrics artifacts</text>
+      <text x="18" y="149" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12.5" fill="#90a9ce">Reproducible run</text>
+    </g><g transform="translate(898 232)">
+      <rect width="244" height="156" rx="16" fill="url(#card)" stroke="#526db0" stroke-opacity=".55" stroke-width="1.5"/>
+      <rect x="1" y="1" width="242" height="4" rx="2" fill="url(#accent)"/>
+      <circle cx="25" cy="29" r="13" fill="#132f62" stroke="url(#accent)" stroke-width="1.5"/>
+      <text x="25" y="33" text-anchor="middle" font-family="monospace" font-size="10" font-weight="700" fill="#eaf5ff">04</text>
+      <text x="47" y="33" font-family="monospace" font-size="11" font-weight="700" letter-spacing="1" fill="#6edcf7">MODEL APPROVAL</text>
+      <text x="18" y="68" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#f5f8ff">Evaluate + track</text>
+      <path d="M18 83H226" stroke="#6c8dff" stroke-opacity=".25"/>
+      <text x="18" y="108" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5" fill="#c4d4ed">Threshold evaluation</text>
+      <text x="18" y="129" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5" fill="#c4d4ed">Regression gate</text>
+      <text x="18" y="149" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12.5" fill="#90a9ce">Optional MLflow registry</text>
+    </g><g transform="translate(1168 232)">
+      <rect width="244" height="156" rx="16" fill="url(#card)" stroke="#526db0" stroke-opacity=".55" stroke-width="1.5"/>
+      <rect x="1" y="1" width="242" height="4" rx="2" fill="url(#accent)"/>
+      <circle cx="25" cy="29" r="13" fill="#132f62" stroke="url(#accent)" stroke-width="1.5"/>
+      <text x="25" y="33" text-anchor="middle" font-family="monospace" font-size="10" font-weight="700" fill="#eaf5ff">05</text>
+      <text x="47" y="33" font-family="monospace" font-size="11" font-weight="700" letter-spacing="1" fill="#6edcf7">SERVING</text>
+      <text x="18" y="68" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#f5f8ff">FastAPI + Docker</text>
+      <path d="M18 83H226" stroke="#6c8dff" stroke-opacity=".25"/>
+      <text x="18" y="108" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5" fill="#c4d4ed">Checksum-verified model</text>
+      <text x="18" y="129" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5" fill="#c4d4ed">Inference + health routes</text>
+      <text x="18" y="149" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12.5" fill="#90a9ce">Smoke tests in CI</text>
+    </g><g transform="translate(88 426)">
+      <rect width="374" height="58" rx="12" fill="#101f46" stroke="#526db0" stroke-opacity=".48"/>
+      <circle cx="22" cy="29" r="5" fill="#43d9f5"/>
+      <text x="39" y="24" font-family="monospace" font-size="10.5" font-weight="700" letter-spacing="1.5" fill="#6edcf7">CONTINUOUS INTEGRATION</text>
+      <text x="39" y="44" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5" fill="#dbe7ff">GitHub Actions · tests · image build</text>
+    </g><g transform="translate(563 426)">
+      <rect width="374" height="58" rx="12" fill="#101f46" stroke="#526db0" stroke-opacity=".48"/>
+      <circle cx="22" cy="29" r="5" fill="#647bff"/>
+      <text x="39" y="24" font-family="monospace" font-size="10.5" font-weight="700" letter-spacing="1.5" fill="#6edcf7">ARTIFACT SAFETY</text>
+      <text x="39" y="44" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5" fill="#dbe7ff">Model checksum verification · gated release</text>
+    </g><g transform="translate(1038 426)">
+      <rect width="374" height="58" rx="12" fill="#101f46" stroke="#526db0" stroke-opacity=".48"/>
+      <circle cx="22" cy="29" r="5" fill="#b36bff"/>
+      <text x="39" y="24" font-family="monospace" font-size="10.5" font-weight="700" letter-spacing="1.5" fill="#6edcf7">RUNTIME</text>
+      <text x="39" y="44" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5" fill="#dbe7ff">Containerized API · prediction response</text>
+    </g>
+<rect x="25" y="24" width="1450" height="472" rx="25" fill="none" stroke="#6c8dff" stroke-opacity=".18" stroke-width="2"/>
 </svg>
