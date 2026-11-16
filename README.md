@@ -63,6 +63,15 @@ Four projects, one engineering direction: build systems that move data reliably 
 
 **[Study Buddy RAG – Fullstack LLMOps Project](https://github.com/LAjoyan/Fullstack_LLMops_Project)**
 
+<details>
+<summary><strong>Explore the system architecture</strong></summary>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/a949cd7871f506844285489439f269766d5a3b96/study-buddy-architecture.svg" alt="Study Buddy RAG architecture: course content, embeddings, LanceDB retrieval, FastAPI agent and Streamlit interface" width="100%">
+</p>
+
+</details>
+
 A collaborative full-stack Retrieval-Augmented Generation (RAG) application built by a team of four. It turns lecture transcriptions into an interactive study assistant for course questions, quiz and flashcard generation, and PDF exports.
 
 - **Retrieval:** semantic search with LanceDB and Cohere multilingual embeddings, with source-aware answers.
@@ -101,7 +110,7 @@ An MLOps pipeline for customer churn prediction, combining data quality checks, 
 <summary><strong>Explore the system architecture</strong></summary>
 
 <p align="center">
-  <img src="fastapi-mlops-architecture.svg" alt="Customer churn MLOps architecture: data validation, model training, evaluation, artifact verification, FastAPI and Docker delivery" width="100%">
+  <img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/a949cd7871f506844285489439f269766d5a3b96/fastapi-mlops-architecture.svg" alt="Customer churn MLOps architecture: data validation, model training, evaluation, artifact verification, FastAPI and Docker delivery" width="100%">
 </p>
 
 </details>
@@ -138,7 +147,7 @@ An individual application that combines a regression model, a prediction API and
 <summary><strong>Explore the system architecture</strong></summary>
 
 <p align="center">
-  <img src="taxi-fullstack-architecture.svg" alt="Taxi prediction architecture: Streamlit, OpenRouteService, FastAPI, scikit-learn model and Folium map" width="100%">
+  <img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/a949cd7871f506844285489439f269766d5a3b96/taxi-fullstack-architecture.svg" alt="Taxi prediction architecture: Streamlit, OpenRouteService, FastAPI, scikit-learn model and Folium map" width="100%">
 </p>
 
 </details>
@@ -175,7 +184,7 @@ A collaborative edge-IoT project using a Raspberry Pi Pico W to monitor environm
 <summary><strong>Explore the system architecture</strong></summary>
 
 <p align="center">
-  <img src="edge-iot-architecture.svg" alt="Edge IoT architecture: Pico W sensors, MQTT broker, Python consumer, TimescaleDB, Grafana and Discord alerts" width="100%">
+  <img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/a949cd7871f506844285489439f269766d5a3b96/edge-iot-architecture.svg" alt="Edge IoT architecture: Pico W sensors, MQTT broker, Python consumer, TimescaleDB, Grafana and Discord alerts" width="100%">
 </p>
 
 </details>
