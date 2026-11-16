@@ -2,11 +2,6 @@
   <img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/c17a9d2ae2f2b0e5380bf6bed147ebba43ce45b5/banner.svg" alt="Erfan Tahmasebi — MLOps Engineering" width="100%">
 </p>
 
-<p align="center">
-  <a href="https://erfantk25-lab.github.io/"><strong>Portfolio</strong></a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/erfan-tahmasbikondroodi/"><strong>LinkedIn</strong></a>
-</p>
 
 ---
 
