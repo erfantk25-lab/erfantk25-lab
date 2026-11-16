@@ -4,21 +4,25 @@
 
 <h1 align="center">Erfan Tahmasebi</h1>
 
+<h2 align="center">MLOps Engineer in Training</h2>
+
 <p align="center">
-  <strong>MLOps Engineering Student · Stockholm, Sweden</strong><br>
-  Engineering reliable ML systems — from validated data and model training to APIs, containers and deployment.
+  <strong>Stockholm, Sweden · Nackademin</strong><br>
+  Building reliable ML workflows through data quality, model serving and automated delivery.
 </p>
 
 <p align="center">
-  <a href="https://erfantk25-lab.github.io/"><img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/b775dba15fafa1554d23d5a2cdaf56fc23acd8ed/icons/portfolio.svg" alt="Portfolio" width="22" height="22"> PORTFOLIO</a>&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/erfan-tahmasbikondroodi/"><img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/b775dba15fafa1554d23d5a2cdaf56fc23acd8ed/icons/linkedin.svg" alt="LinkedIn" width="22" height="22"> LINKEDIN</a>&nbsp;&nbsp;
-  <a href="mailto:erfan.tahmasbikondroodi@yh.nackademin.se"><img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/b775dba15fafa1554d23d5a2cdaf56fc23acd8ed/icons/email.svg" alt="Email" width="22" height="22"> EMAIL</a>
+  <a href="https://erfantk25-lab.github.io/"><img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/b775dba15fafa1554d23d5a2cdaf56fc23acd8ed/icons/portfolio.svg" alt="" width="22" height="22"> <strong>Portfolio</strong></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/erfan-tahmasbikondroodi/"><img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/b775dba15fafa1554d23d5a2cdaf56fc23acd8ed/icons/linkedin.svg" alt="" width="22" height="22"> <strong>LinkedIn</strong></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="mailto:erfan.tahmasbikondroodi@yh.nackademin.se"><img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/b775dba15fafa1554d23d5a2cdaf56fc23acd8ed/icons/email.svg" alt="" width="22" height="22"> <strong>Email</strong></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/FOCUS-MLOps-42D9F5?style=for-the-badge&labelColor=071426" alt="Focus: MLOps">
-  <img src="https://img.shields.io/badge/BUILD-ML%20Systems-42D9F5?style=for-the-badge&labelColor=071426" alt="Building ML systems">
-  <img src="https://img.shields.io/badge/BASED-Stockholm-42D9F5?style=for-the-badge&labelColor=071426" alt="Based in Stockholm">
+  <img src="https://img.shields.io/badge/FOCUS-MLOps-43D9F5?style=flat-square&labelColor=071426" alt="Focus: MLOps">
+  <img src="https://img.shields.io/badge/BUILD-ML%20Systems-43D9F5?style=flat-square&labelColor=071426" alt="Building ML systems">
+  <img src="https://img.shields.io/badge/BASED-Stockholm-43D9F5?style=flat-square&labelColor=071426" alt="Based in Stockholm">
 </p>
 
 ---
