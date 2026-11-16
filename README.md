@@ -10,9 +10,9 @@
 </p>
 
 <p align="center">
-  <a href="https://erfantk25-lab.github.io/"><img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/c8d8bb02fdbf084a622b79442d96e71a80b9fdac/icons/portfolio.svg" alt="Portfolio" width="22" height="22"></a>&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/erfan-tahmasbikondroodi/"><img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/c8d8bb02fdbf084a622b79442d96e71a80b9fdac/icons/linkedin.svg" alt="LinkedIn" width="22" height="22"></a>&nbsp;&nbsp;
-  <a href="mailto:erfan.tahmasbikondroodi@yh.nackademin.se"><img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/c8d8bb02fdbf084a622b79442d96e71a80b9fdac/icons/email.svg" alt="Email" width="22" height="22"></a>
+  <a href="https://erfantk25-lab.github.io/"><img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/b775dba15fafa1554d23d5a2cdaf56fc23acd8ed/icons/portfolio.svg" alt="Portfolio" width="22" height="22"> PORTFOLIO</a>&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/erfan-tahmasbikondroodi/"><img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/b775dba15fafa1554d23d5a2cdaf56fc23acd8ed/icons/linkedin.svg" alt="LinkedIn" width="22" height="22"> LINKEDIN</a>&nbsp;&nbsp;
+  <a href="mailto:erfan.tahmasbikondroodi@yh.nackademin.se"><img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/b775dba15fafa1554d23d5a2cdaf56fc23acd8ed/icons/email.svg" alt="Email" width="22" height="22"> EMAIL</a>
 </p>
 
 <p align="center">
