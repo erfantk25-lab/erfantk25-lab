@@ -54,15 +54,6 @@ Four projects, one engineering direction: build systems that move data reliably 
 
 **[Study Buddy RAG – Fullstack LLMOps Project](https://github.com/LAjoyan/Fullstack_LLMops_Project)**
 
-<details>
-<summary><strong>Explore the system architecture</strong></summary>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/a949cd7871f506844285489439f269766d5a3b96/study-buddy-architecture.svg" alt="Study Buddy RAG architecture: course content, embeddings, LanceDB retrieval, FastAPI agent and Streamlit interface" width="100%">
-</p>
-
-</details>
-
 A collaborative full-stack Retrieval-Augmented Generation (RAG) application built by a team of four. It turns lecture transcriptions into an interactive study assistant for course questions, quiz and flashcard generation, and PDF exports.
 
 - **Retrieval:** semantic search with LanceDB and Cohere multilingual embeddings, with source-aware answers.
@@ -82,14 +73,23 @@ A collaborative full-stack Retrieval-Augmented Generation (RAG) application buil
   <img src="https://img.shields.io/badge/Azure-071426?style=flat-square&logo=data:image%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5NiA5NiI+PHBhdGggZmlsbD0iI0M0QTdGRiIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yOC4xODU0IDEwLjA4MUMyOS4wMDg2IDcuNjQxOTMgMzEuMjk2MSA1Ljk5OTc2IDMzLjg3MDMgNS45OTk3NkgzNi45OTg3SDM4LjQ0NTlMMzguNDQ2IDYuMDAwMDVINjIuMTI4NEM2NC43MDI3IDYuMDAwMDUgNjYuOTkwMSA3LjY0MjIyIDY3LjgxMzMgMTAuMDgxM0w5Mi4xMTMxIDgyLjA4MDdDOTMuNDI1OCA4NS45NyA5MC41MzMgODkuOTk5NCA4Ni40MjgyIDg5Ljk5OTRINTkuMDAwMVY4OS45NzNDNTguODEyNSA4OS45OTA0IDU4LjYyMTggODkuOTk5NCA1OC40Mjg1IDg5Ljk5OTRINTguMzIzM0M1Ny4wMzQ1IDg5Ljk5OTQgNTUuNzc5OSA4OS41ODQ0IDU0Ljc0NTQgODguODE1OEwzNi40MjY2IDc1LjIwNzZMMzIuODEyIDg1LjkxNzhDMzEuOTg4OCA4OC4zNTY5IDI5LjcwMTQgODkuOTk5MSAyNy4xMjcxIDg5Ljk5OTFIOS41NzA1NkM1LjQ2NTc5IDg5Ljk5OTEgMi41NzMwMyA4NS45Njk3IDMuODg1NjQgODIuMDgwNEwyOC4xODU0IDEwLjA4MVpNMjMuNDI3NyA2MC41Njg0TDU3LjEzMDYgODUuNjA0OUM1Ny40NzU1IDg1Ljg2MTEgNTcuODkzNyA4NS45OTk0IDU4LjMyMzMgODUuOTk5NEg1OC40Mjg1QzU5Ljc5NjcgODUuOTk5NCA2MC43NjEgODQuNjU2MyA2MC4zMjM0IDgzLjM1OThMNDYuOTA0MSA0My41OTg5TDQxLjIwMTcgNTguNzU5TDQwLjcxNDIgNjAuMDU0OUgzOS4zMjk3SDIyLjczOTdMMjMuNDI3NyA2MC41Njg0Wk04Ni40MjgyIDg1Ljk5OTRINjQuMDg4MUM2NC41MTgxIDg0Ljc5MTkgNjQuNTY4MSA4My40Mjc5IDY0LjExMzQgODIuMDgwN0wzOS44MTM2IDEwLjA4MTNDMzkuODA0MSAxMC4wNTQgMzkuNzk1IDEwLjAyNyAzOS43ODU1IDEwSDYyLjEyODRDNjIuOTg2NSAxMCA2My43NDkgMTAuNTQ3NCA2NC4wMjM0IDExLjM2MDRMODguMzIzMiA4My4zNTk4Qzg4Ljc2MDcgODQuNjU2MyA4Ny43OTY1IDg1Ljk5OTQgODYuNDI4MiA4NS45OTk0WiIvPjwvc3ZnPg==" alt="Microsoft Azure">
 </p>
 
----
+<details>
+<summary><strong>Explore the system architecture</strong></summary>
+
+<p align="center">
+  <img src="study-buddy-architecture.svg" alt="Study Buddy RAG architecture: course content, embeddings, LanceDB retrieval, FastAPI agent and Streamlit interface" width="100%">
+</p>
+
+</details>
+
+<p align="right"><a href="https://github.com/LAjoyan/Fullstack_LLMops_Project">VIEW PROJECT REPOSITORY →</a></p>
 
 ---
 
 ### 02 / Customer Churn MLOps · Model serving & delivery
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/1e7bb1a22ccb3d03111877a455a0e73fcec82ac7/fastapi-ml-serving-banner.svg" alt="FastAPI, Docker and ML serving project banner" width="100%">
+  <img src="fastapi-ml-serving-banner.svg" alt="FastAPI, Docker and ML serving project banner" width="100%">
 </p>
 
 **[FastAPI Docker ML Serving](https://github.com/erfantk25-lab/fastapi-docker-ml-serving)**
@@ -113,7 +113,7 @@ An MLOps pipeline for customer churn prediction, combining data quality checks, 
 <summary><strong>Explore the system architecture</strong></summary>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/a949cd7871f506844285489439f269766d5a3b96/fastapi-mlops-architecture.svg" alt="Customer churn MLOps architecture: data validation, model training, evaluation, artifact verification, FastAPI and Docker delivery" width="100%">
+  <img src="fastapi-mlops-architecture.svg" alt="Customer churn MLOps architecture: data validation, model training, evaluation, artifact verification, FastAPI and Docker delivery" width="100%">
 </p>
 
 </details>
@@ -125,7 +125,7 @@ An MLOps pipeline for customer churn prediction, combining data quality checks, 
 ### 03 / Taxi Prediction · Full-stack machine learning
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/c6be7cb34fa5478e9747a9da7d06eac07c4c41ca/taxi-prediction-banner.svg" alt="Taxi prediction full-stack project banner" width="100%">
+  <img src="taxi-prediction-banner.svg" alt="Taxi prediction full-stack project banner" width="100%">
 </p>
 
 **[Taxi Prediction — Full Stack](https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN)**
@@ -150,7 +150,7 @@ An individual application that combines a regression model, a prediction API and
 <summary><strong>Explore the system architecture</strong></summary>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/a949cd7871f506844285489439f269766d5a3b96/taxi-fullstack-architecture.svg" alt="Taxi prediction architecture: Streamlit, OpenRouteService, FastAPI, scikit-learn model and Folium map" width="100%">
+  <img src="taxi-fullstack-architecture.svg" alt="Taxi prediction architecture: Streamlit, OpenRouteService, FastAPI, scikit-learn model and Folium map" width="100%">
 </p>
 
 </details>
@@ -162,7 +162,7 @@ An individual application that combines a regression model, a prediction API and
 ### 04 / Edge Computing · Smart Grow environmental monitor
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/1e7bb1a22ccb3d03111877a455a0e73fcec82ac7/edge-computing-banner.svg" alt="Edge computing project banner" width="100%">
+  <img src="edge-computing-banner.svg" alt="Edge computing project banner" width="100%">
 </p>
 
 **[Edge Computing Project](https://github.com/erfantk25-lab/Edge-computing-project-)**
@@ -187,7 +187,7 @@ A collaborative edge-IoT project using a Raspberry Pi Pico W to monitor environm
 <summary><strong>Explore the system architecture</strong></summary>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/a949cd7871f506844285489439f269766d5a3b96/edge-iot-architecture.svg" alt="Edge IoT architecture: Pico W sensors, MQTT broker, Python consumer, TimescaleDB, Grafana and Discord alerts" width="100%">
+  <img src="edge-iot-architecture.svg" alt="Edge IoT architecture: Pico W sensors, MQTT broker, Python consumer, TimescaleDB, Grafana and Discord alerts" width="100%">
 </p>
 
 </details>
