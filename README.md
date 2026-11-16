@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/c17a9d2ae2f2b0e5380bf6bed147ebba43ce45b5/banner.svg" alt="Erfan Tahmasebi — MLOps Engineering" width="100%">
+  <img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/main/banner.svg" alt="Erfan Tahmasebi — MLOps Engineering" width="100%">
 </p>
 
 
