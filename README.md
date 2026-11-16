@@ -8,7 +8,7 @@
 
 <p align="center">
   <strong>Stockholm, Sweden · Nackademin</strong><br>
-  Building reliable ML workflows through data quality, model serving and automated delivery.
+  MLOps Engineering student focused on reliable ML systems, from data validation and model serving to automation, CI/CD and monitoring.
 </p>
 
 <p align="center">
@@ -26,19 +26,6 @@
 </p>
 
 ---
-
-## Profile
-
-I'm studying **MLOps Engineering at Nackademin**, focusing on the engineering practices that make machine learning applications reproducible, deployable and maintainable.
-
-I enjoy connecting model development with practical software engineering: data validation, experiment workflows, model APIs, containerization, CI/CD and monitoring. The projects below show how I approach those problems through hands-on individual and collaborative work.
-
-| Focus | What I'm building |
-|---|---|
-| **ML engineering** | Reproducible training, evaluation, model serving |
-| **Platform & delivery** | Docker, CI/CD, GitHub Actions, container registries |
-| **Data & reliability** | Schema validation, drift checks, tests and monitoring |
-| **Edge & connected systems** | Device telemetry, MQTT pipelines and observability |
 
 ## Technical toolkit
 
