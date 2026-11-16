@@ -1,16 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="t d">
-<title id="t">FASTAPI · DOCKER · ML SERVING</title><desc id="d">Packaging and serving machine learning models through a clean API</desc>
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050F1E"/><stop offset="1" stop-color="#102B49"/></linearGradient><linearGradient id="a" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#42D9F5"/><stop offset="1" stop-color="#1769AA"/></linearGradient><pattern id="g" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#8CA3B8" stroke-opacity=".10"/></pattern></defs>
-<rect width="1200" height="260" rx="16" fill="url(#bg)"/><rect width="1200" height="260" rx="16" fill="url(#g)"/>
-<path d="M0 248H1200" stroke="#42D9F5" stroke-opacity=".55"/>
-<rect x="54" y="48" width="5" height="25" rx="2" fill="#42D9F5"/>
-<text x="76" y="67" fill="#42D9F5" font-family="monospace" font-size="13" letter-spacing="3">SELECTED PROJECT / ERFAN TAHMASEBI</text>
-<text x="54" y="132" fill="#F2F7FC" font-family="Arial,sans-serif" font-size="39" font-weight="700">FASTAPI · DOCKER · ML SERVING</text>
-<text x="56" y="169" fill="#B8CADD" font-family="Arial,sans-serif" font-size="18">Packaging and serving machine learning models through a clean API</text>
-<g transform="translate(720 35)"><rect x="5" y="18" width="440" height="170" rx="15" fill="#050F1E" stroke="#42D9F5" stroke-opacity=".45"/>
-  <g fill="#102B49" stroke="#42D9F5" stroke-width="2"><rect x="28" y="65" width="105" height="75" rx="9"/><rect x="170" y="65" width="105" height="75" rx="9"/><rect x="312" y="65" width="105" height="75" rx="9"/></g>
-  <g fill="none" stroke="#42D9F5" stroke-width="3" stroke-linecap="round"><path d="M133 102H170M275 102H312"/><path d="M158 92L170 102L158 112M300 92L312 102L300 112"/><path d="M54 87H107M54 101H107M54 115H93"/><path d="M194 88H250M194 102H250M194 116H236"/><path d="M337 87H392M337 102H392M337 116H378"/></g>
-  <g fill="#F2F7FC" font-family="monospace" font-size="12" text-anchor="middle"><text x="80" y="158">MODEL</text><text x="222" y="158">DOCKER</text><text x="364" y="158">FASTAPI</text></g>
-  <circle cx="422" cy="38" r="5" fill="#42D9F5"/></g>
-<text x="56" y="220" fill="#8CA3B8" font-family="monospace" font-size="12" letter-spacing="2">PYTHON  ·  MACHINE LEARNING  ·  ENGINEERING</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="320" viewBox="0 0 1500 320" role="img" aria-labelledby="title desc">
+<title id="title">Customer Churn MLOps — Model Serving and Delivery</title>
+<desc id="desc">A customer churn MLOps pipeline with data validation, model evaluation, FastAPI inference and Docker delivery.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071426"/><stop offset=".55" stop-color="#101b3d"/><stop offset="1" stop-color="#21134a"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#43d9f5"/><stop offset=".52" stop-color="#647bff"/><stop offset="1" stop-color="#b36bff"/></linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b3461"/><stop offset="1" stop-color="#27194d"/></linearGradient>
+  <radialGradient id="glow"><stop offset="0" stop-color="#4a6cff" stop-opacity=".38"/><stop offset="1" stop-color="#4a6cff" stop-opacity="0"/></radialGradient>
+  <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="11"/></filter>
+  <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#89a9ff" stroke-opacity=".08" stroke-width="1"/></pattern>
+</defs>
+<rect width="1500" height="320" rx="26" fill="url(#bg)"/>
+<rect width="1500" height="320" rx="26" fill="url(#grid)"/>
+<ellipse cx="1240" cy="155" rx="330" ry="230" fill="url(#glow)"/>
+<ellipse cx="1150" cy="280" rx="350" ry="95" fill="#254bff" opacity=".13" filter="url(#softGlow)"/>
+<path d="M0 270C190 210 310 320 510 276S840 205 1010 258s310 42 490-38v100H0Z" fill="#10265a" opacity=".8"/>
+<path d="M0 285C200 225 330 326 520 285S850 225 1020 270s330 28 480-45" fill="none" stroke="url(#accent)" stroke-width="3" opacity=".65"/>
+<path d="M0 304C220 250 350 335 545 300s310-58 500-18 330 22 455-25" fill="none" stroke="#43d9f5" stroke-width="1.5" opacity=".28"/>
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+  <text x="78" y="68" font-size="15" font-weight="650" letter-spacing="3" fill="#6edcf7">PORTFOLIO / SELECTED ENGINEERING WORK</text>
+  <text x="78" y="112" font-size="53" font-weight="760" fill="#f5f8ff">Customer Churn</text>
+     <text x="78" y="166" font-size="53" font-weight="760" fill="url(#accent)">MLOps</text>
+     <text x="81" y="207" font-size="20" fill="#bdcbe4">Reliable model serving &amp; delivery</text>
+     <text x="81" y="242" font-size="15" letter-spacing="1.3" fill="#6edcf7">PANDERA  ·  FASTAPI  ·  DOCKER  ·  GITHUB ACTIONS</text>
+</g>
+<g transform="translate(895 30)"><rect x="0" y="5" width="510" height="235" rx="22" fill="#071426" fill-opacity=".64" stroke="#778eff" stroke-opacity=".42"/>
+     <text x="25" y="37" font-family="monospace" font-size="12" letter-spacing="2" fill="#9badcb">VALIDATE → TRAIN → SERVE</text>
+     <g stroke="url(#accent)" stroke-width="3" fill="#142d59">
+       <rect x="26" y="80" width="126" height="105" rx="16"/><rect x="191" y="80" width="126" height="105" rx="16"/><rect x="356" y="80" width="126" height="105" rx="16"/>
+     </g>
+     <g fill="none" stroke="#d7e9ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+       <path d="M53 111h69M53 126h69M53 141h45"/><path d="M220 111h67M220 126h67M220 141h44"/>
+       <path d="M390 105h60v46h-60zM401 118h38M401 130h38M401 142h25"/>
+       <path d="M152 132h39m-12-10 12 10-12 10M317 132h39m-12-10 12 10-12 10"/>
+     </g>
+     <g fill="#e8f1ff" font-family="monospace" font-size="12" text-anchor="middle"><text x="89" y="211">DATA + QUALITY</text><text x="254" y="211">MODEL</text><text x="419" y="211">API</text></g></g>
+<rect x="25" y="24" width="1450" height="272" rx="25" fill="none" stroke="#6c8dff" stroke-opacity=".18" stroke-width="2"/>
 </svg>
