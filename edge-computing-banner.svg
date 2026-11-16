@@ -1,37 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1500" height="320" viewBox="0 0 1500 320" role="img" aria-labelledby="title desc">
-<title id="title">Smart Grow — Edge Computing and Environmental Monitoring</title>
-<desc id="desc">A collaborative edge computing and IoT project monitoring environmental conditions with connected sensors and telemetry.</desc>
+<title id="title">Smart Grow — Edge Computing and IoT</title><desc id="desc">Smart Grow environmental monitoring project with greenhouse plant, connected sensors, Raspberry Pi Pico W, MQTT and monitoring.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071426"/><stop offset=".55" stop-color="#101b3d"/><stop offset="1" stop-color="#21134a"/></linearGradient>
-  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#43d9f5"/><stop offset=".52" stop-color="#647bff"/><stop offset="1" stop-color="#b36bff"/></linearGradient>
-  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b3461"/><stop offset="1" stop-color="#27194d"/></linearGradient>
-  <radialGradient id="glow"><stop offset="0" stop-color="#4a6cff" stop-opacity=".38"/><stop offset="1" stop-color="#4a6cff" stop-opacity="0"/></radialGradient>
-  <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="11"/></filter>
-  <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#89a9ff" stroke-opacity=".08" stroke-width="1"/></pattern>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071426"/><stop offset=".55" stop-color="#101b3d"/><stop offset="1" stop-color="#21134a"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#43d9f5"/><stop offset=".52" stop-color="#647bff"/><stop offset="1" stop-color="#b36bff"/></linearGradient>
+<linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b3461"/><stop offset="1" stop-color="#27194d"/></linearGradient>
+<radialGradient id="glow"><stop offset="0" stop-color="#4a6cff" stop-opacity=".42"/><stop offset="1" stop-color="#4a6cff" stop-opacity="0"/></radialGradient>
+<filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="13"/></filter>
+<pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#89a9ff" stroke-opacity=".08"/></pattern>
 </defs>
 <rect width="1500" height="320" rx="26" fill="url(#bg)"/>
 <rect width="1500" height="320" rx="26" fill="url(#grid)"/>
-<ellipse cx="1240" cy="155" rx="330" ry="230" fill="url(#glow)"/>
-<ellipse cx="1150" cy="280" rx="350" ry="95" fill="#254bff" opacity=".13" filter="url(#softGlow)"/>
-<path d="M0 270C190 210 310 320 510 276S840 205 1010 258s310 42 490-38v100H0Z" fill="#10265a" opacity=".8"/>
-<path d="M0 285C200 225 330 326 520 285S850 225 1020 270s330 28 480-45" fill="none" stroke="url(#accent)" stroke-width="3" opacity=".65"/>
-<path d="M0 304C220 250 350 335 545 300s310-58 500-18 330 22 455-25" fill="none" stroke="#43d9f5" stroke-width="1.5" opacity=".28"/>
-<g font-family="Inter,Segoe UI,Arial,sans-serif">
-  <text x="78" y="68" font-size="15" font-weight="650" letter-spacing="3" fill="#6edcf7">PORTFOLIO / SELECTED ENGINEERING WORK</text>
-  <text x="78" y="128" font-size="64" font-weight="760" fill="#f5f8ff">Smart Grow</text>
-     <text x="81" y="177" font-size="28" font-weight="600" fill="url(#accent)">Edge computing · IoT</text>
-     <text x="81" y="218" font-size="20" fill="#bdcbe4">Environmental monitoring with connected sensors</text>
-     <text x="81" y="255" font-size="15" letter-spacing="1.2" fill="#6edcf7">PICO W  ·  MQTT  ·  TIMESCALEDB  ·  GRAFANA</text>
+<ellipse cx="1200" cy="155" rx="340" ry="230" fill="url(#glow)"/>
+<ellipse cx="1190" cy="270" rx="300" ry="70" fill="#254bff" opacity=".14" filter="url(#shadow)"/>
+<path d="M0 275C220 215 340 325 545 281S850 220 1030 267s315 42 470-38v91H0Z" fill="#10265a" opacity=".72"/>
+<path d="M0 290C200 238 360 328 550 292s310-52 490-15 330 28 460-38" fill="none" stroke="url(#accent)" stroke-width="2.5" opacity=".48"/>
+<g font-family="Inter,Segoe UI,Arial,sans-serif"><text x="80" y="65" font-size="14" font-weight="700" letter-spacing="3" fill="#6edcf7">SELECTED WORK / 04</text>
+<text x="76" y="145" font-size="67" font-weight="760" fill="#f5f8ff">Smart Grow</text>
+<text x="80" y="198" font-size="30" font-weight="650" fill="url(#accent)">Edge Computing · IoT</text>
+<text x="82" y="241" font-size="19" fill="#bdcbe4">Connected sensors for smarter environmental monitoring.</text>
+<text x="82" y="273" font-size="13" letter-spacing="1.25" fill="#6edcf7">RASPBERRY PI PICO W  ·  MQTT  ·  TIMESCALEDB  ·  GRAFANA</text></g>
+<g transform="translate(900 35)">
+<rect width="535" height="240" rx="24" fill="#071426" fill-opacity=".62" stroke="#8292ff" stroke-opacity=".48"/>
+<text x="25" y="31" font-family="monospace" font-size="11" letter-spacing="2" fill="#aab8d8">CONNECTED GROWING ENVIRONMENT</text>
+<g opacity=".55" stroke="#7187cf" stroke-width="2" fill="none"><path d="M75 93L220 123 380 82M75 174L220 123 380 174"/></g>
+<g transform="translate(220 139)">
+<path d="M0 66V-2" stroke="#66d6ab" stroke-width="6" stroke-linecap="round"/>
+<path d="M0 17C-51 17-65-21-56-47-24-48-2-23 0 17Z" fill="#2aaf92" stroke="#7de7ca" stroke-width="3"/>
+<path d="M0 2C15-45 58-49 79-30 74 7 34 24 0 2Z" fill="#287e9b" stroke="#75ddf2" stroke-width="3"/>
+<path d="M-1 44C-37 31-53 42-61 68h122C51 42 29 31-1 44Z" fill="#3d6792" stroke="#91a8f7" stroke-width="2"/>
+<path d="M-48 67h96l-10 22h-76z" fill="#172e58" stroke="#8d9bfa" stroke-width="2"/>
 </g>
-<g transform="translate(895 30)"><rect x="0" y="5" width="510" height="235" rx="22" fill="#071426" fill-opacity=".64" stroke="#778eff" stroke-opacity=".42"/>
-     <text x="25" y="37" font-family="monospace" font-size="12" letter-spacing="2" fill="#9badcb">SENSORS → EDGE → INSIGHTS</text>
-     <g stroke="#647bff" stroke-width="3" fill="none"><path d="M255 127L91 78M255 127L91 187M255 127L419 78M255 127L419 187"/></g>
-     <g fill="#142d59" stroke="url(#accent)" stroke-width="3"><rect x="194" y="84" width="122" height="91" rx="17"/><circle cx="91" cy="78" r="38"/><circle cx="91" cy="187" r="38"/><circle cx="419" cy="78" r="38"/><circle cx="419" cy="187" r="38"/></g>
-     <g fill="none" stroke="#d7e9ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-       <path d="M226 110h58v38h-58zM238 122h34M238 134h34"/><path d="M91 54v16m-11-8h22M78 88l13 9 13-9"/><path d="M91 166v15m-11-8h22M78 200l13 9 13-9"/>
-       <path d="M406 79q13-18 26 0m-34-10q21-28 42 0"/><path d="M408 191h22m-11-11v22m-12-11h24"/>
-     </g>
-     <g fill="#e8f1ff" font-family="monospace" font-size="10" text-anchor="middle"><text x="91" y="131">SENSORS</text><text x="91" y="240">DEVICE</text><text x="419" y="131">MQTT</text><text x="419" y="240">DASHBOARD</text><text x="255" y="198">PICO W</text></g>
-     <g transform="translate(350 22)" stroke="#48d7a9" stroke-width="3" fill="none"><path d="M0 30q14-31 28-1-14 28-28 1zM14 34V7"/></g></g>
-<rect x="25" y="24" width="1450" height="272" rx="25" fill="none" stroke="#6c8dff" stroke-opacity=".18" stroke-width="2"/>
+<g fill="#152f5b" stroke="url(#accent)" stroke-width="2.5">
+<circle cx="75" cy="93" r="35"/><circle cx="75" cy="174" r="35"/><circle cx="380" cy="82" r="35"/><circle cx="380" cy="174" r="35"/>
+</g>
+<g fill="none" stroke="#dcecff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+<path d="M64 86q11-18 22 0M57 94q18-28 36 0M75 101v6"/>
+<path d="M65 164h20v20H65zM69 158v-8M81 158v-8M69 174h12"/>
+<path d="M365 82q15-18 30 0M370 91q10-10 20 0"/>
+<path d="M366 166h28v17h-28zM371 173h18M371 178h12"/>
+</g>
+<g fill="#d9e8ff" font-family="monospace" font-size="10" text-anchor="middle"><text x="75" y="139">TEMP</text><text x="75" y="220">HUMIDITY</text><text x="380" y="128">MQTT</text><text x="380" y="220">GRAFANA</text></g>
+<g transform="translate(289 48)">
+<rect width="112" height="52" rx="9" fill="#172c58" stroke="#b36bff" stroke-opacity=".8"/>
+<path d="M13 37h86" stroke="#6878bd" stroke-width="1.5"/>
+<path d="M18 33l16-12 14 7 15-16 14 9 18-7" fill="none" stroke="#55d9f5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="56" y="48" text-anchor="middle" font-family="monospace" font-size="7" fill="#e6eaff">LIVE TELEMETRY</text>
+</g>
+<g opacity=".8" fill="#70e0c1"><circle cx="31" cy="54" r="3"/><circle cx="465" cy="53" r="3"/><circle cx="485" cy="199" r="2"/></g>
+</g>
+<rect x="25" y="24" width="1450" height="272" rx="25" fill="none" stroke="#6c8dff" stroke-opacity=".20" stroke-width="2"/>
 </svg>
