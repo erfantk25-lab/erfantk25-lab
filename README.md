@@ -29,13 +29,28 @@
 
 ## Technical toolkit
 
+### Programming & ML
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,docker,githubactions,git,linux,kubernetes,sklearn,postgres,grafana&theme=dark" alt="Python, FastAPI, Docker, GitHub Actions, Git, Linux, Kubernetes, scikit-learn, PostgreSQL and Grafana">
+  <img src="https://skillicons.dev/icons?i=python,fastapi,sklearn&theme=dark" alt="Python, FastAPI and scikit-learn">
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Streamlit-Data%20Apps-42D9F5?style=flat-square&labelColor=071426" alt="Streamlit">
+  <img src="https://img.shields.io/badge/Folium-Geospatial-42D9F5?style=flat-square&labelColor=071426" alt="Folium">
+</p>
+
+### MLOps & DevOps
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=docker,githubactions,git,linux,kubernetes&theme=dark" alt="Docker, GitHub Actions, Git, Linux and Kubernetes">
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/MLflow-Experiment%20Tracking-42D9F5?style=flat-square&labelColor=071426" alt="MLflow">
-  <img src="https://img.shields.io/badge/Streamlit-Data%20Apps-42D9F5?style=flat-square&labelColor=071426" alt="Streamlit">
-  <img src="https://img.shields.io/badge/Folium-Geospatial-42D9F5?style=flat-square&labelColor=071426" alt="Folium">
+</p>
+
+### Data, messaging & observability
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=postgres,grafana&theme=dark" alt="PostgreSQL and Grafana">
+</p>
+<p align="center">
   <img src="https://img.shields.io/badge/MQTT-Device%20Telemetry-42D9F5?style=flat-square&labelColor=071426" alt="MQTT">
   <img src="https://img.shields.io/badge/TimescaleDB-Time%20Series-42D9F5?style=flat-square&labelColor=071426" alt="TimescaleDB">
 </p>
