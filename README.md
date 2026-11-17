@@ -78,10 +78,10 @@ A full-stack Retrieval-Augmented Generation application that turns lecture trans
   <a href="https://www.python.org/" title="Python"><img src="https://cdn.simpleicons.org/python/3776AB" alt="Python" height="34"></a>
   <a href="https://fastapi.tiangolo.com/" title="FastAPI"><img src="https://cdn.simpleicons.org/fastapi/009688" alt="FastAPI" height="34"></a>
   <a href="https://streamlit.io/" title="Streamlit"><img src="https://cdn.simpleicons.org/streamlit/FF4B4B" alt="Streamlit" height="34"></a>
-  <a href="https://cohere.com/" title="Cohere"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/cohere.svg" alt="Cohere" height="34"></a>
+  <a href="https://cohere.com/" title="Cohere"><img src="https://img.shields.io/badge/Cohere-39594D?style=flat&logo=cohere&logoColor=white" alt="Cohere logo" height="28"></a>
   <a href="https://mlflow.org/" title="MLflow"><img src="https://cdn.simpleicons.org/mlflow/0194E2" alt="MLflow" height="34"></a>
   <a href="https://www.docker.com/" title="Docker"><img src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker" height="34"></a>
-  <a href="https://azure.microsoft.com/" title="Azure"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/microsoftazure.svg" alt="Azure" height="34"></a>
+  <a href="https://azure.microsoft.com/" title="Microsoft Azure"><img src="https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white" alt="Microsoft Azure logo" height="28"></a>
   <a href="https://ai.pydantic.dev/" title="Pydantic AI"><img src="https://cdn.simpleicons.org/pydantic/E92063" alt="Pydantic AI" height="34"></a>
 </p>
 
