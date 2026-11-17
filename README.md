@@ -128,9 +128,15 @@ Based in **Stockholm, Sweden**, and open to on-site or hybrid opportunities. I a
 ## Let's connect
 
 <p align="center">
-  <a href="mailto:erfan.tahmasbikondroodi@yh.nackademin.se">Email</a>
-  · <a href="https://www.linkedin.com/in/erfan-tahmasbikondroodi/">LinkedIn</a>
-  · <a href="https://erfantk25-lab.github.io/">Portfolio</a>
+  <a href="mailto:erfan.tahmasbikondroodi@yh.nackademin.se">
+    <img src="https://img.shields.io/badge/Email-Contact%20me-42D9F5?style=for-the-badge&logo=gmail&logoColor=white&labelColor=071426" alt="Email">
+  </a>
+  <a href="https://www.linkedin.com/in/erfan-tahmasbikondroodi/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-42D9F5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=071426" alt="LinkedIn">
+  </a>
+  <a href="https://erfantk25-lab.github.io/">
+    <img src="https://img.shields.io/badge/Portfolio-Visit%20website-42D9F5?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=071426" alt="Portfolio">
+  </a>
 </p>
 
 <p align="center"><sub>BUILD WITH PURPOSE · AUTOMATE WITH CARE · IMPROVE CONTINUOUSLY</sub></p>
