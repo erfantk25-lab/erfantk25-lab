@@ -13,16 +13,17 @@
   <a href="mailto:erfan.tahmasbikondroodi@yh.nackademin.se"><img src="https://img.shields.io/badge/EMAIL-Contact%20me-42D9F5?style=for-the-badge&logo=gmail&logoColor=42D9F5&labelColor=071426" alt="Email"></a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-071426?style=flat-square&logo=python&logoColor=42D9F5" alt="Python">
-  <img src="https://img.shields.io/badge/Pandera-071426?style=flat-square&logo=python&logoColor=42D9F5" alt="Pandera">
-  <img src="https://img.shields.io/badge/scikit--learn-071426?style=flat-square&logo=scikitlearn&logoColor=42D9F5" alt="scikit-learn">
-  <img src="https://img.shields.io/badge/MLflow-071426?style=flat-square&logo=mlflow&logoColor=42D9F5" alt="MLflow">
-  <img src="https://img.shields.io/badge/FastAPI-071426?style=flat-square&logo=fastapi&logoColor=42D9F5" alt="FastAPI">
-  <img src="https://img.shields.io/badge/Docker-071426?style=flat-square&logo=docker&logoColor=42D9F5" alt="Docker">
-  <img src="https://img.shields.io/badge/GitHub_Actions-071426?style=flat-square&logo=githubactions&logoColor=42D9F5" alt="GitHub Actions">
-  <img src="https://img.shields.io/badge/LLMOps-071426?style=flat-square&logoColor=42D9F5" alt="LLMOps">
-</p>
+<div align="center">
+
+<img src="https://cdn.simpleicons.org/python/3776AB" height="44" alt="Python" />
+<img src="https://img.shields.io/badge/Pandera-071426?style=for-the-badge&logo=python&logoColor=42D9F5" height="32" alt="Pandera" />
+<img src="https://cdn.simpleicons.org/scikitlearn/F7931E" height="44" alt="scikit-learn" />
+<img src="https://cdn.simpleicons.org/mlflow/0194E2" height="44" alt="MLflow" />
+<img src="https://cdn.simpleicons.org/fastapi/009688" height="44" alt="FastAPI" />
+<img src="https://cdn.simpleicons.org/docker/2496ED" height="44" alt="Docker" />
+<img src="https://cdn.simpleicons.org/githubactions/2088FF" height="44" alt="GitHub Actions" />
+
+</div>
 
 ---
 
