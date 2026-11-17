@@ -13,17 +13,15 @@
   <a href="mailto:erfan.tahmasbikondroodi@yh.nackademin.se"><img src="https://img.shields.io/badge/EMAIL-Contact%20me-42D9F5?style=for-the-badge&logo=gmail&logoColor=42D9F5&labelColor=071426" alt="Email"></a>
 </p>
 
-<div align="center">
-
-<img src="https://cdn.simpleicons.org/python/3776AB" height="44" alt="Python" />
-<img src="https://img.shields.io/badge/Pandera-071426?style=for-the-badge&logo=python&logoColor=42D9F5" height="32" alt="Pandera" />
-<img src="https://cdn.simpleicons.org/scikitlearn/F7931E" height="44" alt="scikit-learn" />
-<img src="https://cdn.simpleicons.org/mlflow/0194E2" height="44" alt="MLflow" />
-<img src="https://cdn.simpleicons.org/fastapi/009688" height="44" alt="FastAPI" />
-<img src="https://cdn.simpleicons.org/docker/2496ED" height="44" alt="Docker" />
-<img src="https://cdn.simpleicons.org/githubactions/2088FF" height="44" alt="GitHub Actions" />
-
-</div>
+<p align="center">
+  <a href="https://www.python.org/" title="Python"><img src="https://cdn.simpleicons.org/python/3776AB" alt="Python" height="44"></a>
+  <a href="https://pandera.readthedocs.io/" title="Pandera"><img src="https://raw.githubusercontent.com/unionai-oss/pandera/main/docs/source/_static/pandera-favicon.png" alt="Pandera" height="44"></a>
+  <a href="https://scikit-learn.org/" title="scikit-learn"><img src="https://cdn.simpleicons.org/scikitlearn/F7931E" alt="scikit-learn" height="44"></a>
+  <a href="https://mlflow.org/" title="MLflow"><img src="https://cdn.simpleicons.org/mlflow/0194E2" alt="MLflow" height="44"></a>
+  <a href="https://fastapi.tiangolo.com/" title="FastAPI"><img src="https://cdn.simpleicons.org/fastapi/009688" alt="FastAPI" height="44"></a>
+  <a href="https://www.docker.com/" title="Docker"><img src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker" height="44"></a>
+  <a href="https://github.com/features/actions" title="GitHub Actions"><img src="https://cdn.simpleicons.org/githubactions/2088FF" alt="GitHub Actions" height="44"></a>
+</p>
 
 ---
 
