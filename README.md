@@ -1,191 +1,115 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/2aaf210bea77cf54aba532a9a50e0c5137f28199/banner.svg" alt="Erfan Tahmasebi — MLOps Engineering" width="100%">
+  <img src="./banner.svg" alt="Erfan Tahmasebi — MLOps Engineering" width="100%">
 </p>
 
+<p align="center">
+  <strong>MLOps Engineering Student · Stockholm, Sweden</strong><br>
+  Building reliable machine learning systems — from data quality and model training to APIs, containers and deployment.
+</p>
+
+<p align="center">
+  <a href="https://erfantk25-lab.github.io/"><img src="https://img.shields.io/badge/PORTFOLIO-Visit%20website-42D9F5?style=for-the-badge&labelColor=071426" alt="Portfolio"></a>
+  <a href="https://www.linkedin.com/in/erfan-tahmasbikondroodi/"><img src="https://img.shields.io/badge/LINKEDIN-Connect-42D9F5?style=for-the-badge&logo=linkedin&logoColor=42D9F5&labelColor=071426" alt="LinkedIn"></a>
+  <a href="mailto:erfan.tahmasbikondroodi@yh.nackademin.se"><img src="https://img.shields.io/badge/EMAIL-Contact%20me-42D9F5?style=for-the-badge&logo=gmail&logoColor=42D9F5&labelColor=071426" alt="Email"></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-071426?style=flat-square&logo=python&logoColor=42D9F5" alt="Python">
+  <img src="https://img.shields.io/badge/Docker-071426?style=flat-square&logo=docker&logoColor=42D9F5" alt="Docker">
+  <img src="https://img.shields.io/badge/FastAPI-071426?style=flat-square&logo=fastapi&logoColor=42D9F5" alt="FastAPI">
+  <img src="https://img.shields.io/badge/MLflow-071426?style=flat-square&logo=mlflow&logoColor=42D9F5" alt="MLflow">
+  <img src="https://img.shields.io/badge/GitHub_Actions-071426?style=flat-square&logo=githubactions&logoColor=42D9F5" alt="GitHub Actions">
+  <img src="https://img.shields.io/badge/LLMOps-071426?style=flat-square&logoColor=42D9F5" alt="LLMOps">
+</p>
 
 ---
 
-## Selected work
+## What I focus on
 
-Four projects, one engineering direction: build systems that move data reliably from source to useful outcomes.
+- **Machine learning systems** — data validation, model training and evaluation, experiment tracking, and inference APIs.
+- **MLOps & delivery** — Docker, CI/CD, automated testing, reproducible workflows, and deployment fundamentals.
+- **LLM & connected systems** — retrieval-augmented generation, evaluation and tracing, edge telemetry, and monitoring.
 
-### 01 / Study Buddy RAG · Full-stack LLMOps
-
-<p align="center">
-  <img src="study-buddy-banner.svg" alt="Study Buddy — AI-powered study companion with RAG, quizzes and flashcards" width="100%">
-</p>
-
-**[Study Buddy RAG – Fullstack LLMOps Project](https://github.com/LAjoyan/Fullstack_LLMops_Project)**
-
-A collaborative full-stack Retrieval-Augmented Generation (RAG) application built by a team of four. It turns lecture transcriptions into an interactive study assistant for course questions, quiz and flashcard generation, and PDF exports.
-
-- **Retrieval:** semantic search with LanceDB and Cohere multilingual embeddings, with source-aware answers.
-- **Application:** FastAPI backend, Streamlit frontend and Pydantic-AI agents.
-- **LLMOps:** MLflow tracing, evaluation and prompt versioning.
-- **Delivery:** Docker Compose; the project was also deployed to Azure App Service during development.
-
-<p>
-  <img src="https://img.shields.io/badge/Python-071426?style=flat-square&logo=python&logoColor=C4A7FF" alt="Python">
-  <img src="https://img.shields.io/badge/FastAPI-071426?style=flat-square&logo=fastapi&logoColor=C4A7FF" alt="FastAPI">
-  <img src="https://img.shields.io/badge/Streamlit-071426?style=flat-square&logo=streamlit&logoColor=C4A7FF" alt="Streamlit">
-  <img src="https://img.shields.io/badge/LanceDB-071426?style=flat-square&logo=databricks&logoColor=C4A7FF" alt="LanceDB">
-  <img src="https://img.shields.io/badge/Cohere-071426?style=flat-square&logo=cohere&logoColor=C4A7FF" alt="Cohere">
-  <img src="https://img.shields.io/badge/Pydantic--AI-071426?style=flat-square&logo=pydantic&logoColor=C4A7FF" alt="Pydantic AI">
-  <img src="https://img.shields.io/badge/MLflow-071426?style=flat-square&logo=mlflow&logoColor=C4A7FF" alt="MLflow">
-  <img src="https://img.shields.io/badge/Docker-071426?style=flat-square&logo=docker&logoColor=C4A7FF" alt="Docker">
-  <img src="https://img.shields.io/badge/Azure-071426?style=flat-square&logo=data:image%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5NiA5NiI+PHBhdGggZmlsbD0iI0M0QTdGRiIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yOC4xODU0IDEwLjA4MUMyOS4wMDg2IDcuNjQxOTMgMzEuMjk2MSA1Ljk5OTc2IDMzLjg3MDMgNS45OTk3NkgzNi45OTg3SDM4LjQ0NTlMMzguNDQ2IDYuMDAwMDVINjIuMTI4NEM2NC43MDI3IDYuMDAwMDUgNjYuOTkwMSA3LjY0MjIyIDY3LjgxMzMgMTAuMDgxM0w5Mi4xMTMxIDgyLjA4MDdDOTMuNDI1OCA4NS45NyA5MC41MzMgODkuOTk5NCA4Ni40MjgyIDg5Ljk5OTRINTkuMDAwMVY4OS45NzNDNTguODEyNSA4OS45OTA0IDU4LjYyMTggODkuOTk5NCA1OC40Mjg1IDg5Ljk5OTRINTguMzIzM0M1Ny4wMzQ1IDg5Ljk5OTQgNTUuNzc5OSA4OS41ODQ0IDU0Ljc0NTQgODguODE1OEwzNi40MjY2IDc1LjIwNzZMMzIuODEyIDg1LjkxNzhDMzEuOTg4OCA4OC4zNTY5IDI5LjcwMTQgODkuOTk5MSAyNy4xMjcxIDg5Ljk5OTFIOS41NzA1NkM1LjQ2NTc5IDg5Ljk5OTEgMi41NzMwMyA4NS45Njk3IDMuODg1NjQgODIuMDgwNEwyOC4xODU0IDEwLjA4MVpNMjMuNDI3NyA2MC41Njg0TDU3LjEzMDYgODUuNjA0OUM1Ny40NzU1IDg1Ljg2MTEgNTcuODkzNyA4NS45OTk0IDU4LjMyMzMgODUuOTk5NEg1OC40Mjg1QzU5Ljc5NjcgODUuOTk5NCA2MC43NjEgODQuNjU2MyA2MC4zMjM0IDgzLjM1OThMNDYuOTA0MSA0My41OTg5TDQxLjIwMTcgNTguNzU5TDQwLjcxNDIgNjAuMDU0OUgzOS4zMjk3SDIyLjczOTdMMjMuNDI3NyA2MC41Njg0Wk04Ni40MjgyIDg1Ljk5OTRINjQuMDg4MUM2NC41MTgxIDg0Ljc5MTkgNjQuNTY4MSA4My40Mjc5IDY0LjExMzQgODIuMDgwN0wzOS44MTM2IDEwLjA4MTNDMzkuODA0MSAxMC4wNTQgMzkuNzk1IDEwLjAyNyAzOS43ODU1IDEwSDYyLjEyODRDNjIuOTg2NSAxMCA2My43NDkgMTAuNTQ3NCA2NC4wMjM0IDExLjM2MDRMODguMzIzMiA4My4zNTk4Qzg4Ljc2MDcgODQuNjU2MyA4Ny43OTY1IDg1Ljk5OTQgODYuNDI4MiA4NS45OTk0WiIvPjwvc3ZnPg==" alt="Microsoft Azure">
-</p>
-
-<details>
-<summary><strong>Explore the system architecture</strong></summary>
-
-<p align="center">
-  <img src="study-buddy-architecture.svg" alt="Study Buddy RAG architecture: course content, embeddings, LanceDB retrieval, FastAPI agent and Streamlit interface" width="100%">
-</p>
-
-</details>
-
-<p align="right"><a href="https://github.com/LAjoyan/Fullstack_LLMops_Project">VIEW PROJECT REPOSITORY →</a></p>
+I enjoy connecting the pieces that make an ML application useful beyond a notebook: reliable inputs, measurable models, maintainable services, and repeatable delivery.
 
 ---
 
-### 02 / Customer Churn MLOps · Model serving & delivery
+## Featured projects
 
+### 01 · Customer Churn MLOps
 <p align="center">
-  <img src="fastapi-ml-serving-banner.svg" alt="FastAPI, Docker and ML serving project banner" width="100%">
+  <img src="./fastapi-ml-serving-banner.svg" alt="Customer Churn MLOps — FastAPI, Docker and model serving" width="100%">
 </p>
 
 **[FastAPI Docker ML Serving](https://github.com/erfantk25-lab/fastapi-docker-ml-serving)**
 
-An MLOps pipeline for customer churn prediction, combining data quality checks, model training and evaluation, artifact integrity, an inference API and Docker delivery.
+An end-to-end customer churn project focused on dependable model delivery, from data checks and model evaluation to a containerized prediction API.
 
 - **Data quality:** Pandera schema validation and statistical drift checks.
-- **Model lifecycle:** training, threshold evaluation, regression gate and optional MLflow tracking/registry.
-- **Delivery:** FastAPI inference service, Docker image build, smoke tests and GitHub Actions CI/CD.
-- **Reliability:** artifact checksum verification and automated tests.
+- **Model lifecycle:** training, threshold evaluation, regression gate, and optional MLflow tracking.
+- **Serving & delivery:** FastAPI, Docker, artifact checksum verification, automated tests, and GitHub Actions CI/CD.
 
-<p>
-  <img src="https://img.shields.io/badge/Python-071426?style=flat-square&logo=python&logoColor=42D9F5" alt="Python">
-  <img src="https://img.shields.io/badge/FastAPI-071426?style=flat-square&logo=fastapi&logoColor=42D9F5" alt="FastAPI">
-  <img src="https://img.shields.io/badge/Docker-071426?style=flat-square&logo=docker&logoColor=42D9F5" alt="Docker">
-  <img src="https://img.shields.io/badge/MLflow-071426?style=flat-square&logo=mlflow&logoColor=42D9F5" alt="MLflow">
-  <img src="https://img.shields.io/badge/GitHub_Actions-071426?style=flat-square&logo=githubactions&logoColor=42D9F5" alt="GitHub Actions">
-</p>
+<sub>Python · Pandera · scikit-learn · MLflow · FastAPI · Docker · GitHub Actions</sub>
 
-<details>
-<summary><strong>Explore the system architecture</strong></summary>
-
+### 02 · Study Buddy RAG
 <p align="center">
-  <img src="fastapi-mlops-architecture.svg" alt="Customer churn MLOps architecture: data validation, model training, evaluation, artifact verification, FastAPI and Docker delivery" width="100%">
+  <img src="./study-buddy-banner.svg" alt="Study Buddy — RAG-powered study companion" width="100%">
 </p>
 
-</details>
+**[Fullstack LLMOps Project](https://github.com/LAjoyan/Fullstack_LLMops_Project)** · *Collaborative team project*
 
-<p align="right"><a href="https://github.com/erfantk25-lab/fastapi-docker-ml-serving">VIEW PROJECT REPOSITORY →</a></p>
+A full-stack Retrieval-Augmented Generation application that turns lecture transcriptions into an interactive study assistant for course questions, quizzes, flashcards, and PDF exports.
 
----
+- **Retrieval:** LanceDB semantic search with Cohere multilingual embeddings and source-aware answers.
+- **Application:** FastAPI, Streamlit, and Pydantic-AI agents.
+- **LLMOps:** MLflow tracing, evaluation, and prompt versioning.
+- **Delivery:** Docker Compose; also deployed to Azure App Service during development.
 
-### 03 / Taxi Prediction · Full-stack machine learning
+<sub>Python · FastAPI · Streamlit · LanceDB · Cohere · Pydantic-AI · MLflow · Docker · Azure</sub>
 
+### 03 · Taxi Prediction — Full Stack
 <p align="center">
-  <img src="https://raw.githubusercontent.com/erfantk25-lab/erfantk25-lab/a1bc4475b8827f68cb369eb20d6dd3731f7fa22f/taxi-prediction-banner-v3.svg" alt="Taxi prediction full-stack project banner" width="100%">
+  <img src="./taxi-prediction-banner-v3.svg" alt="Taxi fare prediction full-stack application" width="100%">
 </p>
 
-**[Taxi Prediction — Full Stack](https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN)**
+**[Taxi Prediction Full Stack](https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN)**
 
-An individual application that combines a regression model, a prediction API and an interactive geographic interface to estimate taxi fares from trip details.
+An application combining a regression model, prediction API, and interactive map to estimate taxi fares from trip details.
 
-- **Frontend:** Streamlit collects trip inputs and presents the prediction.
-- **Route context:** OpenRouteService provides geocoding and driving-route information; Folium displays the route.
-- **Inference:** FastAPI serves a scikit-learn regression pipeline and returns the predicted fare.
-- **Model workflow:** candidate models are compared using RMSE; the selected pipeline and metadata are exported.
-- **Quality:** GitHub Actions trains the model and runs API tests.
+- **User experience:** Streamlit interface for trip inputs and predictions.
+- **Geospatial data:** OpenRouteService for route information and Folium for map display.
+- **Inference:** FastAPI serving a scikit-learn regression pipeline.
+- **Quality:** model comparison using RMSE and automated checks with GitHub Actions.
 
-<p>
-  <img src="https://img.shields.io/badge/Python-071426?style=flat-square&logo=python&logoColor=F4C76B" alt="Python">
-  <img src="https://img.shields.io/badge/scikit--learn-071426?style=flat-square&logo=scikitlearn&logoColor=F4C76B" alt="scikit-learn">
-  <img src="https://img.shields.io/badge/FastAPI-071426?style=flat-square&logo=fastapi&logoColor=F4C76B" alt="FastAPI">
-  <img src="https://img.shields.io/badge/Streamlit-071426?style=flat-square&logo=streamlit&logoColor=F4C76B" alt="Streamlit">
-  <img src="https://img.shields.io/badge/Folium-071426?style=flat-square&logo=python&logoColor=F4C76B" alt="Folium">
-</p>
+<sub>Python · scikit-learn · FastAPI · Streamlit · OpenRouteService · Folium</sub>
 
-<details>
-<summary><strong>Explore the system architecture</strong></summary>
-
+### 04 · Edge Computing — Smart Grow
 <p align="center">
-  <img src="taxi-fullstack-architecture.svg" alt="Taxi prediction architecture: Streamlit, OpenRouteService, FastAPI, scikit-learn model and Folium map" width="100%">
+  <img src="./edge-computing-banner.svg" alt="Smart Grow edge computing and IoT monitoring project" width="100%">
 </p>
 
-</details>
+**[Edge Computing Project](https://github.com/erfantk25-lab/Edge-computing-project-)** · *Collaborative project*
 
-<p align="right"><a href="https://github.com/erfantk25-lab/taxi-prediction-fullstack-ERFAN">VIEW PROJECT REPOSITORY →</a></p>
+An edge-IoT system using a Raspberry Pi Pico W to monitor environmental conditions, trigger local alerts, and stream telemetry to a monitoring stack.
 
----
+- **Device:** sensor readings and local buzzer/LED alerts on threshold breaches.
+- **Messaging & storage:** MQTT with Mosquitto, a Python consumer, and TimescaleDB.
+- **Observability:** Grafana dashboards and Discord webhook alerts.
+- **Simulation:** Wokwi digital twin.
 
-### 04 / Edge Computing · Smart Grow environmental monitor
-
-<p align="center">
-  <img src="edge-computing-banner.svg" alt="Edge computing project banner" width="100%">
-</p>
-
-**[Edge Computing Project](https://github.com/erfantk25-lab/Edge-computing-project-)**
-
-A collaborative edge-IoT project using a Raspberry Pi Pico W to monitor environmental conditions, trigger local alerts and stream telemetry to a containerized monitoring stack.
-
-- **At the edge:** temperature, humidity and light readings are checked locally; threshold breaches trigger a buzzer and LED.
-- **Messaging:** the device publishes telemetry over Wi-Fi using MQTT through Mosquitto.
-- **Data pipeline:** a Python consumer writes readings to TimescaleDB.
-- **Observability:** Grafana visualizes time-series data; Discord webhooks deliver remote alerts.
-- **Simulation:** a Wokwi digital twin complements the physical setup.
-
-<p>
-  <img src="https://img.shields.io/badge/EDGE-Computing-071426?style=flat-square&logo=cloudflare&logoColor=63D6B0" alt="Edge Computing">
-  <img src="https://img.shields.io/badge/Raspberry_Pi-Pico_W-071426?style=flat-square&logo=raspberrypi&logoColor=63D6B0" alt="Raspberry Pi Pico W">
-  <img src="https://img.shields.io/badge/MQTT-Mosquitto-071426?style=flat-square&logo=eclipsemosquitto&logoColor=63D6B0" alt="MQTT Mosquitto">
-  <img src="https://img.shields.io/badge/TimescaleDB-071426?style=flat-square&logo=postgresql&logoColor=63D6B0" alt="TimescaleDB">
-  <img src="https://img.shields.io/badge/Grafana-071426?style=flat-square&logo=grafana&logoColor=63D6B0" alt="Grafana">
-</p>
-
-<details>
-<summary><strong>Explore the system architecture</strong></summary>
-
-<p align="center">
-  <img src="edge-iot-architecture.svg" alt="Edge IoT architecture: Pico W sensors, MQTT broker, Python consumer, TimescaleDB, Grafana and Discord alerts" width="100%">
-</p>
-
-</details>
-
-<p align="right"><a href="https://github.com/erfantk25-lab/Edge-computing-project-">VIEW PROJECT REPOSITORY →</a></p>
+<sub>Raspberry Pi Pico W · MicroPython · MQTT · Mosquitto · Python · TimescaleDB · Grafana</sub>
 
 ---
 
 ## Technical toolkit
 
-### Programming & ML
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,sklearn&theme=dark" alt="Python, FastAPI and scikit-learn">
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Streamlit-Data%20Apps-42D9F5?style=flat-square&labelColor=071426" alt="Streamlit">
-  <img src="https://img.shields.io/badge/Folium-Geospatial-42D9F5?style=flat-square&labelColor=071426" alt="Folium">
-</p>
-
-### MLOps & DevOps
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=docker,githubactions,git,linux,kubernetes&theme=dark" alt="Docker, GitHub Actions, Git, Linux and Kubernetes">
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/MLflow-Experiment%20Tracking-42D9F5?style=flat-square&labelColor=071426" alt="MLflow">
-</p>
-
-### Data, messaging & observability
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=postgres,grafana&theme=dark" alt="PostgreSQL and Grafana">
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/MQTT-Device%20Telemetry-42D9F5?style=flat-square&labelColor=071426" alt="MQTT">
-  <img src="https://img.shields.io/badge/TimescaleDB-Time%20Series-42D9F5?style=flat-square&labelColor=071426" alt="TimescaleDB">
-</p>
+| Area | Tools and technologies |
+|---|---|
+| **Languages** | Python, SQL |
+| **ML & data** | scikit-learn, Pandera, MLflow, LanceDB, Cohere |
+| **APIs & apps** | FastAPI, Streamlit, Pydantic |
+| **Delivery** | Docker, Git, GitHub Actions, Linux |
+| **Cloud & monitoring** | Azure, Grafana, TimescaleDB, MQTT |
 
 ---
 
@@ -195,18 +119,18 @@ A collaborative edge-IoT project using a Raspberry Pi Pico W to monitor environm
   <img src="https://img.shields.io/badge/AVAILABLE-FROM%2008%20FEB%202027-42D9F5?style=for-the-badge&labelColor=071426" alt="Available from 8 February 2027">
 </p>
 
-I'm looking for an **LIA 1 placement** starting **8 February 2027**, preferably within **MLOps, ML Engineering or a closely related field**.
+I am looking for an **LIA 1 placement starting 8 February 2027**, preferably within **MLOps, ML Engineering, or a related field**.
 
-Based in Stockholm and open to on-site or hybrid opportunities. I'm eager to contribute to a team, learn from experienced engineers and help build reliable machine learning systems.
+Based in **Stockholm, Sweden**, and open to on-site or hybrid opportunities. I am looking forward to learning from experienced engineers and contributing to practical, reliable software and ML systems.
 
 ---
 
 ## Let's connect
 
 <p align="center">
-  <a href="mailto:erfan.tahmasbikondroodi@yh.nackademin.se"><img src="https://img.shields.io/badge/EMAIL-Contact%20me-42D9F5?style=for-the-badge&logo=gmail&logoColor=071426&labelColor=071426" alt="Email"></a>
-  <a href="https://www.linkedin.com/in/erfan-tahmasbikondroodi/"><img src="https://img.shields.io/badge/LINKEDIN-Connect-42D9F5?style=for-the-badge&logo=linkedin&logoColor=071426&labelColor=071426" alt="LinkedIn"></a>
-  <a href="https://erfantk25-lab.github.io/"><img src="https://img.shields.io/badge/PORTFOLIO-Visit%20website-42D9F5?style=for-the-badge&logo=githubpages&logoColor=071426&labelColor=071426" alt="Portfolio"></a>
+  <a href="mailto:erfan.tahmasbikondroodi@yh.nackademin.se">Email</a>
+  · <a href="https://www.linkedin.com/in/erfan-tahmasbikondroodi/">LinkedIn</a>
+  · <a href="https://erfantk25-lab.github.io/">Portfolio</a>
 </p>
 
 <p align="center"><sub>BUILD WITH PURPOSE · AUTOMATE WITH CARE · IMPROVE CONTINUOUSLY</sub></p>
