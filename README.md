@@ -50,7 +50,15 @@ An end-to-end customer churn project focused on dependable model delivery, from 
 - **Model lifecycle:** training, threshold evaluation, regression gate, and optional MLflow tracking.
 - **Serving & delivery:** FastAPI, Docker, artifact checksum verification, automated tests, and GitHub Actions CI/CD.
 
-<sub>Python · Pandera · scikit-learn · MLflow · FastAPI · Docker · GitHub Actions</sub>
+<p align="center">
+  <a href="https://www.python.org/" title="Python"><img src="https://cdn.simpleicons.org/python/3776AB" alt="Python" height="34"></a>
+  <a href="https://pandera.readthedocs.io/" title="Pandera"><img src="https://raw.githubusercontent.com/unionai-oss/pandera/main/docs/source/_static/pandera-favicon.png" alt="Pandera" height="34"></a>
+  <a href="https://scikit-learn.org/" title="scikit-learn"><img src="https://cdn.simpleicons.org/scikitlearn/F7931E" alt="scikit-learn" height="34"></a>
+  <a href="https://mlflow.org/" title="MLflow"><img src="https://cdn.simpleicons.org/mlflow/0194E2" alt="MLflow" height="34"></a>
+  <a href="https://fastapi.tiangolo.com/" title="FastAPI"><img src="https://cdn.simpleicons.org/fastapi/009688" alt="FastAPI" height="34"></a>
+  <a href="https://www.docker.com/" title="Docker"><img src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker" height="34"></a>
+  <a href="https://github.com/features/actions" title="GitHub Actions"><img src="https://cdn.simpleicons.org/githubactions/2088FF" alt="GitHub Actions" height="34"></a>
+</p>
 
 ### 02 · Study Buddy RAG
 <p align="center">
@@ -66,7 +74,16 @@ A full-stack Retrieval-Augmented Generation application that turns lecture trans
 - **LLMOps:** MLflow tracing, evaluation, and prompt versioning.
 - **Delivery:** Docker Compose; also deployed to Azure App Service during development.
 
-<sub>Python · FastAPI · Streamlit · LanceDB · Cohere · Pydantic-AI · MLflow · Docker · Azure</sub>
+<p align="center">
+  <a href="https://www.python.org/" title="Python"><img src="https://cdn.simpleicons.org/python/3776AB" alt="Python" height="34"></a>
+  <a href="https://fastapi.tiangolo.com/" title="FastAPI"><img src="https://cdn.simpleicons.org/fastapi/009688" alt="FastAPI" height="34"></a>
+  <a href="https://streamlit.io/" title="Streamlit"><img src="https://cdn.simpleicons.org/streamlit/FF4B4B" alt="Streamlit" height="34"></a>
+  <a href="https://cohere.com/" title="Cohere"><img src="https://cdn.simpleicons.org/cohere/39594D" alt="Cohere" height="34"></a>
+  <a href="https://mlflow.org/" title="MLflow"><img src="https://cdn.simpleicons.org/mlflow/0194E2" alt="MLflow" height="34"></a>
+  <a href="https://www.docker.com/" title="Docker"><img src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker" height="34"></a>
+  <a href="https://azure.microsoft.com/" title="Azure"><img src="https://cdn.simpleicons.org/azure/0078D4" alt="Azure" height="34"></a>
+  <a href="https://ai.pydantic.dev/" title="Pydantic AI"><img src="https://cdn.simpleicons.org/pydantic/E92063" alt="Pydantic AI" height="34"></a>
+</p>
 
 ### 03 · Taxi Prediction — Full Stack
 <p align="center">
@@ -82,7 +99,15 @@ An application combining a regression model, prediction API, and interactive map
 - **Inference:** FastAPI serving a scikit-learn regression pipeline.
 - **Quality:** model comparison using RMSE and automated checks with GitHub Actions.
 
-<sub>Python · scikit-learn · FastAPI · Streamlit · OpenRouteService · Folium</sub>
+<p align="center">
+  <a href="https://www.python.org/" title="Python"><img src="https://cdn.simpleicons.org/python/3776AB" alt="Python" height="34"></a>
+  <a href="https://scikit-learn.org/" title="scikit-learn"><img src="https://cdn.simpleicons.org/scikitlearn/F7931E" alt="scikit-learn" height="34"></a>
+  <a href="https://fastapi.tiangolo.com/" title="FastAPI"><img src="https://cdn.simpleicons.org/fastapi/009688" alt="FastAPI" height="34"></a>
+  <a href="https://streamlit.io/" title="Streamlit"><img src="https://cdn.simpleicons.org/streamlit/FF4B4B" alt="Streamlit" height="34"></a>
+  <a href="https://openrouteservice.org/" title="OpenRouteService / OpenStreetMap"><img src="https://cdn.simpleicons.org/openstreetmap/7EBC6F" alt="OpenRouteService / OpenStreetMap" height="34"></a>
+  <a href="https://python-visualization.github.io/folium/" title="Folium / Leaflet"><img src="https://cdn.simpleicons.org/leaflet/199900" alt="Folium / Leaflet" height="34"></a>
+  <a href="https://github.com/features/actions" title="GitHub Actions"><img src="https://cdn.simpleicons.org/githubactions/2088FF" alt="GitHub Actions" height="34"></a>
+</p>
 
 ### 04 · Edge Computing — Smart Grow
 <p align="center">
@@ -98,7 +123,13 @@ An edge-IoT system using a Raspberry Pi Pico W to monitor environmental conditio
 - **Observability:** Grafana dashboards and Discord webhook alerts.
 - **Simulation:** Wokwi digital twin.
 
-<sub>Raspberry Pi Pico W · MicroPython · MQTT · Mosquitto · Python · TimescaleDB · Grafana</sub>
+<p align="center">
+  <a href="https://www.raspberrypi.com/" title="Raspberry Pi Pico W"><img src="https://cdn.simpleicons.org/raspberrypi/C51A4A" alt="Raspberry Pi Pico W" height="34"></a>
+  <a href="https://micropython.org/" title="MicroPython"><img src="https://cdn.simpleicons.org/python/3776AB" alt="MicroPython" height="34"></a>
+  <a href="https://mqtt.org/" title="MQTT"><img src="https://cdn.simpleicons.org/mqtt/660066" alt="MQTT" height="34"></a>
+  <a href="https://www.timescale.com/" title="TimescaleDB"><img src="https://cdn.simpleicons.org/timescale/FDB515" alt="TimescaleDB" height="34"></a>
+  <a href="https://grafana.com/" title="Grafana"><img src="https://cdn.simpleicons.org/grafana/F46800" alt="Grafana" height="34"></a>
+</p>
 
 ---
 
