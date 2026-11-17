@@ -62,21 +62,9 @@ An end-to-end customer churn project focused on dependable model delivery, from 
 
 **Architecture & data flow**
 
-```mermaid
-flowchart LR
-  A[Customer churn data] --> B[Pandera schema validation]
-  B --> C[Drift checks]
-  C --> D[Model training]
-  D --> E[Evaluation and threshold gate]
-  E --> F[Approved model artifact]
-  F --> G[FastAPI prediction service]
-  G --> H[Docker container]
-  I[GitHub Actions CI/CD] --> B
-  I --> D
-  I --> E
-  I --> H
-  J[MLflow tracking] -. experiments .-> D
-```
+<p align="center">
+  <img src="./customer-churn-architecture.svg" alt="Customer Churn MLOps architecture and data flow diagram" width="100%">
+</p>
 
 **Flow:** Data is validated and checked for drift before training. Candidate models are evaluated against thresholds and a regression gate; approved artifacts are integrity-checked, packaged into Docker, and used by the FastAPI service. GitHub Actions automates the quality and delivery stages.
 
@@ -107,23 +95,9 @@ A full-stack Retrieval-Augmented Generation application that turns lecture trans
 
 **Architecture & data flow**
 
-```mermaid
-flowchart LR
-  A[Lecture transcripts] --> B[Cohere multilingual embeddings]
-  B --> C[LanceDB vector store]
-  U[Student question] --> S[Streamlit interface]
-  S --> API[FastAPI application]
-  API --> R[Pydantic AI agent]
-  R --> C
-  C --> R
-  R --> API
-  API --> S
-  R -. tracing and evaluation .-> M[MLflow]
-  D[Docker Compose] -. runs services .-> S
-  D -. runs services .-> API
-  D -. runs services .-> C
-  AZ[Azure App Service deployment] -. deployment target .-> API
-```
+<p align="center">
+  <img src="./study-buddy-architecture.svg" alt="Study Buddy RAG architecture and data flow diagram" width="100%">
+</p>
 
 **Flow:** Lecture material is converted into multilingual embeddings and indexed in LanceDB. A student's question enters through Streamlit and the FastAPI application; the Pydantic AI agent retrieves relevant context from LanceDB and returns a grounded response. MLflow records traces and evaluation data. The project was also deployed to Azure App Service during development.
 
@@ -153,19 +127,9 @@ An application combining a regression model, prediction API, and interactive map
 
 **Architecture & data flow**
 
-```mermaid
-flowchart LR
-  U[User enters trip details] --> S[Streamlit interface]
-  S --> O[OpenRouteService]
-  O -->|Route distance and duration| S
-  S -->|Trip features| A[FastAPI prediction API]
-  A --> M[scikit-learn regression pipeline]
-  M -->|Predicted fare| A
-  A --> S
-  S --> F[Folium route map]
-  O -->|Route geometry| F
-  CI[GitHub Actions] -. tests and checks .-> A
-```
+<p align="center">
+  <img src="./taxi-prediction-architecture.svg" alt="Taxi Prediction architecture and data flow diagram" width="100%">
+</p>
 
 **Flow:** The user enters trip details in Streamlit. OpenRouteService supplies route information; the frontend sends trip features to FastAPI, which runs inference with the saved scikit-learn pipeline. The predicted fare returns to Streamlit, while Folium displays the route.
 
@@ -193,17 +157,9 @@ An edge-IoT system using a Raspberry Pi Pico W to monitor environmental conditio
 
 **Architecture & data flow**
 
-```mermaid
-flowchart LR
-  S[Environmental sensors] --> P[Raspberry Pi Pico W]
-  P -->|Telemetry over MQTT| B[Mosquitto broker]
-  P -->|Local threshold alerts| L[Buzzer and LED]
-  B --> C[Python consumer]
-  C --> T[TimescaleDB]
-  T --> G[Grafana dashboards]
-  C -->|Alert webhook| D[Discord]
-  W[Wokwi simulation] -. simulates device .-> P
-```
+<p align="center">
+  <img src="./smart-grow-architecture.svg" alt="Smart Grow architecture and data flow diagram" width="100%">
+</p>
 
 **Flow:** The Pico W reads environmental sensors and can trigger local buzzer/LED alerts when thresholds are exceeded. Telemetry is published over MQTT to Mosquitto, consumed by a Python service, and stored in TimescaleDB for Grafana dashboards. The consumer can also send alerts to Discord; Wokwi is used to simulate the device.
 
