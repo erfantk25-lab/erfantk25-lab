@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="320" viewBox="0 0 1500 320" role="img" aria-labelledby="title desc">
+<title id="title">TAXI PREDICTION  /  INFERENCE DATA FLOW</title><desc id="desc">Route information and trip inputs feed the regression API; fare estimates return to the map interface.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071426"/><stop offset=".55" stop-color="#101b3d"/><stop offset="1" stop-color="#21134a"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#43d9f5"/><stop offset=".52" stop-color="#647bff"/><stop offset="1" stop-color="#b36bff"/></linearGradient>
+<radialGradient id="glow"><stop offset="0" stop-color="#4a6cff" stop-opacity=".38"/><stop offset="1" stop-color="#4a6cff" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#89a9ff" stroke-opacity=".08"/></pattern>
+</defs>
+<rect width="1500" height="320" rx="26" fill="url(#bg)"/><rect width="1500" height="320" rx="26" fill="url(#grid)"/>
+<ellipse cx="1250" cy="140" rx="330" ry="220" fill="url(#glow)"/>
+<path d="M0 270C190 210 310 320 510 276S840 205 1010 258s310 42 490-38v100H0Z" fill="#10265a" opacity=".8"/>
+<path d="M0 285C200 225 330 326 520 285S850 225 1020 270s330 28 480-45" fill="none" stroke="url(#accent)" stroke-width="3" opacity=".55"/>
+<text x="66" y="55" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="2.7" fill="#f5f8ff">TAXI PREDICTION  /  INFERENCE DATA FLOW</text>
+<text x="68" y="82" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="2" fill="#6edcf7">ROUTE  ·  FEATURE  ·  PREDICT  ·  DISPLAY</text>
+<g transform="translate(66 112)">
+    <rect width="190" height="112" rx="17" fill="#101f46" stroke="#43d9f5" stroke-opacity=".78" stroke-width="2"/>
+    <rect x="14" y="14" width="162" height="2" rx="1" fill="url(#accent)" opacity=".8"/>
+    <text x="95" y="40" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6edcf7">01  USER INPUT</text>
+    <text x="95" y="68" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#f5f8ff">Trip details</text>
+    <text x="95" y="91" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" fill="#bdcbe4">Pickup / drop-off</text>
+   </g><path d="M260 168h28m-8-7 8 7-8 7" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><g transform="translate(297 112)">
+    <rect width="190" height="112" rx="17" fill="#101f46" stroke="#647bff" stroke-opacity=".78" stroke-width="2"/>
+    <rect x="14" y="14" width="162" height="2" rx="1" fill="url(#accent)" opacity=".8"/>
+    <text x="95" y="40" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6edcf7">02  ROUTING</text>
+    <text x="95" y="68" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#f5f8ff">OpenRouteService</text>
+    <text x="95" y="91" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" fill="#bdcbe4">Route distance</text>
+   </g><path d="M491 168h28m-8-7 8 7-8 7" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><g transform="translate(528 112)">
+    <rect width="190" height="112" rx="17" fill="#101f46" stroke="#647bff" stroke-opacity=".78" stroke-width="2"/>
+    <rect x="14" y="14" width="162" height="2" rx="1" fill="url(#accent)" opacity=".8"/>
+    <text x="95" y="40" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6edcf7">03  FEATURES</text>
+    <text x="95" y="68" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#f5f8ff">Trip features</text>
+    <text x="95" y="91" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" fill="#bdcbe4">Model input</text>
+   </g><path d="M722 168h28m-8-7 8 7-8 7" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><g transform="translate(759 112)">
+    <rect width="190" height="112" rx="17" fill="#101f46" stroke="#647bff" stroke-opacity=".78" stroke-width="2"/>
+    <rect x="14" y="14" width="162" height="2" rx="1" fill="url(#accent)" opacity=".8"/>
+    <text x="95" y="40" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6edcf7">04  INFERENCE</text>
+    <text x="95" y="68" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#f5f8ff">FastAPI</text>
+    <text x="95" y="91" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" fill="#bdcbe4">scikit-learn</text>
+   </g><path d="M953 168h28m-8-7 8 7-8 7" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><g transform="translate(990 112)">
+    <rect width="190" height="112" rx="17" fill="#101f46" stroke="#647bff" stroke-opacity=".78" stroke-width="2"/>
+    <rect x="14" y="14" width="162" height="2" rx="1" fill="url(#accent)" opacity=".8"/>
+    <text x="95" y="40" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6edcf7">05  PREDICTION</text>
+    <text x="95" y="68" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#f5f8ff">Estimated fare</text>
+    <text x="95" y="91" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" fill="#bdcbe4">API response</text>
+   </g><path d="M1184 168h28m-8-7 8 7-8 7" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><g transform="translate(1221 112)">
+    <rect width="190" height="112" rx="17" fill="#101f46" stroke="#b36bff" stroke-opacity=".78" stroke-width="2"/>
+    <rect x="14" y="14" width="162" height="2" rx="1" fill="url(#accent)" opacity=".8"/>
+    <text x="95" y="40" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6edcf7">06  EXPERIENCE</text>
+    <text x="95" y="68" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#f5f8ff">Streamlit · Folium</text>
+    <text x="95" y="91" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" fill="#bdcbe4">Map + result</text>
+   </g>
+<path d="M66 252H1434" stroke="#607ab1" stroke-opacity=".45"/>
+<text x="750" y="282" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" fill="#bdcbe4">Route information and trip inputs feed the regression API; fare estimates return to the map interface.</text>
+<rect x="25" y="24" width="1450" height="272" rx="25" fill="none" stroke="#6c8dff" stroke-opacity=".2" stroke-width="2"/>
+</svg>
