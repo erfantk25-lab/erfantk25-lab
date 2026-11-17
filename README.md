@@ -81,7 +81,7 @@ A full-stack Retrieval-Augmented Generation application that turns lecture trans
   <a href="https://cohere.com/" title="Cohere"><img src="https://cohere.com/favicon.ico" alt="Cohere" width="34" height="34"></a>
   <a href="https://mlflow.org/" title="MLflow"><img src="https://cdn.simpleicons.org/mlflow/0194E2" alt="MLflow" height="34"></a>
   <a href="https://www.docker.com/" title="Docker"><img src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker" height="34"></a>
-  <a href="https://azure.microsoft.com/" title="Microsoft Azure"><img src="https://cdn.simpleicons.org/microsoftazure/0078D4" alt="Microsoft Azure" width="34" height="34"></a>
+  <a href="https://azure.microsoft.com/" title="Microsoft Azure"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@master/icons/azure/azure-original.svg" alt="Microsoft Azure" width="34" height="34"></a>
   <a href="https://ai.pydantic.dev/" title="Pydantic AI"><img src="https://cdn.simpleicons.org/pydantic/E92063" alt="Pydantic AI" height="34"></a>
 </p>
 
