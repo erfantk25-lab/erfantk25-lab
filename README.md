@@ -60,6 +60,26 @@ An end-to-end customer churn project focused on dependable model delivery, from 
   <a href="https://github.com/features/actions" title="GitHub Actions"><img src="https://cdn.simpleicons.org/githubactions/2088FF" alt="GitHub Actions" height="34"></a>
 </p>
 
+**Architecture & data flow**
+
+```mermaid
+flowchart LR
+  A[Customer churn data] --> B[Pandera schema validation]
+  B --> C[Drift checks]
+  C --> D[Model training]
+  D --> E[Evaluation and threshold gate]
+  E --> F[Approved model artifact]
+  F --> G[FastAPI prediction service]
+  G --> H[Docker container]
+  I[GitHub Actions CI/CD] --> B
+  I --> D
+  I --> E
+  I --> H
+  J[MLflow tracking] -. experiments .-> D
+```
+
+**Flow:** Data is validated and checked for drift before training. Candidate models are evaluated against thresholds and a regression gate; approved artifacts are integrity-checked, packaged into Docker, and used by the FastAPI service. GitHub Actions automates the quality and delivery stages.
+
 ### 02 · Study Buddy RAG
 <p align="center">
   <img src="./study-buddy-banner.svg" alt="Study Buddy — RAG-powered study companion" width="100%">
@@ -85,6 +105,28 @@ A full-stack Retrieval-Augmented Generation application that turns lecture trans
   <a href="https://ai.pydantic.dev/" title="Pydantic AI"><img src="https://cdn.simpleicons.org/pydantic/E92063" alt="Pydantic AI" height="34"></a>
 </p>
 
+**Architecture & data flow**
+
+```mermaid
+flowchart LR
+  A[Lecture transcripts] --> B[Cohere multilingual embeddings]
+  B --> C[LanceDB vector store]
+  U[Student question] --> S[Streamlit interface]
+  S --> API[FastAPI application]
+  API --> R[Pydantic AI agent]
+  R --> C
+  C --> R
+  R --> API
+  API --> S
+  R -. tracing and evaluation .-> M[MLflow]
+  D[Docker Compose] -. runs services .-> S
+  D -. runs services .-> API
+  D -. runs services .-> C
+  AZ[Azure App Service deployment] -. deployment target .-> API
+```
+
+**Flow:** Lecture material is converted into multilingual embeddings and indexed in LanceDB. A student's question enters through Streamlit and the FastAPI application; the Pydantic AI agent retrieves relevant context from LanceDB and returns a grounded response. MLflow records traces and evaluation data. The project was also deployed to Azure App Service during development.
+
 ### 03 · Taxi Prediction — Full Stack
 <p align="center">
   <img src="./taxi-prediction-banner-v3.svg" alt="Taxi fare prediction full-stack application" width="100%">
@@ -109,6 +151,24 @@ An application combining a regression model, prediction API, and interactive map
   <a href="https://github.com/features/actions" title="GitHub Actions"><img src="https://cdn.simpleicons.org/githubactions/2088FF" alt="GitHub Actions" height="34"></a>
 </p>
 
+**Architecture & data flow**
+
+```mermaid
+flowchart LR
+  U[User enters trip details] --> S[Streamlit interface]
+  S --> O[OpenRouteService]
+  O -->|Route distance and duration| S
+  S -->|Trip features| A[FastAPI prediction API]
+  A --> M[scikit-learn regression pipeline]
+  M -->|Predicted fare| A
+  A --> S
+  S --> F[Folium route map]
+  O -->|Route geometry| F
+  CI[GitHub Actions] -. tests and checks .-> A
+```
+
+**Flow:** The user enters trip details in Streamlit. OpenRouteService supplies route information; the frontend sends trip features to FastAPI, which runs inference with the saved scikit-learn pipeline. The predicted fare returns to Streamlit, while Folium displays the route.
+
 ### 04 · Edge Computing — Smart Grow
 <p align="center">
   <img src="./edge-computing-banner.svg" alt="Smart Grow edge computing and IoT monitoring project" width="100%">
@@ -130,6 +190,22 @@ An edge-IoT system using a Raspberry Pi Pico W to monitor environmental conditio
   <a href="https://www.timescale.com/" title="TimescaleDB"><img src="https://cdn.simpleicons.org/timescale/FDB515" alt="TimescaleDB" height="34"></a>
   <a href="https://grafana.com/" title="Grafana"><img src="https://cdn.simpleicons.org/grafana/F46800" alt="Grafana" height="34"></a>
 </p>
+
+**Architecture & data flow**
+
+```mermaid
+flowchart LR
+  S[Environmental sensors] --> P[Raspberry Pi Pico W]
+  P -->|Telemetry over MQTT| B[Mosquitto broker]
+  P -->|Local threshold alerts| L[Buzzer and LED]
+  B --> C[Python consumer]
+  C --> T[TimescaleDB]
+  T --> G[Grafana dashboards]
+  C -->|Alert webhook| D[Discord]
+  W[Wokwi simulation] -. simulates device .-> P
+```
+
+**Flow:** The Pico W reads environmental sensors and can trigger local buzzer/LED alerts when thresholds are exceeded. Telemetry is published over MQTT to Mosquitto, consumed by a Python service, and stored in TimescaleDB for Grafana dashboards. The consumer can also send alerts to Discord; Wokwi is used to simulate the device.
 
 ---
 
